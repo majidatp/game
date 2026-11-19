@@ -29,6 +29,7 @@ body {
   color: #fff;
   width: 100vw;
   height: 100vh;
+  height: 100dvh;
   margin: 0;
   padding: 0;
   display: flex;
@@ -42,8 +43,10 @@ body {
   position: relative;
   width: 100vw;
   height: 100vh;
+  height: 100dvh;
   max-width: 100vw;
   max-height: 100vh;
+  max-height: 100dvh;
   background: #38bdf8;
   border: none;
   box-shadow: none;

@@ -7,9 +7,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800;900&family=Fredoka:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/components.css">
-  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/main.css?v=2.2">
+  <link rel="stylesheet" href="css/components.css?v=2.2">
+  <link rel="stylesheet" href="css/animations.css?v=2.2">
   <!-- PWA Meta & Manifest -->
   <meta name="theme-color" content="#b45309">
   <meta name="mobile-web-app-capable" content="yes">
@@ -73,11 +73,17 @@
           <div id="hero-character-desc" class="char-hero-desc">
             Boni: Penjelajah Cilik Berbaju Batik
           </div>
-          <!-- Tab Pemilihan Karakter (Boni, Rara, Pendekar Cilik) -->
+          <!-- Tab Pemilihan Karakter (Boni, Rara, Pendekar Cilik) - Khusus Desktop -->
           <div class="char-selection-pills">
             <button class="char-pill-btn active-char" data-char="boni">Boni</button>
             <button class="char-pill-btn" data-char="rara">Rara</button>
             <button class="char-pill-btn" data-char="pendekar">Pendekar Cilik</button>
+          </div>
+          <!-- Navigasi Arrow Karakter Khusus Mobile (Hemat Ruang & Kompak) -->
+          <div class="char-mobile-arrow-nav">
+            <button id="btn-char-prev" class="btn-arrow-wood" aria-label="Karakter Sebelumnya">◀</button>
+            <span id="char-mobile-display-name" class="char-mobile-name-badge">Boni: Penjelajah Cilik</span>
+            <button id="btn-char-next" class="btn-arrow-wood" aria-label="Karakter Berikutnya">▶</button>
           </div>
         </div>
 
@@ -442,7 +448,7 @@
     </div>
 
     <!-- ==================== OVERLAY PETUNJUK PUTAR LAYAR (KHUSUS MOBILE PORTRAIT) ==================== -->
-    <div id="orientation-rotate-overlay" class="orientation-rotate-screen" style="display: none;">
+    <div id="orientation-rotate-overlay" class="orientation-rotate-screen">
       <div class="rotate-wood-card dialog-pop-anim">
         <span class="decor-leaf leaf-left">🌿</span>
         <span class="decor-leaf leaf-right">🍃</span>
@@ -464,17 +470,21 @@
 
   </div>
 
-  <script src="js/game-data.js"></script>
-  <script src="js/costume-data.js"></script>
-  <script src="js/audio-synth.js"></script>
-  <script src="js/profile.js"></script>
-  <script src="js/quiz-engine.js"></script>
-  <script src="js/app.js"></script>
+  <script src="js/game-data.js?v=2.2"></script>
+  <script src="js/costume-data.js?v=2.2"></script>
+  <script src="js/audio-synth.js?v=2.2"></script>
+  <script src="js/profile.js?v=2.2"></script>
+  <script src="js/quiz-engine.js?v=2.2"></script>
+  <script src="js/app.js?v=2.2"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js').then(reg => {
+        navigator.serviceWorker.register('./sw.js?v=2.2').then(reg => {
           console.log('[PWA] ServiceWorker registered with scope:', reg.scope);
+          // Paksa cek pembaruan file di server GitHub Pages
+          if (typeof reg.update === 'function') {
+            reg.update();
+          }
         }).catch(err => {
           console.log('[PWA] ServiceWorker registration failed:', err);
         });

@@ -64,6 +64,7 @@
   box-shadow: 0 5px 0 #78350f, 0 8px 16px rgba(0,0,0,0.35), inset 0 2px 2px rgba(255,255,255,0.7);
   text-shadow: 1px 1px 0 #fef08a;
   letter-spacing: 0.5px;
+  animation: pulseButtonOrange 2.6s infinite ease-in-out;
 }
 
 .btn-start:hover {
@@ -77,16 +78,81 @@
   box-shadow: 0 1px 0 #78350f, 0 3px 6px rgba(0,0,0,0.3);
 }
 
+@keyframes pulseButtonOrange {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 4px 0 #78350f, 0 6px 14px rgba(245, 158, 11, 0.4), inset 0 2px 2px rgba(255,255,255,0.7);
+  }
+  50% {
+    transform: scale(1.025);
+    box-shadow: 0 5px 0 #78350f, 0 10px 20px rgba(245, 158, 11, 0.7), inset 0 2px 3px rgba(255,255,255,0.9);
+  }
+}
+
 .btn-blue {
-  background: linear-gradient(180deg, #38bdf8 0%, #0284c7 100%);
-  color: #fff;
-  --btn-shadow: #0369a1;
+  background: linear-gradient(180deg, #7dd3fc 0%, #38bdf8 30%, #0284c7 70%, #0369a1 100%);
+  color: #ffffff;
+  border: 3px solid #075985;
+  border-radius: 24px;
+  font-weight: 900;
+  box-shadow: 0 4px 0 #075985, 0 6px 14px rgba(2, 132, 199, 0.4), inset 0 2px 2px rgba(255, 255, 255, 0.8);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  animation: pulseButtonBlue 2.6s infinite ease-in-out;
+}
+
+.btn-blue:hover {
+  background: linear-gradient(180deg, #bae6fd 0%, #7dd3fc 30%, #38bdf8 70%, #0284c7 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 #075985, 0 8px 18px rgba(2, 132, 199, 0.55), inset 0 2px 3px rgba(255, 255, 255, 0.95);
+}
+
+.btn-blue:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #075985, 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes pulseButtonBlue {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 4px 0 #075985, 0 6px 14px rgba(2, 132, 199, 0.4), inset 0 2px 2px rgba(255, 255, 255, 0.8);
+  }
+  50% {
+    transform: scale(1.025);
+    box-shadow: 0 5px 0 #075985, 0 10px 20px rgba(56, 189, 248, 0.7), inset 0 2px 3px rgba(255, 255, 255, 0.95);
+  }
 }
 
 .btn-green {
-  background: linear-gradient(180deg, #4ade80 0%, #16a34a 100%);
-  color: #fff;
-  --btn-shadow: #14532d;
+  background: linear-gradient(180deg, #86efac 0%, #4ade80 30%, #16a34a 70%, #15803d 100%);
+  color: #ffffff;
+  border: 3px solid #14532d;
+  border-radius: 24px;
+  font-weight: 900;
+  box-shadow: 0 4px 0 #14532d, 0 6px 14px rgba(22, 163, 74, 0.4), inset 0 2px 2px rgba(255, 255, 255, 0.8);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  animation: pulseButtonGreen 2.6s infinite ease-in-out;
+}
+
+.btn-green:hover {
+  background: linear-gradient(180deg, #bbf7d0 0%, #86efac 30%, #4ade80 70%, #16a34a 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 #14532d, 0 8px 18px rgba(22, 163, 74, 0.55), inset 0 2px 3px rgba(255, 255, 255, 0.95);
+}
+
+.btn-green:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #14532d, 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes pulseButtonGreen {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 4px 0 #14532d, 0 6px 14px rgba(22, 163, 74, 0.4), inset 0 2px 2px rgba(255, 255, 255, 0.8);
+  }
+  50% {
+    transform: scale(1.025);
+    box-shadow: 0 5px 0 #14532d, 0 10px 20px rgba(74, 222, 128, 0.7), inset 0 2px 3px rgba(255, 255, 255, 0.95);
+  }
 }
 
 /* --- TITLE SCREEN (MENU UTAMA IDENTIK PANEL KIRI-ATAS) --- */
@@ -346,6 +412,64 @@
   border-color: #fff;
   transform: translateY(-2px) scale(1.06);
   box-shadow: 0 4px 12px rgba(180, 83, 9, 0.5);
+}
+
+/* Navigasi Karakter Panah (Khusus Mobile) - Tersembunyi Total di Desktop */
+.char-mobile-arrow-nav {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 3px;
+  width: 100%;
+}
+
+.btn-arrow-wood {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #fef08a 0%, #fbbf24 45%, #d97706 100%);
+  border: 2px solid #78350f;
+  box-shadow: 0 3px 0 #78350f, 0 4px 8px rgba(0,0,0,0.3), inset 0 1px 2px rgba(255,255,255,0.8);
+  color: #451a03;
+  font-size: 13px;
+  font-weight: 900;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.1s, box-shadow 0.1s;
+  padding: 0;
+  line-height: 1;
+}
+
+.btn-arrow-wood:hover {
+  transform: translateY(-2px) scale(1.08);
+  box-shadow: 0 4px 0 #78350f, 0 6px 12px rgba(0,0,0,0.4);
+}
+
+.btn-arrow-wood:active {
+  transform: translateY(2px) scale(0.96);
+  box-shadow: 0 1px 0 #78350f;
+}
+
+.char-mobile-name-badge {
+  background: linear-gradient(180deg, #92400e 0%, #78350f 45%, #451a03 100%);
+  border: 2px solid #fde047;
+  border-radius: 14px;
+  padding: 3px 14px;
+  color: #fef08a;
+  font-family: 'Baloo 2', 'Fredoka', cursive, sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3), inset 0 1px 2px rgba(255,255,255,0.3);
+  letter-spacing: 0.3px;
+  text-align: center;
+  flex: 1;
+  max-width: 170px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* Tiga Tombol Bertumpuk di Kanan Tengah */
@@ -2102,137 +2226,394 @@
   }
 }
 
-/* 2. KETIKA PONSEL DALAM POSISI LANDSCAPE (MENDATAR) */
-@media screen and (max-width: 900px) and (orientation: landscape) {
+/* 2. KETIKA PONSEL DALAM POSISI LANDSCAPE (MENDATAR) & LAYAR PENDEK (HP DENGAN BROWSER BAR) */
+@media screen and (max-height: 480px) and (orientation: landscape), screen and (max-width: 900px) and (max-height: 520px) and (orientation: landscape) {
   #orientation-rotate-overlay,
   .orientation-rotate-screen {
     display: none !important;
   }
 
-  /* Papan Judul Tengah Atas - Skala Pas */
+  /* ==================== A. TITLE SCREEN (MENU UTAMA) ==================== */
+  /* Papan Judul Tengah Atas - Ramping & Tidak Menghalangi */
   .title-board-wrapper {
-    top: 4px !important;
-    max-width: 440px !important;
-    width: 75% !important;
+    top: 2px !important;
+    max-width: 340px !important;
+    width: 68% !important;
+  }
+
+  .title-flag-badge {
+    transform: scale(0.68) !important;
+    transform-origin: top right !important;
+    top: -12px !important;
+    right: 8px !important;
   }
 
   .title-wood-plank {
-    padding: 4px 18px 6px 18px !important;
-    border-radius: 16px !important;
+    padding: 2px 14px 3px 14px !important;
+    border-radius: 12px !important;
   }
 
   .title-word-top {
-    font-size: 17px !important;
+    font-size: 13.5px !important;
+    line-height: 1.1 !important;
+    text-shadow: 1px 1px 0 #451a03, -1px -1px 0 #451a03, 1px -1px 0 #451a03, -1px 1px 0 #451a03, 0 2px 4px rgba(0,0,0,0.5) !important;
   }
 
   .title-word-bottom {
-    font-size: 21px !important;
+    font-size: 16px !important;
+    line-height: 1.1 !important;
+    text-shadow: 1px 1px 0 #451a03, -1px -1px 0 #451a03, 1px -1px 0 #451a03, -1px 1px 0 #451a03, 0 2px 4px rgba(0,0,0,0.5) !important;
   }
 
   .title-wood-subplank {
-    font-size: 10px !important;
-    padding: 2px 10px !important;
-    margin-top: -3px !important;
+    font-size: 8.5px !important;
+    padding: 1px 6px !important;
+    margin-top: -2px !important;
   }
 
   .decor-leaf {
-    font-size: 20px !important;
+    font-size: 15px !important;
   }
 
   /* Bar Audio Atas Kanan - Terlindungi dari Notch */
   .top-bar-overlay {
-    top: 6px !important;
-    right: 12px !important;
-    gap: 6px !important;
+    top: 4px !important;
+    right: 10px !important;
+    gap: 5px !important;
   }
 
   .btn-sound-toggle {
-    padding: 4px 10px !important;
-    font-size: 11px !important;
-    border-radius: 14px !important;
+    padding: 3px 8px !important;
+    font-size: 10px !important;
+    border-radius: 12px !important;
   }
 
-  /* Panggung Bawah: Karakter Boni & Tombol Menu */
+  /* Panggung Bawah: Karakter Hero di Kiri & 4 Tombol Menu di Kanan */
   .title-main-stage {
-    padding: 0 4vw 1.5vh 4vw !important;
-    height: 82% !important;
+    padding: 0 3vw 1vh 3vw !important;
+    height: 84% !important;
+    align-items: flex-end !important;
   }
 
   .characters-hero-section {
-    height: 78vh !important;
-    max-height: 78vh !important;
-    width: 44vw !important;
+    height: 80vh !important;
+    max-height: 80vh !important;
+    width: 48vw !important;
+    justify-content: flex-end !important;
   }
 
   .trio-image-wrapper {
-    height: 58vh !important;
-    max-height: 250px !important;
+    height: 46vh !important;
+    max-height: 135px !important;
   }
 
   .char-hero-desc {
-    font-size: 11px !important;
-    padding: 2px 10px !important;
-    margin-top: 3px !important;
-    margin-bottom: 2px !important;
+    font-size: 9px !important;
+    padding: 1px 8px !important;
+    margin-top: 1px !important;
+    margin-bottom: 1px !important;
   }
 
   .hero-skill-badge {
-    font-size: 9.5px !important;
-    padding: 1px 8px !important;
+    font-size: 8px !important;
+    padding: 1px 5px !important;
   }
 
-  .char-nav-pills {
-    margin-top: 3px !important;
+  /* Sembunyikan 3 Tombol Lebar di Mobile */
+  .char-selection-pills {
+    display: none !important;
   }
 
-  .char-pill-btn {
-    padding: 2px 8px !important;
-    font-size: 10px !important;
+  /* Tampilkan Bar Panah Karakter (Arrow Navigation) Khusus Mobile */
+  .char-mobile-arrow-nav {
+    display: flex !important;
+    margin-top: 2px !important;
   }
 
-  /* Tiga Tombol Menu Utama di Kanan */
+  /* Tumpukan 4 Tombol Menu Utama di Kanan (Mulai, Petunjuk, Profil, Pilih Musik) */
   .title-buttons-stack {
-    width: 175px !important;
-    gap: 8px !important;
-    margin-bottom: 2vh !important;
+    width: 150px !important;
+    gap: 4px !important;
+    margin-bottom: 1vh !important;
     margin-right: 1vw !important;
   }
 
   .btn-menu-pill {
-    height: 44px !important;
-    padding: 0 14px !important;
-    gap: 8px !important;
-    border-radius: 22px !important;
+    height: 34px !important;
+    padding: 0 10px !important;
+    gap: 6px !important;
+    border-radius: 17px !important;
   }
 
   .pill-icon {
-    width: 22px !important;
-    height: 22px !important;
+    width: 17px !important;
+    height: 17px !important;
   }
 
   .pill-label {
-    font-size: 15px !important;
-  }
-
-  /* Status Bar Kuis di Landscape Mobile */
-  .quiz-header-bar {
-    padding-right: 220px !important;
-    gap: 6px !important;
-    margin-bottom: 4px !important;
-  }
-
-  .btn-top-back {
-    padding: 4px 10px !important;
-    font-size: 11px !important;
-  }
-
-  .quiz-timer-pill {
-    padding: 3px 8px !important;
     font-size: 12px !important;
   }
 
-  .quiz-step-tag {
-    font-size: 11px !important;
+  /* ==================== B. SCREEN DIALOG (HUB MISI PULAU) ==================== */
+  #screen-dialog {
+    padding: 3px 8px !important;
+    justify-content: flex-start !important;
+    gap: 2px !important;
+  }
+
+  .dialog-top-bar {
+    padding: 1px 4px !important;
+    margin-bottom: 2px !important;
+  }
+
+  .btn-top-back {
+    padding: 2px 7px !important;
+    font-size: 9.5px !important;
+  }
+
+  .zone-title-plank {
+    font-size: 10px !important;
     padding: 2px 8px !important;
+    max-width: 44% !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+  #screen-dialog .wood-board-title {
+    padding: 2px 8px !important;
+    max-width: 48% !important;
+    margin: 0 auto !important;
+  }
+
+  #screen-dialog #dialog-zone-subtitle {
+    font-size: 11px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+  .dialog-content-area {
+    margin-bottom: 2px !important;
+    gap: 8px !important;
+    align-items: center !important;
+  }
+
+  .npc-avatar-box {
+    width: 105px !important;
+    flex-shrink: 0 !important;
+  }
+
+  .npc-img-frame {
+    width: 105px !important;
+    height: 75px !important;
+  }
+
+  .npc-title-tag {
+    font-size: 8px !important;
+    padding: 1px 4px !important;
+    margin-top: 1px !important;
+  }
+
+  .npc-costume-subtag {
+    font-size: 7px !important;
+    padding: 1px 4px !important;
+    margin-top: 1px !important;
+    max-width: 105px !important;
+  }
+
+  .dialog-bubble-box {
+    padding: 3px 8px !important;
+    border-radius: 8px !important;
+    border-width: 2px !important;
+  }
+
+  .dialog-speech-text {
+    font-size: 10px !important;
+    line-height: 1.25 !important;
+    margin-bottom: 2px !important;
+  }
+
+  .traveler-meeting-card {
+    padding: 1px 5px !important;
+    margin-top: 1px !important;
+  }
+
+  .traveler-avatar-mini {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .traveler-info {
+    font-size: 8.5px !important;
+  }
+
+  .traveler-badge-label {
+    font-size: 7.5px !important;
+    padding: 0 3px !important;
+  }
+
+  /* Papan 3 Misi Budaya - Tampil Utuh 100% di HP Tanpa Terpotong */
+  .island-missions-board {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 5px !important;
+    margin-top: 1px !important;
+    width: 100% !important;
+  }
+
+  .mission-choice-card {
+    padding: 3px 5px !important;
+    border-width: 2px !important;
+    border-radius: 8px !important;
+    min-height: 70px !important;
+  }
+
+  .mission-icon-box {
+    font-size: 15px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .mission-title {
+    font-size: 10px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .mission-desc {
+    font-size: 8px !important;
+    margin-bottom: 2px !important;
+  }
+
+  .mission-choice-card .btn-3d {
+    padding: 2px 5px !important;
+    font-size: 9.5px !important;
+    height: 26px !important;
+    width: 100% !important;
+  }
+
+  /* ==================== C. SCREEN KUIS ARENA & TEBAK GAMBAR ==================== */
+  #screen-quiz {
+    padding: 2px 8px !important;
+  }
+
+  .quiz-header-bar {
+    padding-right: 170px !important;
+    gap: 4px !important;
+    margin-bottom: 2px !important;
+  }
+
+  .quiz-companion-bar {
+    padding: 1px 5px 1px 2px !important;
+    gap: 3px !important;
+    border-radius: 12px !important;
+  }
+
+  .companion-avatar-wrapper {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .companion-avatar-circle {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .companion-name-pill {
+    font-size: 9px !important;
+  }
+
+  .companion-costume-pill {
+    font-size: 7.5px !important;
+  }
+
+  .quiz-lives-box {
+    padding: 1px 5px !important;
+    font-size: 10px !important;
+    gap: 2px !important;
+  }
+
+  .quiz-timer-pill {
+    padding: 1px 5px !important;
+    font-size: 10px !important;
+  }
+
+  .quiz-step-tag {
+    font-size: 9px !important;
+    padding: 1px 5px !important;
+  }
+
+  .companion-speech-bubble {
+    font-size: 9px !important;
+    padding: 1px 6px !important;
+    margin-bottom: 1px !important;
+  }
+
+  .quiz-skills-container {
+    margin-bottom: 2px !important;
+    padding: 1px 6px !important;
+    font-size: 9px !important;
+  }
+
+  .btn-skill-action {
+    font-size: 9px !important;
+    padding: 2px 6px !important;
+  }
+
+  .quiz-content-panel {
+    padding: 3px 8px !important;
+    border-radius: 8px !important;
+  }
+
+  .quiz-question-box {
+    font-size: 10.5px !important;
+    line-height: 1.25 !important;
+    margin-bottom: 2px !important;
+    padding: 2px 6px !important;
+  }
+
+  /* Pilihan Jawaban Kuis */
+  .quiz-options-grid, .options-grid {
+    gap: 4px !important;
+  }
+
+  .quiz-btn-option, .btn-option {
+    min-height: 28px !important;
+    padding: 2px 6px !important;
+    font-size: 10px !important;
+    border-radius: 8px !important;
+  }
+
+  /* Gambar Tebak Visual Proporsional Khusus Mobile */
+  .quiz-visual-box {
+    margin-bottom: 2px !important;
+  }
+
+  .quiz-photo-img {
+    max-height: 65px !important;
+    max-width: 125px !important;
+    border-radius: 6px !important;
+    border-width: 2px !important;
+  }
+
+  .quiz-svg-img {
+    height: 65px !important;
+    width: 100px !important;
+    border-radius: 6px !important;
+  }
+
+  /* Matching Mode */
+  .match-instructions {
+    font-size: 9px !important;
+    padding: 2px 5px !important;
+    margin-bottom: 2px !important;
+  }
+
+  .match-container {
+    gap: 5px !important;
+  }
+
+  .match-pill {
+    font-size: 9px !important;
+    padding: 2px 5px !important;
   }
 }

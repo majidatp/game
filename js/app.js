@@ -197,6 +197,12 @@ window.APP = (function() {
         }
       });
 
+      // Perbarui label nama karakter pada navigasi panah mobile
+      const mobileCharName = document.getElementById("char-mobile-display-name");
+      if (mobileCharName) {
+        mobileCharName.innerText = targetKarakter.nama;
+      }
+
       // Simpan pilihan terakhir di localStorage dengan kunci "karakterTerpilih"
       currentKarakterId = charId;
       try {
@@ -570,6 +576,35 @@ window.APP = (function() {
         }
       });
     });
+
+    // Navigasi Arrow Karakter Khusus Mobile (Hemat Tempat & Kompak)
+    const CHAR_KEYS = ["boni", "rara", "pendekar"];
+    const btnCharPrev = document.getElementById("btn-char-prev");
+    const btnCharNext = document.getElementById("btn-char-next");
+
+    if (btnCharPrev) {
+      btnCharPrev.addEventListener("click", () => {
+        if (window.AUDIO_SYNTH && typeof window.AUDIO_SYNTH.playClick === "function") {
+          window.AUDIO_SYNTH.playClick();
+        }
+        let currentIdx = CHAR_KEYS.indexOf(currentKarakterId);
+        if (currentIdx === -1) currentIdx = 0;
+        const prevIdx = (currentIdx - 1 + CHAR_KEYS.length) % CHAR_KEYS.length;
+        gantiKarakter(CHAR_KEYS[prevIdx]);
+      });
+    }
+
+    if (btnCharNext) {
+      btnCharNext.addEventListener("click", () => {
+        if (window.AUDIO_SYNTH && typeof window.AUDIO_SYNTH.playClick === "function") {
+          window.AUDIO_SYNTH.playClick();
+        }
+        let currentIdx = CHAR_KEYS.indexOf(currentKarakterId);
+        if (currentIdx === -1) currentIdx = 0;
+        const nextIdx = (currentIdx + 1) % CHAR_KEYS.length;
+        gantiKarakter(CHAR_KEYS[nextIdx]);
+      });
+    }
 
     // Tombol Navigasi Peta & Dialog
     document.getElementById("btn-map-back").addEventListener("click", () => {
