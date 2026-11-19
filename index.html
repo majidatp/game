@@ -252,6 +252,11 @@
           <span class="heart-icon active">❤️</span>
           <span class="heart-icon active">❤️</span>
         </div>
+        <!-- TIMER 1 MENIT (60 DETIK) DI SETIAP SOAL -->
+        <div id="quiz-timer-badge" class="quiz-timer-pill" title="Sisa Waktu Menjawab">
+          <span class="timer-icon">⏳</span>
+          <span id="quiz-timer-text">01:00</span>
+        </div>
         <span id="quiz-step-indicator" class="quiz-step-tag">Tantangan 1 dari 5</span>
       </div>
 
@@ -433,6 +438,27 @@
             <span class="pill-label">Siap, Mengerti! 🌟</span>
           </button>
         </div>
+      </div>
+    </div>
+
+    <!-- ==================== OVERLAY PETUNJUK PUTAR LAYAR (KHUSUS MOBILE PORTRAIT) ==================== -->
+    <div id="orientation-rotate-overlay" class="orientation-rotate-screen" style="display: none;">
+      <div class="rotate-wood-card dialog-pop-anim">
+        <span class="decor-leaf leaf-left">🌿</span>
+        <span class="decor-leaf leaf-right">🍃</span>
+        
+        <div class="rotate-device-animation">
+          <div class="phone-device-icon">📱</div>
+          <div class="rotate-arrow-indicator">🔄</div>
+        </div>
+
+        <h3 class="rotate-title">Putar Ponsel ke Landscape</h3>
+        <p class="rotate-subtitle">
+          Petualangan Sahabat Nusantara dirancang lebih seru dan luas dalam posisi layar mendatar!
+        </p>
+        <button id="btn-force-fullscreen" class="btn-menu-pill btn-pill-orange">
+          <span class="pill-label">🖥️ Putar & Layar Penuh</span>
+        </button>
       </div>
     </div>
 

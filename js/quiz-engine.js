@@ -13,6 +13,79 @@ window.QUIZ_ENGINE = (function() {
   let hasUsedReroll = false;
   let hasUsedFiftyFifty = false;
 
+  // Sistem Timer 1 Menit (60 Detik) per Pertanyaan
+  let questionTimerInterval = null;
+  let remainingSeconds = 60;
+
+  function stopQuestionTimer() {
+    if (questionTimerInterval) {
+      clearInterval(questionTimerInterval);
+      questionTimerInterval = null;
+    }
+  }
+
+  function startQuestionTimer() {
+    stopQuestionTimer();
+    remainingSeconds = 60;
+    updateTimerUI();
+
+    questionTimerInterval = setInterval(() => {
+      remainingSeconds--;
+      updateTimerUI();
+
+      if (remainingSeconds <= 0) {
+        stopQuestionTimer();
+        handleTimeOut();
+      }
+    }, 1000);
+  }
+
+  function updateTimerUI() {
+    const textEl = document.getElementById("quiz-timer-text");
+    const badgeEl = document.getElementById("quiz-timer-badge");
+    if (!textEl || !badgeEl) return;
+
+    const minutes = Math.floor(remainingSeconds / 60);
+    const seconds = remainingSeconds % 60;
+    textEl.innerText = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+    badgeEl.classList.remove("timer-warning", "timer-danger");
+    if (remainingSeconds <= 10) {
+      badgeEl.classList.add("timer-danger");
+    } else if (remainingSeconds <= 20) {
+      badgeEl.classList.add("timer-warning");
+    }
+  }
+
+  function handleTimeOut() {
+    if (window.AUDIO_SYNTH && typeof window.AUDIO_SYNTH.playWrong === "function") {
+      try { window.AUDIO_SYNTH.playWrong(); } catch (e) {}
+    }
+    currentLives--;
+    updateLivesUI();
+    if (currentLives <= 1) {
+      updateCompanionQuote("danger");
+    } else {
+      updateCompanionQuote("wrong");
+    }
+
+    const questionData = activeQuestionPool[currentIndex];
+    const correctAns = (activeQuestionState && activeQuestionState.correctText)
+      ? activeQuestionState.correctText
+      : (questionData && questionData.options ? questionData.options[questionData.correctIndex] : "");
+
+    setTimeout(() => {
+      if (currentLives <= 0) {
+        showGameOverModal();
+      } else {
+        const infoMsg = correctAns 
+          ? `⏰ Waktu 1 menit telah habis! Nyawamu berkurang 1 (Sisa: ${currentLives} ❤️).\nJawaban yang benar adalah: "${correctAns}".\nAyo lebih gesit lagi di soal berikutnya!`
+          : `⏰ Waktu 1 menit telah habis! Nyawamu berkurang 1 (Sisa: ${currentLives} ❤️).\nAyo lebih gesit lagi di tantangan berikutnya!`;
+        showFeedbackModal(false, infoMsg);
+      }
+    }, 400);
+  }
+
   function getMaxLivesForActiveCharacter() {
     const charId = (window.APP && typeof window.APP.getCurrentKarakterId === "function")
       ? window.APP.getCurrentKarakterId()
@@ -761,6 +834,7 @@ window.QUIZ_ENGINE = (function() {
     container.innerHTML = html;
     bindEvents(questionData);
     renderSkillsBar();
+    startQuestionTimer();
   }
 
   function renderMCQ(qData) {
@@ -897,6 +971,7 @@ window.QUIZ_ENGINE = (function() {
             statusEl.innerText = `Cocok! (${solvedCount}/${totalPairs})`;
 
             if (solvedCount === totalPairs) {
+              stopQuestionTimer();
               setTimeout(() => {
                 showFeedbackModal(true, qData.explanation);
               }, 400);
@@ -913,6 +988,7 @@ window.QUIZ_ENGINE = (function() {
             }
 
             if (currentLives <= 0) {
+              stopQuestionTimer();
               setTimeout(() => {
                 showGameOverModal();
               }, 400);
@@ -927,6 +1003,7 @@ window.QUIZ_ENGINE = (function() {
   }
 
   function checkAnswer(isCorrect, explanation, buttonEl) {
+    stopQuestionTimer();
     if (isCorrect) {
       if (buttonEl) buttonEl.classList.add("btn-correct");
       window.AUDIO_SYNTH.playCorrect();
@@ -1014,6 +1091,8 @@ window.QUIZ_ENGINE = (function() {
   }
 
   return {
-    startMission
+    startMission,
+    stopTimer: stopQuestionTimer,
+    triggerTimeoutForTesting: handleTimeOut
   };
 })();

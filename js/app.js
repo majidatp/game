@@ -517,6 +517,25 @@ window.APP = (function() {
       document.getElementById("modal-profile").classList.remove("hidden");
     });
 
+    // Tombol Putar & Fullscreen Otomatis di Layar Overlay Portrait Mobile
+    const btnForceFS = document.getElementById("btn-force-fullscreen");
+    if (btnForceFS) {
+      btnForceFS.addEventListener("click", () => {
+        if (window.AUDIO_SYNTH && typeof window.AUDIO_SYNTH.playClick === "function") {
+          window.AUDIO_SYNTH.playClick();
+        }
+        const docEl = document.documentElement;
+        const requestFS = docEl.requestFullscreen || docEl.webkitRequestFullscreen || docEl.mozRequestFullScreen || docEl.msRequestFullscreen;
+        if (requestFS) {
+          requestFS.call(docEl).then(() => {
+            if (screen.orientation && screen.orientation.lock) {
+              screen.orientation.lock("landscape").catch(e => console.log("Orientation lock notice:", e));
+            }
+          }).catch(e => console.log("FS notice:", e));
+        }
+      });
+    }
+
     // Tombol Jukebox Musik Nusantara (Top Bar & Menu Utama)
     const btnJukeboxTop = document.getElementById("btn-open-jukebox");
     if (btnJukeboxTop) {
@@ -573,6 +592,9 @@ window.APP = (function() {
         "Lanjut Main"
       );
       if (yakin) {
+        if (window.QUIZ_ENGINE && typeof window.QUIZ_ENGINE.stopTimer === "function") {
+          window.QUIZ_ENGINE.stopTimer();
+        }
         showScreen("screen-dialog");
       }
     });
