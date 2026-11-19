@@ -1,0 +1,1452 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Bank Soal Zona 4: Sulawesi - Petualangan Sahabat Nusantara</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 18mm 16mm 20mm 16mm;
+      @bottom-right {
+        content: counter(page);
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 9pt;
+        color: #78350f;
+      }
+    }
+    
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 10pt;
+      line-height: 1.5;
+      color: #1e293b;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+    }
+    
+    .cover-page {
+      page-break-after: always;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 85vh;
+      text-align: center;
+      border: 5px double #b45309;
+      border-radius: 18px;
+      padding: 40px 30px;
+      background: linear-gradient(180deg, #fffbeb 0%, #ffffff 100%);
+      box-sizing: border-box;
+    }
+    
+    .cover-badge {
+      display: inline-block;
+      background: #b45309;
+      color: #ffffff;
+      padding: 6px 18px;
+      border-radius: 20px;
+      font-size: 10.5pt;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    
+    .cover-title {
+      font-family: 'Segoe UI', 'Trebuchet MS', sans-serif;
+      font-size: 24pt;
+      font-weight: 900;
+      color: #78350f;
+      margin: 8px 0;
+      line-height: 1.2;
+    }
+    
+    .cover-subtitle {
+      font-size: 13pt;
+      font-weight: 600;
+      color: #92400e;
+      margin-bottom: 25px;
+    }
+    
+    .zone-box {
+      background: #fef3c7;
+      border: 1px solid #fde68a;
+      border-radius: 12px;
+      padding: 16px 20px;
+      max-width: 500px;
+      margin: 0 auto 30px auto;
+      text-align: left;
+      font-size: 9.5pt;
+    }
+    
+    .zone-box ul {
+      margin: 6px 0 0 0;
+      padding-left: 18px;
+    }
+    
+    .cover-meta {
+      font-size: 9pt;
+      color: #64748b;
+      margin-top: 25px;
+    }
+    
+    .section-heading {
+      font-family: 'Segoe UI', 'Trebuchet MS', sans-serif;
+      font-size: 13pt;
+      font-weight: 800;
+      color: #78350f;
+      border-bottom: 2px solid #fde68a;
+      padding-bottom: 4px;
+      margin: 24px 0 14px 0;
+    }
+    
+    .question-card {
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 12px 16px;
+      margin-bottom: 12px;
+      background: #f8fafc;
+    }
+    
+    .q-number-badge {
+      display: inline-block;
+      background: #b45309;
+      color: #fff;
+      font-size: 8pt;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 12px;
+      margin-bottom: 6px;
+    }
+    
+    .q-text {
+      font-size: 10pt;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 8px;
+    }
+    
+    .options-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 8px;
+    }
+    
+    .option-item {
+      flex: 1 1 45%;
+      padding: 5px 10px;
+      border-radius: 6px;
+      font-size: 9pt;
+      border: 1px solid #cbd5e1;
+      background: #ffffff;
+      box-sizing: border-box;
+    }
+    
+    .option-item.correct {
+      border-color: #16a34a;
+      background: #f0fdf4;
+      color: #15803d;
+      font-weight: 700;
+    }
+    
+    .key-box {
+      background: #ecfdf5;
+      border-left: 4px solid #10b981;
+      padding: 6px 10px;
+      border-radius: 4px;
+      font-size: 8.5pt;
+      color: #065f46;
+      margin-top: 6px;
+    }
+    
+    .matching-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 8px 0 12px 0;
+      font-size: 9pt;
+      background: #fff;
+    }
+    
+    .matching-table th, .matching-table td {
+      border: 1px solid #cbd5e1;
+      padding: 6px 10px;
+      text-align: left;
+    }
+    
+    .matching-table th {
+      background: #f1f5f9;
+      color: #334155;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- COVER PAGE -->
+  <div class="cover-page">
+    <div class="cover-badge">Kompilasi Soal Resmi &middot; Zona 4</div>
+    <div class="cover-title">BANK SOAL &amp; KUNCI JAWABAN<br>ZONA 4: SULAWESI</div>
+    <div class="cover-subtitle">"Legenda Samudera Pinisi, Rumah Tongkonan, & Toraja"</div>
+    
+    <div class="zone-box">
+      <strong style="color: #78350f;">Identitas Kebudayaan Wilayah:</strong>
+      <ul>
+        <li><strong>Tokoh Penjaga Adat:</strong> Penjaga Budaya Sulawesi</li>
+        <li><strong>Salam Khas:</strong> <em>"Kurru Sumanga'! Tabik pun! Selamat datang di Celebes Sulawesi, bumi para pelaut ulung Pinisi dan mahakarya batu pahat leluhur Toraja!"</em></li>
+        <li><strong>Pusaka Adat yang Dicari:</strong> ⛵ Miniatur Kapal Pinisi</li>
+        <li><strong>Lencana Wilayah:</strong> 🧭 Nakhoda Bahari Pinisi (Menghayati kearifan maritim Bugis-Makassar dan kemegahan upacara adat Toraja.)</li>
+        <li><strong>Jumlah Soal:</strong> 50 Soal Pilihan Ganda + 5 Tebak Visual + 3 Level Matching</li>
+      </ul>
+    </div>
+    
+    <div class="cover-meta">
+      Game: <strong>Petualangan Sahabat Nusantara</strong> (PWA v2.2)<br>
+      Pengembang: majidatp &middot; URL: majidatp.github.io/game/
+    </div>
+  </div>
+
+  <div class="section-heading">📝 MISI 1: SOAL PILIHAN GANDA (50 SOAL)</div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 1 / 50</div>
+      <div class="q-text">Rumah adat suku Toraja di Sulawesi Selatan yang memiliki atap melengkung menjulang mirip perahu terbalik dan berhias tanduk kerbau adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Rumah Betang 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Rumah Tongkonan ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Rumah Boyang 
+          </div><div class="option-item ">
+            <strong>D.</strong> Rumah Souraja 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Rumah Tongkonan</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tongkonan berasal dari kata 'tongkon' (duduk bermusyawarah) dan menghadap ke utara tempat asal leluhur bersemayam.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 2 / 50</div>
+      <div class="q-text">Kapal layar kayu bertiang ganda karya pelaut ulung suku Bugis dan Makassar yang diakui UNESCO sebagai Warisan Budaya Dunia adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Perahu Cadik 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Kapal Pinisi ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Perahu Kora-Kora 
+          </div><div class="option-item ">
+            <strong>D.</strong> Perahu Jukung 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Kapal Pinisi</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Kapal Pinisi dibuat secara tradisional di Bulukumba tanpa paku besi, melainkan pasak kayu ulin yang kokoh menyeberangi samudera.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 3 / 50</div>
+      <div class="q-text">Pakaian adat wanita suku Bugis-Makassar berbentuk segi empat berlengan pendek yang diyakini sebagai salah satu busana tertua di dunia adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Kebaya 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Baju Bodo ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Baju Kurung 
+          </div><div class="option-item ">
+            <strong>D.</strong> Baju Ta'a 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Baju Bodo</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Baju Bodo terbuat dari kain kasa sutra tenun transparan dengan warna cerah yang mencerminkan usia dan status pemakainya.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 4 / 50</div>
+      <div class="q-text">Alat musik perkusi khas Minahasa Sulawesi Utara yang terbuat dari bilah-bilah kayu bernada merdu di atas meja resonator adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Gamelan 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Kolintang ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Calung 
+          </div><div class="option-item ">
+            <strong>D.</strong> Talempong 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Kolintang</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Kolintang berasal dari bunyi 'Tong-Ting-Tang' yang ditala harmonis dan dimainkan dalam ansambel orkestra kayu.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 5 / 50</div>
+      <div class="q-text">Makam kuno di tebing batu cadas Tana Toraja yang dihiasi patung kayu leluhur berpakaian adat di balkon tebing dinamakan?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Makam Lemo & Londa ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Makam Imogiri 
+          </div><div class="option-item ">
+            <strong>C.</strong> Makam Giri 
+          </div><div class="option-item ">
+            <strong>D.</strong> Makam Trowulan 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Makam Lemo & Londa</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Patung kayu pahat di tebing makam Toraja disebut 'Tau-Tau', melambangkan sosok bangsawan yang telah berpulang ke alam baka.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 6 / 50</div>
+      <div class="q-text">Upacara pemakaman adat terbesar dan termewah di dunia yang diselenggarakan oleh masyarakat Tana Toraja disebut?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Tiwah 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Rambu Solo' ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Ngaben 
+          </div><div class="option-item ">
+            <strong>D.</strong> Grebeg 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Rambu Solo'</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Rambu Solo' melibatkan penyembelihan puluhan kerbau belang (Tedong Bonga) sebagai bekal arwah menuju surga (Puya).
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 7 / 50</div>
+      <div class="q-text">Kerbau langka khas Tana Toraja yang memiliki corak belang putih-hitam dengan bola mata biru dan bernilai harga hingga ratusan juta rupiah adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Kerbau Bule 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Tedong Bonga ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Banteng Jawa 
+          </div><div class="option-item ">
+            <strong>D.</strong> Anoa 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Tedong Bonga</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tedong Bonga menempati kasta tertinggi dalam adat Toraja sebagai persembahan paling mulia pada upacara Rambu Solo'.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 8 / 50</div>
+      <div class="q-text">Tradisi tahunan suku Toraja membersihkan jenazah leluhur, mengganti pakaian kain baru, dan menata peti kubur di liang batu disebut?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Ma'nene ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Tiwah 
+          </div><div class="option-item ">
+            <strong>C.</strong> Tedak Siten 
+          </div><div class="option-item ">
+            <strong>D.</strong> Brokohan 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Ma'nene</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Ritual Ma'nene menunjukkan bakti cinta anak cucu yang tak pernah putus kepada orang tua dan leluhur yang telah tiada.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 9 / 50</div>
+      <div class="q-text">Senjata tikam tradisional khas masyarakat Bugis dan Makassar yang berbilah tajam satu sisi dengan pamor beracun mematikan adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Keris 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Badik (Kawali/Gecong) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Rencong 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kujang 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Badik (Kawali/Gecong)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Bagi pria Bugis, Badik disisipkan di pinggang kiri sebagai penjaga kehormatan diri dan simbol kedewasaan ksatria.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 10 / 50</div>
+      <div class="q-text">Benteng pertahanan berbentuk penyu menghadap ke laut di tepi Pantai Makassar peninggalan Kerajaan Gowa-Tallo abad ke-16 adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Benteng Belgica 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Benteng Fort Rotterdam (Ujung Pandang) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Benteng Vredeburg 
+          </div><div class="option-item ">
+            <strong>D.</strong> Benteng Marlborough 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Benteng Fort Rotterdam (Ujung Pandang)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Bentuk penyu pada Fort Rotterdam melambangkan Kerajaan Gowa yang berjaya di daratan maupun di lautan samudra.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 11 / 50</div>
+      <div class="q-text">Benteng terluas di dunia versi Guinness World Records seluas 23 hektare yang terbuat dari susunan batu kapur putih berada di?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Benteng Keraton Buton (Sulawesi Tenggara) ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Benteng Marlborough 
+          </div><div class="option-item ">
+            <strong>C.</strong> Benteng Otanaha 
+          </div><div class="option-item ">
+            <strong>D.</strong> Benteng Somba Opu 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Benteng Keraton Buton (Sulawesi Tenggara)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Benteng Keraton Buton memiliki 12 pintu gerbang (Lawa) dan 16 meriam kuno pertahanan Kesultanan Buton.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 12 / 50</div>
+      <div class="q-text">Tarian sakral kesultanan Gowa yang dibawakan oleh penari wanita berbusana Baju Bodo dengan gerakan sangat lambat dan kipas di tangan adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Tari Saman 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Tari Kipas Pakarena ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Tari Jaipong 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tari Piring 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Tari Kipas Pakarena</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tari Pakarena melambangkan kelembutan, kesetiaan, dan kepatuhan perempuan Bugis-Makassar di hadapan sang pencipta.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 13 / 50</div>
+      <div class="q-text">Tarian perang ksatria Minahasa di mana penari mengenakan busana merah menyala membawa pedang santi dan perisai sambil membelalakkan mata adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Tari Kabasaran (Kawasaran) ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Tari Cakalele 
+          </div><div class="option-item ">
+            <strong>C.</strong> Tari Mandau 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tari Caci 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Tari Kabasaran (Kawasaran)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tari Kabasaran ditarikan oleh ksatria penjaga keamanan kampung yang siap mempertahankan tanah air dari musuh.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 14 / 50</div>
+      <div class="q-text">Kain tenun sutra kebanggaan masyarakat Bugis Wajo yang ditenun secara tradisional dengan motif kotak-kotak cerah dinamakan?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Kain Ulos 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Kain Sutra Lipa Sabbe (Sengkang) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Kain Sasirangan 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kain Songket 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Kain Sutra Lipa Sabbe (Sengkang)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Sengkang di Kabupaten Wajo dikenal sebagai 'Kota Sutra' penghasil tenun sutra ulat sutra murbei alami bermutu tinggi.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 15 / 50</div>
+      <div class="q-text">Pahlawan nasional berjuluk 'Ayam Jantan dari Timur' (De Haantjes van Het Oosten) yang gigih memimpin Kerajaan Gowa melawan VOC Belanda adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Sultan Iskandar Muda 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Sultan Hasanuddin ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Pangeran Antasari 
+          </div><div class="option-item ">
+            <strong>D.</strong> Pattimura 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Sultan Hasanuddin</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Sultan Hasanuddin memimpin perang laut heroik mempertahankan kedaulatan jalur perdagangan rempah di Indonesia Timur.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 16 / 50</div>
+      <div class="q-text">Pahlawan nasional wanita pejuang emansipasi dan kemerdekaan asal Minahasa Sulawesi Utara yang wafat di pengasingan Jawa Tengah adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> R.A. Kartini 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Maria Walanda Maramis ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Cut Meutia 
+          </div><div class="option-item ">
+            <strong>D.</strong> Nyi Ageng Serang 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Maria Walanda Maramis</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Maria Walanda Maramis mendirikan organisasi PIKAT untuk memperjuangkan hak pendidikan dan bersuara bagi perempuan.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 17 / 50</div>
+      <div class="q-text">Satwa mamalia terkecil di dunia bermata bulat sangat besar dan berkepala dapat berputar 180 derajat yang hidup di Tangkoko Bitung adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Kukang 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Tarsius (Tarsius spectrumgularis) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Bekantan 
+          </div><div class="option-item ">
+            <strong>D.</strong> Owa 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Tarsius (Tarsius spectrumgularis)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tarsius berukuran hanya 12 cm, hidup nokturnal di lubang pohon beringin, dan melompat lincah menangkap serangga malam.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 18 / 50</div>
+      <div class="q-text">Hewan endemik Sulawesi menyerupai babi hutan bertaring runcing melengkung menembus moncong atas kepalanya adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Babi Kutil 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Babirusa (Babyrousa) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Babi Hutan 
+          </div><div class="option-item ">
+            <strong>D.</strong> Anoa 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Babirusa (Babyrousa)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Taring atas babirusa jantan melengkung ke atas hingga mendekati mata, berfungsi untuk menarik perhatian betina.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 19 / 50</div>
+      <div class="q-text">Mamalia kerdil bertanduk runcing lurus menyerupai kerbau mini yang menjadi satwa endemik pulau Sulawesi adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Banteng 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Anoa (Bubalus depressicornis) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Kambing Hutan 
+          </div><div class="option-item ">
+            <strong>D.</strong> Rusa Timor 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Anoa (Bubalus depressicornis)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Anoa terbagi atas Anoa Pegunungan dan Anoa Dataran Rendah, keduanya hidup soliter di lebatnya rimba Sulawesi.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 20 / 50</div>
+      <div class="q-text">Burung endemik pulau Sulawesi yang mengubur telurnya di pasir pantai hangat atau tanah geotermal vulkanik untuk ditetaskan adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Burung Cendrawasih 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Burung Maleo (Macrocephalon maleo) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Burung Enggang 
+          </div><div class="option-item ">
+            <strong>D.</strong> Burung Kasuari 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Burung Maleo (Macrocephalon maleo)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Anak burung Maleo yang baru menetas dapat langsung terbang mandiri begitu berhasil menggali keluar dari tumpukan pasir hangat.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 21 / 50</div>
+      <div class="q-text">Taman Nasional Laut di Sulawesi Utara yang tersohor di seluruh dunia dengan tebing palung karang vertikal sedalam ratusan meter adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Raja Ampat 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Bunaken ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Wakatobi 
+          </div><div class="option-item ">
+            <strong>D.</strong> Togean 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Bunaken</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Taman Nasional Bunaken memiliki 390 spesies terumbu karang dan ribuan jenis ikan hias tropis yang memukau penyelam dunia.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 22 / 50</div>
+      <div class="q-text">Gugusan kepulauan di Sulawesi Tenggara yang terkenal sebagai surga terumbu karang dunia di pusat segitiga terumbu karang karibia timur adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Bunaken 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Kepulauan Wakatobi ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Derawan 
+          </div><div class="option-item ">
+            <strong>D.</strong> Karimunjawa 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Kepulauan Wakatobi</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Wakatobi merupakan akronim dari empat pulau utamanya: Wangi-Wangi, Kaledupa, Tomia, dan Binongko.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 23 / 50</div>
+      <div class="q-text">Kuliner sup daging sapi berkuah rempah kental gurih khas Makassar yang disajikan dengan potongan ketupat daun kelapa adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Rawon 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Coto Makassar ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Gudeg 
+          </div><div class="option-item ">
+            <strong>D.</strong> Soto Banjar 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Coto Makassar</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Kuah Coto Makassar dibuat dengan rebusan jeroan dan daging sapi dipadukan dengan kacang tanah sangrai giling yang lezat.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 24 / 50</div>
+      <div class="q-text">Olahan iga sapi bakar khas Makassar yang dibumbui rempah kayu manis dan kluwek disajikan bersama kuah sup gurih adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Sop Buntut 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Konro Bakar (Sop Konro) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Empal Gentong 
+          </div><div class="option-item ">
+            <strong>D.</strong> Brongkos 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Konro Bakar (Sop Konro)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Sop Konro bercita rasa gurih pekat dengan taburan bawang goreng dan sambal cabai rawit pedas mengigit.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 25 / 50</div>
+      <div class="q-text">Hidangan penutup manis khas Makassar berbahan pisang raja matang dibalut adonan tepung hijau pandan kenyal disiram sirup merah adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Kolak Pisang 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Es Pisang Ijo ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Es Cendol 
+          </div><div class="option-item ">
+            <strong>D.</strong> Es Doger 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Es Pisang Ijo</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Es Pisang Ijo disajikan dingin bersama bubur sumsum lembut gurih, es serut, dan kucuran susu kental manis.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 26 / 50</div>
+      <div class="q-text">Bubur gurih khas Manado yang kaya akan sayuran kangkung, bayam, kemangi, jagung manis, dan ubi labu kuning adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Bubur Pedas 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Tinutuan (Bubur Manado) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Bubur Ayam 
+          </div><div class="option-item ">
+            <strong>D.</strong> Bubur Sumsum 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Tinutuan (Bubur Manado)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tinutuan disajikan hangat bersama sambal roa pedas asap dan perkedel jagung (bakwan nikmat).
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 27 / 50</div>
+      <div class="q-text">Masakan khas Minahasa berupa olahan ikan laut segar yang dimasak bumbu kuning pedas dengan daun kemangi dalam belanga tanah liat adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Gulai Ikan 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Ikan Woku Belanga ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Ikan Kuah Asam 
+          </div><div class="option-item ">
+            <strong>D.</strong> Pesmol Ikan 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Ikan Woku Belanga</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Bumbu Woku kaya daun jeruk, daun kunyit, daun pandan, kemangi, dan cabai yang menghasilkan aroma harum menggugah selera.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 28 / 50</div>
+      <div class="q-text">Sambal khas Sulawesi Utara yang terbuat dari ulekan cabai rawit merah pedas dicampur dengan suwiran ikan asap roa gurih adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Sambal Terasi 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Sambal Roa ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Sambal Matah 
+          </div><div class="option-item ">
+            <strong>D.</strong> Sambal Dabu-Dabu 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Sambal Roa</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Ikan roa diasap kering berhari-hari sebelum ditumbuk halus bersama bawang dan cabai rawit pedas.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 29 / 50</div>
+      <div class="q-text">Kue pie gurih manis khas Manado berisi serutan daging kelapa muda segar, susu, dan taburan kayu manis bubuk serta kismis adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Bika Ambon 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Klappertaart ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Pastel 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kue Lumpur 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Klappertaart</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Klappertaart berakar dari pengaruh kuliner Belanda yang berpadu dengan melimpahnya kelapa di bumi Nyiur Melambai Minahasa.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 30 / 50</div>
+      <div class="q-text">Danau purba terdalam di Indonesia dan nomor delapan terdalam di dunia (590 meter) yang terletak di Sulawesi Selatan adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Danau Toba 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Danau Matano ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Danau Towuti 
+          </div><div class="option-item ">
+            <strong>D.</strong> Danau Poso 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Danau Matano</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Danau Matano memiliki air jernih kristal dengan keanekaragaman ikan endemik yang tidak ditemukan di belahan bumi lain.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 31 / 50</div>
+      <div class="q-text">Pantai indah di pesisir Kota Makassar yang terkenal sebagai tempat terbaik menikmati pemandangan matahari terbenam (sunset) adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Pantai Kuta 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Pantai Losari ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Pantai Sanur 
+          </div><div class="option-item ">
+            <strong>D.</strong> Pantai Senggigi 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Pantai Losari</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Di sepanjang anjungan Pantai Losari, pengunjung dapat menikmati jajanan pisang epe bakar saus gula aren durian.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 32 / 50</div>
+      <div class="q-text">Alat musik petik tradisional berbentuk rebab kayu dua dawai bersuara melankolis khas masyarakat suku Mandar dan Bugis dinamakan?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Kacapi 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Keso-Keso (Geso-Geso) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Sape' 
+          </div><div class="option-item ">
+            <strong>D.</strong> Sasando 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Keso-Keso (Geso-Geso)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Keso-Keso dimainkan dengan menggesek dawai menggunakan busur berambut ekor kuda untuk mengiringi syair tutur petuah kuno.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 33 / 50</div>
+      <div class="q-text">Seni bercerita dan melantunkan kisah kepahlawanan lisan suku Bugis dan Makassar yang diiringi petikan alat musik keso-keso disebut?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Macapat 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Sinrilik ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Madihin 
+          </div><div class="option-item ">
+            <strong>D.</strong> Didong 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Sinrilik</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Penyair Sinrilik (Pa'sinrilik) membawakan kisah heroik Datu Museng dan Maipa Deapati yang melegenda.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 34 / 50</div>
+      <div class="q-text">Tutup kepala adat pria bangsawan Bugis yang terbuat dari anyaman serat pelepah lontar bertatah sulaman benang emas dinamakan?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Blangkon 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Songkok Recca (Songkok To Bone) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Udeng 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tanjak 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Songkok Recca (Songkok To Bone)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Songkok Recca dahulu hanya boleh dipakai oleh kaum raja dan bangsawan tinggi Bone sebagai lambang kedaulatan.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 35 / 50</div>
+      <div class="q-text">Filosofi luhur masyarakat Bugis-Makassar yang menjunjung tinggi harga diri, martabat, dan rasa malu pantang menyerah adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Siri' Na Pacce ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Tri Hita Karana 
+          </div><div class="option-item ">
+            <strong>C.</strong> Urip Iku Urup 
+          </div><div class="option-item ">
+            <strong>D.</strong> Torang Samua Basudara 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Siri' Na Pacce</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Siri' berarti menjaga kehormatan diri dan keluarga, sedangkan Pacce adalah rasa solidaritas dan empati mendalam kepada sesama.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 36 / 50</div>
+      <div class="q-text">Semboyan kerukunan masyarakat Sulawesi Utara yang bermakna 'Kita Semua Bersaudara' tanpa membedakan suku dan agama adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Bhinneka Tunggal Ika 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Torang Samua Basudara ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Siri' Na Pacce 
+          </div><div class="option-item ">
+            <strong>D.</strong> Salassae 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Torang Samua Basudara</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Semboyan Torang Samua Basudara dicetuskan oleh Pahlawan Nasional Dr. G.S.S.J. Ratulangi (Sam Ratulangi).
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 37 / 50</div>
+      <div class="q-text">Perahu kayu bercadik tradisional khas masyarakat nelayan Mandar Sulawesi Barat yang terkenal lincah melaju cepat di lautan adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Pinisi 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Perahu Sandeq ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Jukung 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kora-Kora 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Perahu Sandeq</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Sandeq adalah perahu layar terhalus dan tercepat di dunia yang digerakkan oleh kepiawaian pelaut Mandar menunggang angin.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 38 / 50</div>
+      <div class="q-text">Rumah adat tradisional masyarakat Kaili di Lembah Palu Sulawesi Tengah yang dibangun tanpa paku besi di atas pilar balok kayu ulin adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Tongkonan 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Souraja (Banua Mbaso) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Boyang 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tambi 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Souraja (Banua Mbaso)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Souraja merupakan kediaman bangsawan kerajaan Kaili yang memiliki sirkulasi udara sejuk di tengah panasnya lembah Palu.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 39 / 50</div>
+      <div class="q-text">Kue tradisional khas Manado berupa dadar gulung pandan hijau berisi kelapa parut manis gula aren yang legit adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Lalampa 
+          </div><div class="option-item ">
+            <strong>B.</strong> Kue Cucur 
+          </div><div class="option-item correct">
+            <strong>C.</strong> Kue Balapis ✔️
+          </div><div class="option-item ">
+            <strong>D.</strong> Panada 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [C] Kue Balapis</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Balapis Manado memiliki tekstur lembut bertingkat dengan aroma wangi daun pandan dan cokelat bubuk.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 40 / 50</div>
+      <div class="q-text">Roti goreng berbentuk pastel khas Manado dengan isian daging ikan cakalang bumbu pampis pedas gurih dinamakan?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Pastel 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Panada ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Cireng 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kroket 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Panada</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Panada berakar dari pengaruh kuliner Spanyol 'empanada' yang diadaptasi dengan isian ikan cakalang asap khas Minahasa.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 41 / 50</div>
+      <div class="q-text">Kue tradisional khas Palu Sulawesi Tengah berbahan parutan kelapa muda dan gula merah yang dibakar harum di atas wajan tanah liat adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Kue Tetu ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Kue Lalampa 
+          </div><div class="option-item ">
+            <strong>C.</strong> Bagea 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kue Paranggi 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Kue Tetu</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Kue Tetu disajikan di dalam cetakan wadah perahu daun pandan hutan beraroma sangat harum saat disajikan hangat.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 42 / 50</div>
+      <div class="q-text">Kue kering bulat keras khas Palopo dan Sulawesi Tenggara berbahan tepung sagu dengan aroma rempah kayu manis dan pala adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Bagea ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Kue Nastar 
+          </div><div class="option-item ">
+            <strong>C.</strong> Kastengel 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kue Semprit 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Bagea</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Kue Bagea memiliki kerenyahan khas yang sangat nikmat dicelupkan ke dalam secangkir kopi panas atau teh rempah.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 43 / 50</div>
+      <div class="q-text">Kawasan perbukitan karst kapur terindah kedua di dunia setelah Madagaskar yang terletak di Maros-Pangkep Sulawesi Selatan adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Rammang-Rammang ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Gunung Bromo 
+          </div><div class="option-item ">
+            <strong>C.</strong> Kelimutu 
+          </div><div class="option-item ">
+            <strong>D.</strong> Dieng 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Rammang-Rammang</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Rammang-Rammang menyajikan gugusan menara karst menjulang di tengah tenangnya sungai dan hamparan sawah hijau permadani.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 44 / 50</div>
+      <div class="q-text">Tarian pergaulan muda-mudi suku Kaili di Sulawesi Tengah yang ditarikan berputar melingkar saling bergandengan tangan adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Tari Dero ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Tari Poco-Poco 
+          </div><div class="option-item ">
+            <strong>C.</strong> Tari Sajojo 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tari Yospan 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Tari Dero</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tari Dero dibawakan pada pesta panen padi diiringi tabuhan gong dan nyanyian pantun persahabatan yang riang.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 45 / 50</div>
+      <div class="q-text">Kain tenun ikat tradisional Donggala Sulawesi Tengah yang dibuat menggunakan alat tenun bukan mesin (ATBM) dengan motif bunga sube adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Tenun Donggala ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Songket 
+          </div><div class="option-item ">
+            <strong>C.</strong> Ulos 
+          </div><div class="option-item ">
+            <strong>D.</strong> Lipa Sabbe 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Tenun Donggala</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tenun Donggala terkenal dengan kehalusan benang sutra dan warna cerah keemasan lambang wibawa para tetua adat.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 46 / 50</div>
+      <div class="q-text">Batu megalitikum purba misterius berupa patung berwujud wajah manusia berpahat mata lonjong yang terletak di Lembah Besoa Lore Lindu adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Arca Dwarapala 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Megalit Lore Lindu (Patung Palindo) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Prasasti Yupa 
+          </div><div class="option-item ">
+            <strong>D.</strong> Menhir 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Megalit Lore Lindu (Patung Palindo)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Patung Megalitikum Lore Lindu Sulawesi Tengah diperkirakan berusia lebih dari 3.000 tahun sebelum masehi.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 47 / 50</div>
+      <div class="q-text">Pusat industri kerajinan perak bakar tradisional di Sulawesi Selatan yang menghasilkan ornamen miniatur kapal pinisi dan rumah adat adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Kendari 
+          </div><div class="option-item ">
+            <strong>B.</strong> Kaledupa 
+          </div><div class="option-item correct">
+            <strong>C.</strong> Somba Opu (Makassar) ✔️
+          </div><div class="option-item ">
+            <strong>D.</strong> Gorontalo 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [C] Somba Opu (Makassar)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Jalan Somba Opu Makassar terkenal dengan sentra toko cinderamata emas, perak bakar filigri, dan kain tenun sutra Bugis.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 48 / 50</div>
+      <div class="q-text">Festival Danau Poso di Sulawesi Tengah yang diselenggarakan di tepi danau pasir kuning berair jernih merayakan?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Kerukunan budaya dan pesta panen rakyat Poso ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Balapan sapi 
+          </div><div class="option-item ">
+            <strong>C.</strong> Perang perahu 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tolak bala 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Kerukunan budaya dan pesta panen rakyat Poso</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Festival Danau Poso menampilkan atraksi tari dero kolosal, peragaan busana tenun kulit kayu, dan lomba dayung perahu tradisional.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 49 / 50</div>
+      <div class="q-text">Bahan pakaian tradisional tertua di dunia yang dibuat masyarakat suku Lore Sulawesi Tengah dari kulit pohon beringin yang dipukul-pukul adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Kain Sutra 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Kain Kulit Kayu (Fuya) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Kain Katun 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kain Mori 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Kain Kulit Kayu (Fuya)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Pembuatan Fuya menggunakan batu pemukul 'Ike' kuno yang melembutkan serat kulit kayu menjadi kain pakaian alami.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 50 / 50</div>
+      <div class="q-text">Pintu gerbang masuk pelabuhan kuno Kerajaan Luwu di Palopo yang terkenal dengan julukan 'Bumi Sawerigading' di Sulawesi Selatan adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Istana Datu Luwu ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Pelabuhan Paotere 
+          </div><div class="option-item ">
+            <strong>C.</strong> Fort Rotterdam 
+          </div><div class="option-item ">
+            <strong>D.</strong> Pelabuhan Tanjung Silopo 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Istana Datu Luwu</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Kedatuan Luwu merupakan kerajaan tertua di Sulawesi Selatan yang menjadi latar utama epos kesusastraan I La Galigo.
+      </div>
+    </div>
+  
+
+  <div class="section-heading">🖼️ MISI 2: TEBAK VISUAL / ARTEFAK &amp; LANDMARK (5 SOAL)</div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Visual 1 / 5</div>
+      <div class="q-text">Kapal layar kayu tradisional suku Bugis berlayar putih gagah penakluk samudra ini bernama?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Kapal Pinisi ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Kapal Borobudur 
+          </div><div class="option-item ">
+            <strong>C.</strong> Kapal Jung 
+          </div><div class="option-item ">
+            <strong>D.</strong> Perahu Kora-kora 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Kapal Pinisi</strong><br>
+        <strong>📚 Pembahasan:</strong> Tepat! Pinisi dibuat berdasarkan naluri dan perhitungan kearifan lokal turun-temurun.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Visual 2 / 5</div>
+      <div class="q-text">Rumah adat suku Toraja dengan atap menjulang menyerupai perahu terbalik dan berhias tanduk kerbau adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Rumah Tongkonan ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Rumah Boyang 
+          </div><div class="option-item ">
+            <strong>C.</strong> Rumah Tambi 
+          </div><div class="option-item ">
+            <strong>D.</strong> Rumah Walewangko 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Rumah Tongkonan</strong><br>
+        <strong>📚 Pembahasan:</strong> Benar! Tongkonan berasal dari kata 'tongkon' yang artinya tempat duduk bermusyawarah bersama keluarga besar.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Visual 3 / 5</div>
+      <div class="q-text">Alat musik perkusi khas Minahasa yang terbuat dari bilah-bilah kayu ringan penghasil nada merdu adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Kolintang ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Gambang 
+          </div><div class="option-item ">
+            <strong>C.</strong> Calung 
+          </div><div class="option-item ">
+            <strong>D.</strong> Gamelan 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Kolintang</strong><br>
+        <strong>📚 Pembahasan:</strong> Hebat! Kolintang berasal dari bunyi 'Tong' (rendah), 'Ting' (tinggi), dan 'Tang' (sedang) saat dipukul palu kayu.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Visual 4 / 5</div>
+      <div class="q-text">Busana adat wanita Bugis berbahan kain sutra tenun Sengkang berwarna cerah berbentuk segi empat mengembang ini adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Baju Bodo ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Baju Nggembe 
+          </div><div class="option-item ">
+            <strong>C.</strong> Baju Pokko 
+          </div><div class="option-item ">
+            <strong>D.</strong> Baju Seppa 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Baju Bodo</strong><br>
+        <strong>📚 Pembahasan:</strong> Tepat sekali! Warna Baju Bodo menandakan usia dan status sosial pemakainya dalam tatanan adat.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Visual 5 / 5</div>
+      <div class="q-text">Makam kuno di tebing batu cadas Tana Toraja yang dihiasi jejeran patung kayu leluhur (Tau-tau) ini adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Kuburan Batu Lemo ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Gua Liang Bua 
+          </div><div class="option-item ">
+            <strong>C.</strong> Candi Tebing 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kompleks Megalit 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Kuburan Batu Lemo</strong><br>
+        <strong>📚 Pembahasan:</strong> Sempurna! Makam tebing Lemo dipahat manual di ketinggian bukit batu sebagai perlindungan jasad leluhur.
+      </div>
+    </div>
+  
+
+  <div class="section-heading">🎯 MISI 3: TANTANGAN TAP-MATCHING (PASANGAN BUDAYA)</div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">🟢 Tahap Easy (3 Pasangan)</div>
+      <div class="q-text">Pasangkan Makanan Khas Sulawesi dengan Kota Asalnya!</div>
+      <table class="matching-table">
+        <thead>
+          <tr>
+            <th style="width: 45%;">Elemen Budaya / Tradisi</th>
+            <th style="width: 10%; text-align: center;">➔</th>
+            <th style="width: 45%;">Pasangan Wilayah / Makna Tepat</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+            <tr>
+              <td><strong>Coto Makassar Gurih</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Makassar (Sulsel)</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Tinutuan Bubur Manado</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Manado (Sulut)</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Palumara Ikan Kuah Kuning</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Palu (Sulteng)</strong></td>
+            </tr>
+          
+        </tbody>
+      </table>
+      <div class="key-box">
+        <strong>💡 Catatan Edukatif:</strong> Mantap! Masakan Sulawesi terkenal kaya akan rempah segar dan hasil tangkapan laut berlimpah!
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">🟡 Tahap Normal (4 Pasangan)</div>
+      <div class="q-text">Pasangkan Tradisi Budaya Sulawesi dengan Daerah Asalnya!</div>
+      <table class="matching-table">
+        <thead>
+          <tr>
+            <th style="width: 45%;">Elemen Budaya / Tradisi</th>
+            <th style="width: 10%; text-align: center;">➔</th>
+            <th style="width: 45%;">Pasangan Wilayah / Makna Tepat</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+            <tr>
+              <td><strong>Upacara Rambu Solo'</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Tana Toraja (Sulsel)</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Tari Kipas Pakarena</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Gowa / Makassar</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Tari Maengket Syukur Panen</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Minahasa (Sulut)</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Tari Peule Cinde Tabur Beras</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Palu (Sulteng)</strong></td>
+            </tr>
+          
+        </tbody>
+      </table>
+      <div class="key-box">
+        <strong>💡 Catatan Edukatif:</strong> Bagus sekali! Tradisi Sulawesi sangat menjunjung tinggi rasa syukur dan penghormatan leluhur!
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">🔴 Tahap Hard (5 Pasangan)</div>
+      <div class="q-text">Tantangan Bahari: Pasangkan Bagian Kapal Pinisi dengan Makna Tradisinya!</div>
+      <table class="matching-table">
+        <thead>
+          <tr>
+            <th style="width: 45%;">Elemen Budaya / Tradisi</th>
+            <th style="width: 10%; text-align: center;">➔</th>
+            <th style="width: 45%;">Pasangan Wilayah / Makna Tepat</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+            <tr>
+              <td><strong>Sombala (7 Layar Putih)</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Simbol Penakluk 7 Samudra Dunia</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Anjong (Balok Haluan)</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Penembus Ombak Badai Lautan</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Guling (Kemudi Ganda)</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Penentu Arah Haluan Kapal</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Cocoro (Layar Segitiga Depan)</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Pengarah Angin Saat Berlayar</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Tarengke (2 Tiang Utama)</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Simbol Kalimah Syahadat Maritim</strong></td>
+            </tr>
+          
+        </tbody>
+      </table>
+      <div class="key-box">
+        <strong>💡 Catatan Edukatif:</strong> Luar biasa nakhoda hebat! Kamu telah menguasai anatomi dan filosofi luhur kapal legendaris Pinisi!
+      </div>
+    </div>
+  
+
+</body>
+</html>
+  

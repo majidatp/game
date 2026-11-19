@@ -1,0 +1,1452 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Bank Soal Zona 1: Jawa - Petualangan Sahabat Nusantara</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 18mm 16mm 20mm 16mm;
+      @bottom-right {
+        content: counter(page);
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 9pt;
+        color: #78350f;
+      }
+    }
+    
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 10pt;
+      line-height: 1.5;
+      color: #1e293b;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+    }
+    
+    .cover-page {
+      page-break-after: always;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 85vh;
+      text-align: center;
+      border: 5px double #b45309;
+      border-radius: 18px;
+      padding: 40px 30px;
+      background: linear-gradient(180deg, #fffbeb 0%, #ffffff 100%);
+      box-sizing: border-box;
+    }
+    
+    .cover-badge {
+      display: inline-block;
+      background: #b45309;
+      color: #ffffff;
+      padding: 6px 18px;
+      border-radius: 20px;
+      font-size: 10.5pt;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    
+    .cover-title {
+      font-family: 'Segoe UI', 'Trebuchet MS', sans-serif;
+      font-size: 24pt;
+      font-weight: 900;
+      color: #78350f;
+      margin: 8px 0;
+      line-height: 1.2;
+    }
+    
+    .cover-subtitle {
+      font-size: 13pt;
+      font-weight: 600;
+      color: #92400e;
+      margin-bottom: 25px;
+    }
+    
+    .zone-box {
+      background: #fef3c7;
+      border: 1px solid #fde68a;
+      border-radius: 12px;
+      padding: 16px 20px;
+      max-width: 500px;
+      margin: 0 auto 30px auto;
+      text-align: left;
+      font-size: 9.5pt;
+    }
+    
+    .zone-box ul {
+      margin: 6px 0 0 0;
+      padding-left: 18px;
+    }
+    
+    .cover-meta {
+      font-size: 9pt;
+      color: #64748b;
+      margin-top: 25px;
+    }
+    
+    .section-heading {
+      font-family: 'Segoe UI', 'Trebuchet MS', sans-serif;
+      font-size: 13pt;
+      font-weight: 800;
+      color: #78350f;
+      border-bottom: 2px solid #fde68a;
+      padding-bottom: 4px;
+      margin: 24px 0 14px 0;
+    }
+    
+    .question-card {
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 12px 16px;
+      margin-bottom: 12px;
+      background: #f8fafc;
+    }
+    
+    .q-number-badge {
+      display: inline-block;
+      background: #b45309;
+      color: #fff;
+      font-size: 8pt;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 12px;
+      margin-bottom: 6px;
+    }
+    
+    .q-text {
+      font-size: 10pt;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 8px;
+    }
+    
+    .options-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 8px;
+    }
+    
+    .option-item {
+      flex: 1 1 45%;
+      padding: 5px 10px;
+      border-radius: 6px;
+      font-size: 9pt;
+      border: 1px solid #cbd5e1;
+      background: #ffffff;
+      box-sizing: border-box;
+    }
+    
+    .option-item.correct {
+      border-color: #16a34a;
+      background: #f0fdf4;
+      color: #15803d;
+      font-weight: 700;
+    }
+    
+    .key-box {
+      background: #ecfdf5;
+      border-left: 4px solid #10b981;
+      padding: 6px 10px;
+      border-radius: 4px;
+      font-size: 8.5pt;
+      color: #065f46;
+      margin-top: 6px;
+    }
+    
+    .matching-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 8px 0 12px 0;
+      font-size: 9pt;
+      background: #fff;
+    }
+    
+    .matching-table th, .matching-table td {
+      border: 1px solid #cbd5e1;
+      padding: 6px 10px;
+      text-align: left;
+    }
+    
+    .matching-table th {
+      background: #f1f5f9;
+      color: #334155;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- COVER PAGE -->
+  <div class="cover-page">
+    <div class="cover-badge">Kompilasi Soal Resmi &middot; Zona 1</div>
+    <div class="cover-title">BANK SOAL &amp; KUNCI JAWABAN<br>ZONA 1: JAWA</div>
+    <div class="cover-subtitle">"Tanah Warisan Candi Megah & Keraton Luhur"</div>
+    
+    <div class="zone-box">
+      <strong style="color: #78350f;">Identitas Kebudayaan Wilayah:</strong>
+      <ul>
+        <li><strong>Tokoh Penjaga Adat:</strong> Penjaga Budaya Jawa</li>
+        <li><strong>Salam Khas:</strong> <em>"Sugeng rawuh! Selamat datang di Tanah Jawa. Mari lestarikan filosofi luhur, candi megah, dan keagungan batik keraton warisan leluhur!"</em></li>
+        <li><strong>Pusaka Adat yang Dicari:</strong> 🗡️ Keris Pusaka Jawa</li>
+        <li><strong>Lencana Wilayah:</strong> 🏆 Penjaga Candi & Keris Jawa (Menguasai rahasia candi megah, motif wastra batik keraton, dan filosofi Jawa.)</li>
+        <li><strong>Jumlah Soal:</strong> 50 Soal Pilihan Ganda + 5 Tebak Visual + 3 Level Matching</li>
+      </ul>
+    </div>
+    
+    <div class="cover-meta">
+      Game: <strong>Petualangan Sahabat Nusantara</strong> (PWA v2.2)<br>
+      Pengembang: majidatp &middot; URL: majidatp.github.io/game/
+    </div>
+  </div>
+
+  <div class="section-heading">📝 MISI 1: SOAL PILIHAN GANDA (50 SOAL)</div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 1 / 50</div>
+      <div class="q-text">Candi Buddha terbesar di dunia yang dibangun abad ke-8 oleh Wangsa Syailendra di Magelang, Jawa Tengah adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Candi Prambanan 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Candi Borobudur ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Candi Mendut 
+          </div><div class="option-item ">
+            <strong>D.</strong> Candi Penataran 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Candi Borobudur</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Candi Borobudur memiliki 72 stupa terawang dan relief luhur perjalanan kehidupan manusia warisan UNESCO.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 2 / 50</div>
+      <div class="q-text">Kompleks candi Hindu terindah di Indonesia yang menceritakan kisah epik Ramayana di perbatasan Yogyakarta dan Klaten adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Candi Prambanan ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Candi Gedong Songo 
+          </div><div class="option-item ">
+            <strong>C.</strong> Candi Dieng 
+          </div><div class="option-item ">
+            <strong>D.</strong> Candi Sukuh 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Candi Prambanan</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Candi Prambanan didedikasikan untuk Trimurti (Brahma, Wisnu, Siwa) dengan relief Ramayana yang mempesona.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 3 / 50</div>
+      <div class="q-text">Rumah adat khas Jawa dengan atap menjulang tinggi berbentuk piramida (Tajug) dan pilar penyangga Saka Guru adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Rumah Gadang 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Rumah Joglo ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Rumah Tongkonan 
+          </div><div class="option-item ">
+            <strong>D.</strong> Rumah Limas 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Rumah Joglo</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Rumah Joglo mencerminkan status sosial dan keharmonisan hidup dengan alam melalui 4 tiang utama (Saka Guru).
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 4 / 50</div>
+      <div class="q-text">Kerajaan maritim dan agraris terbesar di Jawa Timur yang dipimpin oleh Raja Hayam Wuruk dan Mahapatih Gajah Mada adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Kerajaan Tarumanegara 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Kerajaan Majapahit ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Kerajaan Pajajaran 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kerajaan Mataram Kuno 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Kerajaan Majapahit</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Majapahit berhasil menyatukan wilayah Nusantara dengan semboyan legendaris 'Bhinneka Tunggal Ika'.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 5 / 50</div>
+      <div class="q-text">Istana tempat tinggal raja di Yogyakarta yang menjadi pusat pelestarian kebudayaan Jawa adiluhung adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Pura Mangkunegaran 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Kraton Ngayogyakarta Hadiningrat ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Istana Bogor 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kraton Kasepuhan 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Kraton Ngayogyakarta Hadiningrat</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Kraton Yogyakarta didirikan oleh Sri Sultan Hamengkubuwono I pada tahun 1755 sebagai pusat kebudayaan Jawa.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 6 / 50</div>
+      <div class="q-text">Candi bercorak Hindu di lereng Gunung Lawu yang memiliki arsitektur unik mirip piramida suku Maya di Meksiko adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Candi Sukuh ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Candi Plaosan 
+          </div><div class="option-item ">
+            <strong>C.</strong> Candi Sambisari 
+          </div><div class="option-item ">
+            <strong>D.</strong> Candi Kalasan 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Candi Sukuh</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Candi Sukuh di Karanganyar memiliki struktur punden berundak unik yang berbeda dari candi Hindu pada umumnya.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 7 / 50</div>
+      <div class="q-text">Pintu gerbang terbelah dua tanpa atap pada arsitektur kuno Jawa dan Bali sering disebut dengan nama?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Paduraksa 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Candi Bentar ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Gapura Bajang Ratu 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kori Agung 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Candi Bentar</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Candi Bentar melambangkan terbelahnya gunung suci Meru menjadi dua bagian yang seimbang.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 8 / 50</div>
+      <div class="q-text">Sumpah terkenal yang diucapkan oleh Mahapatih Gajah Mada untuk menyatukan Nusantara di hadapan Ratu Tribhuwana Tunggadewi adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Sumpah Palapa ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Sumpah Pemuda 
+          </div><div class="option-item ">
+            <strong>C.</strong> Prasasti Ciaruteun 
+          </div><div class="option-item ">
+            <strong>D.</strong> Piagam Jakarta 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Sumpah Palapa</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Sumpah Palapa diucapkan Gajah Mada berjanji tidak akan menikmati kesenangan duniawi sebelum Nusantara bersatu.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 9 / 50</div>
+      <div class="q-text">Kompleks pemakaman raja-raja Mataram Islam yang terletak di atas bukit di daerah Bantul, Yogyakarta adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Makam Giri 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Makam Imogiri ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Makam Trowulan 
+          </div><div class="option-item ">
+            <strong>D.</strong> Makam Sunan Kalijaga 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Makam Imogiri</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Imogiri dibangun oleh Sultan Agung Hanyokrokusumo pada tahun 1632 sebagai makam peristirahatan raja-raja Jawa.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 10 / 50</div>
+      <div class="q-text">Situs bekas ibu kota Kerajaan Majapahit dengan ribuan peninggalan batu bata merah kuno terletak di daerah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Trowulan, Mojokerto ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Kotagede, Yogyakarta 
+          </div><div class="option-item ">
+            <strong>C.</strong> Tuban 
+          </div><div class="option-item ">
+            <strong>D.</strong> Singosari, Malang 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Trowulan, Mojokerto</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Trowulan diyakini kuat sebagai pusat kota metropolitan Kerajaan Majapahit abad ke-13 hingga 15 Masehi.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 11 / 50</div>
+      <div class="q-text">Motif batik legendaris Yogyakarta yang bermotif lidah ombak miring dan hanya boleh dikenakan oleh raja serta bangsawan kraton adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Batik Kawung 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Batik Parang Rusak ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Batik Truntum 
+          </div><div class="option-item ">
+            <strong>D.</strong> Batik Sekar Jagad 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Batik Parang Rusak</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Batik Parang Rusak diciptakan oleh Sultan Agung, melambangkan ombak samudera yang tak pernah padam dan semangat pantang menyerah.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 12 / 50</div>
+      <div class="q-text">Motif batik khas pesisir Cirebon yang menampilkan gradasi awan melayang nan teduh dan dipengaruhi budaya Tionghoa adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Batik Sidomukti 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Batik Mega Mendung ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Batik Lasem 
+          </div><div class="option-item ">
+            <strong>D.</strong> Batik Madura 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Batik Mega Mendung</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Mega Mendung melambangkan dunia atas yang membawa hujan pembawa berkah serta kesabaran dalam menahan amarah.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 13 / 50</div>
+      <div class="q-text">Motif batik tertua berupa empat bulatan lonjong menyerupai irisan buah kolang-kaling yang melambangkan kemurnian hati adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Batik Kawung ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Batik Tambal 
+          </div><div class="option-item ">
+            <strong>C.</strong> Batik Nitik 
+          </div><div class="option-item ">
+            <strong>D.</strong> Batik Cuwiri 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Batik Kawung</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Batik Kawung bermakna empat arah mata angin yang bersumber pada satu titik pusat kebijaksanaan hati.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 14 / 50</div>
+      <div class="q-text">Motif batik bertabur bintang-bintang kecil di malam hari yang diciptakan Kanjeng Ratu Kencana sebagai simbol cinta yang tulus bersemi kembali adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Batik Parang 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Batik Truntum ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Batik Sogan 
+          </div><div class="option-item ">
+            <strong>D.</strong> Batik Pekalongan 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Batik Truntum</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Truntum berasal dari kata 'taruntum' (tumbuh kembali), melambangkan cinta kasih orang tua yang menuntun mempelai.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 15 / 50</div>
+      <div class="q-text">Warna khas batik klasik pedalaman Solo dan Yogyakarta yang berwarna cokelat kemerahan alami dari kulit pohon soga dinamakan?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Batik Pesisiran 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Batik Sogan ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Batik Kelengan 
+          </div><div class="option-item ">
+            <strong>D.</strong> Batik Tiga Negeri 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Batik Sogan</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Batik Sogan bernuansa cokelat hangat melambangkan kerendahan hati manusia yang berasal dari tanah.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 16 / 50</div>
+      <div class="q-text">Alat tradisional berbentuk corong tembaga kecil bertangkai bambu yang digunakan untuk melukiskan lilin malam pada kain batik adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Cap 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Canting ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Wajan 
+          </div><div class="option-item ">
+            <strong>D.</strong> Gawangan 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Canting</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Canting digunakan pembatik tulis untuk menorehkan cairan malam panas dengan presisi tinggi.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 17 / 50</div>
+      <div class="q-text">Kota di pesisir utara Jawa Tengah yang terkenal dengan julukan 'Kota Batik' berkat ragam motif flora fauna berwarna-warni cerah adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Semarang 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Pekalongan ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Kudus 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tegal 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Pekalongan</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Pekalongan diakui oleh UNESCO sebagai bagian dari Jaringan Kota Kreatif Dunia kategori Kriya dan Seni Rakyat.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 18 / 50</div>
+      <div class="q-text">Batik pesisir Lasem di Rembang sangat terkenal dengan perpaduan motif Jawa dan Tionghoa dengan warna merah menyala yang disebut?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Merah Mengkudu 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Merah Getih Pitik (Darah Ayam) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Merah Saga 
+          </div><div class="option-item ">
+            <strong>D.</strong> Merah Kesumba 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Merah Getih Pitik (Darah Ayam)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Batik Lasem melambangkan akulturasi damai masyarakat Jawa dan Tionghoa sejak berabad-abad silam.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 19 / 50</div>
+      <div class="q-text">Batik khas Madura terkenal dengan karakteristik visual yang sangat unik yaitu?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Warna lembut pastel 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Warna menyala berani (merah, kuning, biru) dengan serat tegas ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Selalu berwarna hitam putih 
+          </div><div class="option-item ">
+            <strong>D.</strong> Hanya bermotif geometris 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Warna menyala berani (merah, kuning, biru) dengan serat tegas</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Batik Madura mencerminkan karakter masyarakat pesisir yang tegas, dinamis, berani, dan hangat.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 20 / 50</div>
+      <div class="q-text">Proses merontokkan lilin malam dari kain batik setelah dicelup pewarna dengan cara direbus dalam air mendidih dinamakan?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Nyanting 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Nglorod ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Medel 
+          </div><div class="option-item ">
+            <strong>D.</strong> Nembok 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Nglorod</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Nglorod adalah tahap akhir pembuatan batik di mana lilin malam luruh sehingga motif asli terlihat jelas.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 21 / 50</div>
+      <div class="q-text">Kesenian teater rakyat legendaris Jawa Timur yang menampilkan penari berkepala Singa Barong bermahkota bulu merak seberat 50 kg adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Kuda Lumping 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Reog Ponorogo ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Ketoprak 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tari Gambyong 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Reog Ponorogo</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Reog Ponorogo menceritakan kisah Prabu Klono Sewandono dan Singo Barong yang perkasa.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 22 / 50</div>
+      <div class="q-text">Alat musik bambu bernada pentatonik dan diatonik asal Jawa Barat yang dimainkan dengan cara digoyangkan adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Calung 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Angklung ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Suling Sunda 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kacapi 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Angklung</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Angklung ditetapkan UNESCO sebagai Karya Agung Warisan Budaya Lisan dan Nonbendawi Manusia pada tahun 2010.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 23 / 50</div>
+      <div class="q-text">Ansambel musik tradisional Jawa yang terdiri dari bonang, saron, kendang, gong, dan kenong dinamakan?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Gamelan ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Tanjidor 
+          </div><div class="option-item ">
+            <strong>C.</strong> Kolintang 
+          </div><div class="option-item ">
+            <strong>D.</strong> Talempong 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Gamelan</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Gamelan Jawa memiliki laras slendro dan pelog yang menghasilkan harmoni nada damai dan menenangkan jiwa.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 24 / 50</div>
+      <div class="q-text">Kesenian wayang yang menggunakan boneka kulit kerbau bertangkai tanduk dengan dalang sebagai narator di balik kelir kain putih adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Wayang Golek 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Wayang Kulit Purwa ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Wayang Orang 
+          </div><div class="option-item ">
+            <strong>D.</strong> Wayang Beber 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Wayang Kulit Purwa</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Wayang Kulit diakui UNESCO sebagai warisan budaya adiluhung yang sarat petuah moral dan filosofi hidup.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 25 / 50</div>
+      <div class="q-text">Kesenian wayang boneka kayu khas Sunda Jawa Barat yang kerap membawakan tokoh jenaka Si Cepot dan Dawala adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Wayang Kulit 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Wayang Golek ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Wayang Klitik 
+          </div><div class="option-item ">
+            <strong>D.</strong> Wayang Potehi 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Wayang Golek</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Wayang Golek menonjolkan gerak boneka kayu yang ekspresif dipandu kelincahan dalang dan kendang Sunda.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 26 / 50</div>
+      <div class="q-text">Tarian klasik keraton Surakarta yang ditarikan oleh sembilan gadis anggun dalam suasana hening dan sakral adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Tari Gambyong 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Tari Bedhaya Ketawang ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Tari Jaipong 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tari Serimpi 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Tari Bedhaya Ketawang</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Bedhaya Ketawang adalah tarian sakral penobatan raja yang sarat simbol perjumpaan kosmis manusia dengan pencipta.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 27 / 50</div>
+      <div class="q-text">Tarian kreasi modern asal Jawa Barat karya Gugum Gumbira yang menggabungkan unsur pencak silat, ketuk tilu, dan gerak lincah adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Tari Topeng 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Tari Jaipongan ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Tari Merak 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tari Ronggeng 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Tari Jaipongan</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tari Jaipongan terkenal dengan ritme kendang energik dan gerakan tubuh yang ceria dan penuh semangat.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 28 / 50</div>
+      <div class="q-text">Tari selamat datang di Jawa Tengah yang ditarikan untuk menyambut tamu agung dengan gerakan luwes dan anggun adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Tari Gandrung 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Tari Gambyong ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Tari Piring 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tari Pendet 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Tari Gambyong</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tari Gambyong berakar dari tarian rakyat penolak bala dan ungkapan syukur atas panen raya padi yang melimpah.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 29 / 50</div>
+      <div class="q-text">Lagu daerah Jawa Tengah yang sangat populer diciptakan oleh Sunan Kalijaga untuk mengajak anak-anak bersyukur dan menjaga alam adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Cublak-Cublak Suweng 
+          </div><div class="option-item ">
+            <strong>B.</strong> Gundhul-Gundhul Pacul 
+          </div><div class="option-item correct">
+            <strong>C.</strong> Lir-Ilir ✔️
+          </div><div class="option-item ">
+            <strong>D.</strong> Padhang Wulan 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [C] Lir-Ilir</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Lir-Ilir berpesan agar manusia bangkit membenahi diri selagi masih ada kesempatan sebelum usia berakhir.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 30 / 50</div>
+      <div class="q-text">Tari tradisional khas Banyuwangi yang menjadi lambang pesona ujung timur Pulau Jawa adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Tari Gandrung Banyuwangi ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Tari Remo 
+          </div><div class="option-item ">
+            <strong>C.</strong> Tari Jaran Kepang 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tari Kethek Ogleng 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Tari Gandrung Banyuwangi</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tari Gandrung merupakan bentuk penghormatan kepada Dewi Sri sebagai dewi kemakmuran dan kesuburan.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 31 / 50</div>
+      <div class="q-text">Senjata pusaka berbilah tajam berkelok (luk) dengan pamor meteorit yang diakui UNESCO sebagai warisan budaya takbenda dunia adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Kujang 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Keris Jawa ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Badik 
+          </div><div class="option-item ">
+            <strong>D.</strong> Mandau 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Keris Jawa</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Keris bukan sekadar senjata, melainkan karya seni spiritual perlambang jati diri, doa, dan status ksatria Jawa.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 32 / 50</div>
+      <div class="q-text">Senjata tradisional khas masyarakat Sunda Jawa Barat yang memiliki bentuk lengkung unik menyerupai pulau Jawa adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Golok Ciomas 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Kujang ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Pedang Jenawi 
+          </div><div class="option-item ">
+            <strong>D.</strong> Keris 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Kujang</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Kujang adalah simbol keberanian, kedaulatan, dan spiritualitas masyarakat Tatar Pasundan peninggalan Prabu Siliwangi.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 33 / 50</div>
+      <div class="q-text">Filosofi hidup masyarakat Jawa 'Memayu Hayuning Bawana' memiliki arti luhur yaitu?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Mencari kekayaan sebanyak-banyaknya 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Memperindah dan menjaga keselamatan alam semesta ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Menaklukkan suku lain 
+          </div><div class="option-item ">
+            <strong>D.</strong> Hidup bersenang-senang 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Memperindah dan menjaga keselamatan alam semesta</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Memayu Hayuning Bawana mengajarkan kewajiban manusia menjaga keharmonisan bumi, sesama, dan sang Pencipta.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 34 / 50</div>
+      <div class="q-text">Ungkapan bahasa Jawa 'Aja Dumeh' mengandung nasihat moral agar manusia tidak bersikap?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Rendah hati 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Sombong atau merasa paling berkuasa ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Hemat 
+          </div><div class="option-item ">
+            <strong>D.</strong> Rajin bekerja 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Sombong atau merasa paling berkuasa</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Aja Dumeh mengingatkan bahwa kekuasaan, kepandaian, dan kekayaan hanyalah titipan sementara.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 35 / 50</div>
+      <div class="q-text">Tutup kepala tradisional pria Jawa yang terbuat dari lipatan kain batik dengan bulatan mondolan di bagian belakang disebut?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Udeng 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Blangkon ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Tanjak 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kupiah 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Blangkon</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Mondolan pada blangkon bermakna menjaga rahasia orang lain dan menahan hawa nafsu pribadi.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 36 / 50</div>
+      <div class="q-text">Pakaian adat resmi pria Jawa berupa jas tutup berkerah tegak tanpa kancing terbuka yang dipadukan kain jarik dinamakan?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Baju Surjan 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Beskap ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Teluk Belanga 
+          </div><div class="option-item ">
+            <strong>D.</strong> Baju Bodo 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Beskap</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Beskap dikenakan pada upacara pernikahan dan adat resmi keraton sebagai simbol wibawa dan kesopanan.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 37 / 50</div>
+      <div class="q-text">Baju tradisional pria khas Jawa dengan motif lurik garis-garis sederhana yang diciptakan oleh Sunan Kalijaga adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Baju Kurung 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Baju Surjan Lurik ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Baju Safari 
+          </div><div class="option-item ">
+            <strong>D.</strong> Baju Kampret 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Baju Surjan Lurik</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Surjan berasal dari kata 'siro janan' (jadilah pelita), mengajarkan kesederhanaan dan ketakwaan.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 38 / 50</div>
+      <div class="q-text">Senjata tajam khas Madura yang memiliki bilah melengkung menyerupai bulan sabit dan melambangkan harga diri adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Celurit (Arit) ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Keris 
+          </div><div class="option-item ">
+            <strong>C.</strong> Belati 
+          </div><div class="option-item ">
+            <strong>D.</strong> Pisau Raut 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Celurit (Arit)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Celurit merupakan senjata legendaris Madura yang berakar dari alat pertanian dan simbol pembela kehormatan.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 39 / 50</div>
+      <div class="q-text">Upacara adat Jawa untuk merayakan dan mendoakan bayi yang pertama kali menginjakkan kaki ke tanah pada usia 7 bulan dinamakan?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Mitoni 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Tedak Siten ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Brokohan 
+          </div><div class="option-item ">
+            <strong>D.</strong> Ruwatan 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Tedak Siten</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tedak Siten melambangkan bimbingan orang tua agar sang anak menapaki kehidupan dengan mandiri dan berbudi pekerti.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 40 / 50</div>
+      <div class="q-text">Tradisi upacara selamatan pada usia kehamilan tujuh bulan di masyarakat Jawa untuk memohon keselamatan bayi disebut?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Tingkeban (Mitoni) ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Sekaten 
+          </div><div class="option-item ">
+            <strong>C.</strong> Grebeg Maulud 
+          </div><div class="option-item ">
+            <strong>D.</strong> Sedekah Laut 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Tingkeban (Mitoni)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tingkeban diisi dengan siraman tujuh mata air kembang setaman dan pemotongan tumpeng berkah.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 41 / 50</div>
+      <div class="q-text">Makanan khas Yogyakarta berbahan nangka muda yang dimasak berjam-jam dengan santan dan gula aren hingga kecokelatan adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Rawon 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Gudeg ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Tongseng 
+          </div><div class="option-item ">
+            <strong>D.</strong> Brongkos 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Gudeg</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Gudeg disajikan bersama areh santan kental, krecek pedas, telur bacem, dan ayam kampung gurih.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 42 / 50</div>
+      <div class="q-text">Sup daging sapi khas Jawa Timur yang memiliki kuah hitam pekat alami dari buah kluwek adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Soto Kudus 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Rawon ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Gulai Daging 
+          </div><div class="option-item ">
+            <strong>D.</strong> Empal Gentong 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Rawon</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Rawon dinobatkan sebagai salah satu sup terenak di dunia oleh TasteAtlas berkat kelezatan bumbu kluweknya.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 43 / 50</div>
+      <div class="q-text">Satwa langka bercula satu yang dilindungi dan hanya tersisa di Taman Nasional Ujung Kulon, Banten adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Gajah Sumatera 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Badak Jawa (Rhinoceros sondaicus) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Banteng Jawa 
+          </div><div class="option-item ">
+            <strong>D.</strong> Macan Tutul 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Badak Jawa (Rhinoceros sondaicus)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Badak Jawa adalah mamalia terlangka di dunia yang dilindungi secara ketat di habitat aslinya di Ujung Kulon.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 44 / 50</div>
+      <div class="q-text">Burung elang endemik Pulau Jawa yang memiliki jambul khas dan menjadi inspirasi lambang negara Garuda Pancasila adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Elang Bondol 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Elang Jawa (Nisaetus bartelsi) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Burung Maleo 
+          </div><div class="option-item ">
+            <strong>D.</strong> Burung Jalak Bali 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Elang Jawa (Nisaetus bartelsi)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Elang Jawa memiliki mahkota jambul runcing dan bulu dada keemasan mirip gambaran Garuda.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 45 / 50</div>
+      <div class="q-text">Kue tradisional khas Betawi berbahan tepung ketan, gula merah, dan santan yang diaduk tanpa henti di wajan besar adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Bika Ambon 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Dodol Betawi ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Kue Cucur 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kerak Telor 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Dodol Betawi</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Pembuatan Dodol Betawi membutuhkan gotong royong dan kesabaran tinggi hingga matang sempurna.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 46 / 50</div>
+      <div class="q-text">Kuliner khas Cirebon berupa olahan daging sapi gurih yang dimasak dalam periuk tanah liat dengan kuah santan bumbu rempah adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Empal Gentong ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Tahu Gejrot 
+          </div><div class="option-item ">
+            <strong>C.</strong> Nasi Lengko 
+          </div><div class="option-item ">
+            <strong>D.</strong> Nasi Jamblang 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Empal Gentong</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Empal Gentong dimasak menggunakan kayu bakar pohon mangga yang memberi aroma khas menggugah selera.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 47 / 50</div>
+      <div class="q-text">Minuman jamu tradisional khas Jawa berbahan kunyit dan asam jawa yang bermanfaat menyegarkan tubuh adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Beras Kencur 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Kunyit Asam ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Wedang Jahe 
+          </div><div class="option-item ">
+            <strong>D.</strong> Bajigur 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Kunyit Asam</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Kunyit Asam kaya antioksidan dan menjadi ramuan jamu warisan nenek moyang sejak zaman Majapahit.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 48 / 50</div>
+      <div class="q-text">Perayaan tahunan Pasar Malam Sekaten di Yogyakarta dan Solo diadakan untuk memperingati hari kelahiran Nabi Muhammad SAW dengan membunyikan?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Angklung 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Gamelan Sekati (Kanjeng Kyai Gunturmadu) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Bedug Raksasa 
+          </div><div class="option-item ">
+            <strong>D.</strong> Gong Perdamaian 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Gamelan Sekati (Kanjeng Kyai Gunturmadu)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Sekaten berasal dari kata 'Syahadatain', sarana penyebaran Islam oleh para Wali Songo melalui alunan gamelan.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 49 / 50</div>
+      <div class="q-text">Bunga endemik langka yang tumbuh di Kebun Raya Purwodadi dan Gunung Slamet Jawa Tengah dengan aroma khas malam hari adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Melati Putih 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Bunga Wijayakusuma ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Kantong Semar 
+          </div><div class="option-item ">
+            <strong>D.</strong> Bunga Rafflesia 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Bunga Wijayakusuma</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Wijayakusuma dianggap bunga mistis lambang kejayaan raja-raja keraton Jawa yang mekar hanya di tengah malam.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 50 / 50</div>
+      <div class="q-text">Tradisi arak-arakan tumpeng hasil bumi raksasa yang dibagikan dan diperebutkan masyarakat saat upacara Grebeg Kraton disebut?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Gunungan Hasil Bumi ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Sesaji Laut 
+          </div><div class="option-item ">
+            <strong>C.</strong> Kenduri 
+          </div><div class="option-item ">
+            <strong>D.</strong> Labuhan 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Gunungan Hasil Bumi</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Gunungan Grebeg melambangkan sedekah raja kepada rakyatnya dan doa keselamatan bagi seluruh negeri.
+      </div>
+    </div>
+  
+
+  <div class="section-heading">🖼️ MISI 2: TEBAK VISUAL / ARTEFAK &amp; LANDMARK (5 SOAL)</div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Visual 1 / 5</div>
+      <div class="q-text">Perhatikan motif batik legendaris Yogyakarta & Solo yang bermakna ombak karang laut pantang menyerah ini:</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Batik Parang ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Batik Kawung 
+          </div><div class="option-item ">
+            <strong>C.</strong> Batik Truntum 
+          </div><div class="option-item ">
+            <strong>D.</strong> Batik Sekar Jagad 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Batik Parang</strong><br>
+        <strong>📚 Pembahasan:</strong> Tepat! Motif Parang berbentuk huruf 'S' miring menyerupai ombak samudra yang tak pernah berhenti bergerak.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Visual 2 / 5</div>
+      <div class="q-text">Motif batik khas pesisir Cirebon dengan gradasi warna awan melayang nan teduh ini bernama?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Batik Mega Mendung ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Batik Tiga Negeri 
+          </div><div class="option-item ">
+            <strong>C.</strong> Batik Parang 
+          </div><div class="option-item ">
+            <strong>D.</strong> Batik Lasem 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Batik Mega Mendung</strong><br>
+        <strong>📚 Pembahasan:</strong> Benar! Mega Mendung melambangkan dunia atas yang membawa kesuburan, ketenangan, dan kesejukan jiwa.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Visual 3 / 5</div>
+      <div class="q-text">Rumah adat khas Jawa dengan atap menjulang berbentuk piramida (Tajug) dan pilar penyangga Saka Guru adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Rumah Joglo ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Rumah Limas 
+          </div><div class="option-item ">
+            <strong>C.</strong> Rumah Gadang 
+          </div><div class="option-item ">
+            <strong>D.</strong> Rumah Tongkonan 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Rumah Joglo</strong><br>
+        <strong>📚 Pembahasan:</strong> Hebat! Rumah Joglo memiliki filosofi keterbukaan melalui pendopo depan dan ketenangan sakral di bagian dalem.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Visual 4 / 5</div>
+      <div class="q-text">Kompleks candi Hindu terindah di Asia Tenggara yang menjulang tinggi megah di perbatasan Yogya & Klaten ini adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Candi Prambanan ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Candi Borobudur 
+          </div><div class="option-item ">
+            <strong>C.</strong> Candi Sukuh 
+          </div><div class="option-item ">
+            <strong>D.</strong> Candi Cetho 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Candi Prambanan</strong><br>
+        <strong>📚 Pembahasan:</strong> Tepat sekali! Candi Prambanan dipersembahkan untuk Trimurti (Siwa, Wisnu, Brahma) dengan legenda Rara Jonggrang.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Visual 5 / 5</div>
+      <div class="q-text">Simbol alam semesta, pohon hayat, dan pembuka/penutup babak dalam pertunjukan Wayang Kulit Jawa adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Gunungan (Kayon) ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Kelir Wayang 
+          </div><div class="option-item ">
+            <strong>C.</strong> Kotak Wayang 
+          </div><div class="option-item ">
+            <strong>D.</strong> Blencong 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Gunungan (Kayon)</strong><br>
+        <strong>📚 Pembahasan:</strong> Sempurna! Gunungan atau Kayon melambangkan mikrokosmos dan makrokosmos kehidupan manusia dengan alam semesta.
+      </div>
+    </div>
+  
+
+  <div class="section-heading">🎯 MISI 3: TANTANGAN TAP-MATCHING (PASANGAN BUDAYA)</div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">🟢 Tahap Easy (3 Pasangan)</div>
+      <div class="q-text">Pasangkan Kuliner Legendaris Jawa dengan Kota Asalnya!</div>
+      <table class="matching-table">
+        <thead>
+          <tr>
+            <th style="width: 45%;">Elemen Budaya / Tradisi</th>
+            <th style="width: 10%; text-align: center;">➔</th>
+            <th style="width: 45%;">Pasangan Wilayah / Makna Tepat</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+            <tr>
+              <td><strong>Gudeg Nangka Manis</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Yogyakarta</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Rawon Daging Kluwek</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Surabaya</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Lumpia Rebung Renyah</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Semarang</strong></td>
+            </tr>
+          
+        </tbody>
+      </table>
+      <div class="key-box">
+        <strong>💡 Catatan Edukatif:</strong> Mantap! Kamu hafal betul kuliner ikonik kota-kota besar di Pulau Jawa!
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">🟡 Tahap Normal (4 Pasangan)</div>
+      <div class="q-text">Pasangkan Senjata Tradisional & Benda Adat dengan Daerahnya!</div>
+      <table class="matching-table">
+        <thead>
+          <tr>
+            <th style="width: 45%;">Elemen Budaya / Tradisi</th>
+            <th style="width: 10%; text-align: center;">➔</th>
+            <th style="width: 45%;">Pasangan Wilayah / Makna Tepat</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+            <tr>
+              <td><strong>Senjata Kujang</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Jawa Barat (Sunda)</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Keris Berlekuk Pamor</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Jawa Tengah & DIY</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Senjata Celurit</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Madura / Jatim</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Kendang Jaipong</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Jawa Barat</strong></td>
+            </tr>
+          
+        </tbody>
+      </table>
+      <div class="key-box">
+        <strong>💡 Catatan Edukatif:</strong> Keren! Pengetahuanmu tentang pusaka dan instrumen tradisional Jawa sangat mantap!
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">🔴 Tahap Hard (5 Pasangan)</div>
+      <div class="q-text">Tantangan Ksatria: Pasangkan Tarian Tradisional dengan Daerah Asalnya!</div>
+      <table class="matching-table">
+        <thead>
+          <tr>
+            <th style="width: 45%;">Elemen Budaya / Tradisi</th>
+            <th style="width: 10%; text-align: center;">➔</th>
+            <th style="width: 45%;">Pasangan Wilayah / Makna Tepat</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+            <tr>
+              <td><strong>Tari Jaipong Dinamis</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Karawang / Jabar</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Tari Bedhaya Ketawang Sakral</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Keraton Surakarta</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Tari Topeng Klana</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Cirebon</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Tari Remo Gagah</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Jombang / Jatim</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Tari Gandrung Memikat</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Banyuwangi</strong></td>
+            </tr>
+          
+        </tbody>
+      </table>
+      <div class="key-box">
+        <strong>💡 Catatan Edukatif:</strong> Luar biasa! Kamu berhasil menaklukkan tantangan tersulit kebudayaan tari Pulau Jawa!
+      </div>
+    </div>
+  
+
+</body>
+</html>
+  

@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Panduan & Daftar Tools Pembuatan Game - Petualangan Sahabat Nusantara</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 18mm 16mm 20mm 16mm;
+      @bottom-right {
+        content: counter(page);
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 9pt;
+        color: #78350f;
+      }
+    }
+    
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 10pt;
+      line-height: 1.6;
+      color: #1e293b;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+    }
+    
+    .cover-page {
+      page-break-after: always;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 88vh;
+      text-align: center;
+      border: 5px double #b45309;
+      border-radius: 18px;
+      padding: 40px 30px;
+      background: linear-gradient(180deg, #fffbeb 0%, #ffffff 100%);
+      box-sizing: border-box;
+    }
+    
+    .cover-badge {
+      display: inline-block;
+      background: #b45309;
+      color: #ffffff;
+      padding: 6px 18px;
+      border-radius: 20px;
+      font-size: 11pt;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 25px;
+    }
+    
+    .cover-title {
+      font-family: 'Segoe UI', 'Trebuchet MS', sans-serif;
+      font-size: 26pt;
+      font-weight: 900;
+      color: #78350f;
+      margin: 10px 0;
+      line-height: 1.2;
+    }
+    
+    .cover-subtitle {
+      font-size: 14pt;
+      font-weight: 600;
+      color: #92400e;
+      margin-bottom: 30px;
+    }
+    
+    .cover-desc {
+      font-size: 11pt;
+      color: #475569;
+      max-width: 580px;
+      margin: 0 auto 40px auto;
+      line-height: 1.6;
+    }
+    
+    .tool-highlight-box {
+      background: #fef3c7;
+      border: 1px solid #fde68a;
+      border-radius: 12px;
+      padding: 18px 24px;
+      max-width: 550px;
+      margin: 0 auto;
+      text-align: left;
+      font-size: 10pt;
+    }
+    
+    .tool-highlight-box ul {
+      margin: 8px 0 0 0;
+      padding-left: 20px;
+    }
+    
+    .cover-meta {
+      font-size: 9.5pt;
+      color: #64748b;
+      margin-top: 40px;
+    }
+    
+    .section-title {
+      font-family: 'Segoe UI', 'Trebuchet MS', sans-serif;
+      font-size: 15pt;
+      font-weight: 800;
+      color: #78350f;
+      border-bottom: 2px solid #fde68a;
+      padding-bottom: 4px;
+      margin: 28px 0 14px 0;
+      page-break-after: avoid;
+    }
+    
+    .tool-card {
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin-bottom: 14px;
+      background: #f8fafc;
+      page-break-inside: avoid;
+    }
+    
+    .tool-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    
+    .tool-name {
+      font-size: 11pt;
+      font-weight: 700;
+      color: #0f172a;
+    }
+    
+    .tool-tag {
+      background: #e0f2fe;
+      color: #0369a1;
+      font-size: 8pt;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 12px;
+      border: 1px solid #bae6fd;
+    }
+    
+    .tool-desc {
+      font-size: 9.5pt;
+      color: #334155;
+      margin-bottom: 8px;
+    }
+    
+    pre {
+      background: #0f172a;
+      color: #f8fafc;
+      padding: 10px 14px;
+      border-radius: 8px;
+      font-family: 'Consolas', 'Courier New', monospace;
+      font-size: 8.5pt;
+      overflow-x: auto;
+      margin: 8px 0;
+      line-height: 1.4;
+    }
+    
+    code {
+      font-family: 'Consolas', 'Courier New', monospace;
+      background: #f1f5f9;
+      color: #b45309;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 8.5pt;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 9.5pt;
+      page-break-inside: avoid;
+    }
+    
+    th, td {
+      border: 1px solid #cbd5e1;
+      padding: 8px 12px;
+      text-align: left;
+    }
+    
+    th {
+      background: #fef3c7;
+      color: #78350f;
+      font-weight: 700;
+    }
+    
+    tr:nth-child(even) {
+      background: #f8fafc;
+    }
+    
+    .page-break {
+      page-break-before: always;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- COVER PAGE -->
+  <div class="cover-page">
+    <div class="cover-badge">Dokumentasi Teknis & Peralatan</div>
+    <div class="cover-title">PANDUAN & DAFTAR TOOLS<br>PEMBUATAN GAME</div>
+    <div class="cover-subtitle">Proyek: Petualangan Sahabat Nusantara (PWA Web Game)</div>
+    <div class="cover-desc">
+      Panduan praktis, komprehensif, dan langsung pada intinya mengenai seluruh perangkat lunak (tools), 
+      teknologi frontend, audio synthesizer prosedural, Progressive Web App (PWA), 
+      serta pengujian otomatis yang digunakan untuk merekayasa game dari nol hingga tahap rilis.
+    </div>
+    
+    <div class="tool-highlight-box">
+      <strong style="color: #78350f;">Ringkasan Kunci Teknologi (Zero-Dependency Stack):</strong>
+      <ul>
+        <li><strong>Frontend:</strong> HTML5 Semantic + CSS3 Modular (Dynamic Viewport 100dvh)</li>
+        <li><strong>Logic & State:</strong> Vanilla JavaScript ES6+ (Router Layar Asli)</li>
+        <li><strong>Audio Engine:</strong> Web Audio API (Sintesis Suara Tanpa File MP3)</li>
+        <li><strong>PWA & Offline:</strong> Service Worker v2 (Network-First Cache) + Web Manifest</li>
+        <li><strong>QA Testing:</strong> Microsoft Edge Chromium Headless + Chrome DevTools Protocol</li>
+        <li><strong>Hosting & CI/CD:</strong> GitHub Pages & Git Version Control</li>
+      </ul>
+    </div>
+    
+    <div class="cover-meta">
+      <strong>Pengembang:</strong> majidatp &middot; <strong>Rilis Versi:</strong> 2.2 PWA &middot; <strong>Tahun:</strong> 2026<br>
+      Repositori: github.com/majidatp/game &middot; URL Live: majidatp.github.io/game/
+    </div>
+  </div>
+
+  <!-- ISI DOKUMEN -->
+  <div class="page-break">
+    <div class="section-title">1. ARSITEKTUR & PENDEKATAN "VANILLA STACK"</div>
+    <p>
+      Game <em>Petualangan Sahabat Nusantara</em> dirancang dengan prinsip <strong>Vanilla Web Stack Modern</strong>, 
+      yaitu membangun aplikasi web interaktif tanpa bergantung pada framework berat pihak ketiga (seperti React, Angular, Vue, atau engine game WebGL seperti Unity/Phaser yang menghasilkan bundle 20MB - 50MB).
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Kriteria Performa</th>
+          <th>Engine Konvensional (Unity / Heavy Framework)</th>
+          <th>Pendekatan Sahabat Nusantara (Vanilla PWA)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Ukuran Total Bundle</strong></td>
+          <td>25 MB &ndash; 60 MB (berat untuk kuota seluler)</td>
+          <td><strong>&lt; 6 MB</strong> (termasuk seluruh aset gambar resolusi tinggi)</td>
+        </tr>
+        <tr>
+          <td><strong>Kecepatan Muat (LCP)</strong></td>
+          <td>5 &ndash; 15 detik (perlu splash screen lama)</td>
+          <td><strong>&lt; 0.8 detik</strong> (instan dibuka di smartphone)</td>
+        </tr>
+        <tr>
+          <td><strong>Kebutuhan RAM Perangkat</strong></td>
+          <td>&gt; 2 GB RAM (sering lag di HP entry-level)</td>
+          <td><strong>&lt; 150 MB RAM</strong> (berjalan mulus di ponsel murah sekalipun)</td>
+        </tr>
+        <tr>
+          <td><strong>Aksesibilitas Offline</strong></td>
+          <td>Memerlukan konfigurasi kompleks IndexedDB</td>
+          <td><strong>100% Offline Otomatis</strong> via Service Worker v2</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section-title">2. DAFTAR PERANGKAT LUNAK & LINGKUNGAN PENGEMBANGAN</div>
+  
+  <div class="tool-card">
+    <div class="tool-card-header">
+      <span class="tool-name">1. Visual Studio Code &amp; Antigravity Studio</span>
+      <span class="tool-tag">Code Editor / IDE</span>
+    </div>
+    <div class="tool-desc">
+      Editor kode utama untuk menyunting HTML, CSS, JavaScript, dan Markdown secara terstruktur.
+      Dilengkapi ekstensi <em>Live Server</em> untuk live preview dan <em>GitLens</em> untuk pelacakan versi baris demi baris.
+    </div>
+  </div>
+
+  <div class="tool-card">
+    <div class="tool-card-header">
+      <span class="tool-name">2. Node.js (LTS v20+ / v24.x) &amp; Native HTTP Server</span>
+      <span class="tool-tag">Local Runtime &amp; Server</span>
+    </div>
+    <div class="tool-desc">
+      Menjalankan server web pengujian lokal menggunakan file <code>server.js</code> yang dibuat murni dengan modul bawaan Node.js (<code>http</code>, <code>fs</code>, <code>path</code>) tanpa perlu menginstal dependensi npm pihak ketiga.
+    </div>
+    <pre><code>// Perintah menjalankan server lokal:
+node server.js
+// Berjalan di port: http://localhost:3000</code></pre>
+  </div>
+
+  <div class="tool-card">
+    <div class="tool-card-header">
+      <span class="tool-name">3. Git CLI &amp; GitHub Pages</span>
+      <span class="tool-tag">Version Control &amp; Cloud Hosting</span>
+    </div>
+    <div class="tool-desc">
+      Git digunakan untuk versioning kode terdistribusi. GitHub Pages bertindak sebagai CDN hosting statis global gratis dengan sertifikat keamanan SSL/HTTPS otomatis (wajib untuk Service Worker PWA).
+    </div>
+  </div>
+
+  <div class="section-title">3. TEKNOLOGI INTI FRONTEND &amp; FILE STRUKTUR</div>
+  
+  <div class="tool-card">
+    <div class="tool-card-header">
+      <span class="tool-name">HTML5 Semantic &amp; State Router Layar</span>
+      <span class="tool-tag">Frontend Markup</span>
+    </div>
+    <div class="tool-desc">
+      File <code>index.html</code> menyusun game ke dalam 6 layar modular (Title Screen, Map Screen, Island Hub Dialog, Quiz Screen, Jukebox Modal, Profile Modal). Setiap layar diaktifkan atau dinonaktifkan secara instan oleh state router di <code>js/app.js</code> melalui manipulasi class <code>.active</code>.
+    </div>
+  </div>
+
+  <div class="tool-card">
+    <div class="tool-card-header">
+      <span class="tool-name">CSS3 Modular &amp; Dynamic Viewport (100dvh)</span>
+      <span class="tool-tag">Styling &amp; Responsiveness</span>
+    </div>
+    <div class="tool-desc">
+      Terbagi atas <code>css/main.css</code>, <code>css/components.css</code>, dan <code>css/animations.css</code>. Menggunakan unit <code>100dvh</code> (Dynamic Viewport Height) untuk mengatasi bilah address bar browser ponsel yang sering memotong layar. Dilengkapi media query ketat untuk mode <strong>Mobile Landscape</strong> (tinggi layar 300px - 320px).
+    </div>
+  </div>
+
+  <div class="tool-card">
+    <div class="tool-card-header">
+      <span class="tool-name">Basis Data Budaya Terstruktur (JSON)</span>
+      <span class="tool-tag">Database</span>
+    </div>
+    <div class="tool-desc">
+      File <code>js/game-data.js</code> memuat 402 butir data budaya terstruktur (300 soal pilihan ganda, 30 soal tebak gambar, dan 18 level tap-matching) yang mencakup 6 zona budaya di seluruh 38 provinsi Indonesia.
+    </div>
+  </div>
+
+  <div class="page-break">
+    <div class="section-title">4. AUDIO ENGINE: SINTESIS SUARA PROSEDURAL (WEB AUDIO API)</div>
+    <p>
+      Salah satu inovasi paling menonjol pada game ini adalah ketiadaan file MP3 eksternal. Semua audio (efek tombol, suara benar/salah, hingga 6 instrumen musik daerah) disintesis secara dinamis via kode matematika gelombang menggunakan <strong>Web Audio API</strong> di file <code>js/audio-synth.js</code>.
+    </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nama Instrumen Musik Nusantara</th>
+          <th>Prinsip Sintesis Web Audio API</th>
+          <th>Ciri Khas Akustik Budaya</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Gamelan Degung Jawa</strong></td>
+          <td>Oscillator sine + triangle dengan decay cepat &amp; detune logam</td>
+          <td>Dentang bilah perunggu gamelan khas keraton Jawa &amp; Sunda</td>
+        </tr>
+        <tr>
+          <td><strong>Angklung Bambu Sunda</strong></td>
+          <td>Tremolo cepat (12Hz) memodulasi gain gelombang triangle</td>
+          <td>Suara getaran tabung bambu yang digoyangkan serentak</td>
+        </tr>
+        <tr>
+          <td><strong>Sasando Petik Rote (NTT)</strong></td>
+          <td>Arpeggio nada tinggi frekuensi 520Hz &ndash; 1040Hz jernih</td>
+          <td>Dentingan senar dawai petik khas Pulau Rote</td>
+        </tr>
+        <tr>
+          <td><strong>Kolintang Minahasa (Sulawesi)</strong></td>
+          <td>Gelombang sine rendah dengan resonansi kayu hangat</td>
+          <td>Pukulan bilah kayu melodi khas tanah Minahasa</td>
+        </tr>
+        <tr>
+          <td><strong>Rampak Tari Saman (Aceh)</strong></td>
+          <td>Ketukan ritmis akseleratif dengan filter frekuensi dinamis</td>
+          <td>Tepukan dada dan paha berenergi tinggi khas Gayo</td>
+        </tr>
+        <tr>
+          <td><strong>Poco-Poco Maluku</strong></td>
+          <td>Square bassline berulang dengan irama dansa riang</td>
+          <td>Musik dansa tradisional Maluku yang membangkitkan semangat</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section-title">5. PROGRESSIVE WEB APP (PWA) &amp; SERVICE WORKER V2</div>
+  
+  <div class="tool-card">
+    <div class="tool-card-header">
+      <span class="tool-name">Web App Manifest (manifest.json)</span>
+      <span class="tool-tag">PWA Configuration</span>
+    </div>
+    <div class="tool-desc">
+      Mengatur game agar dapat diinstal ke layar beranda smartphone (*Add to Home Screen*), mengunci orientasi ke landscape (<code>"orientation": "landscape"</code>), menjalankan mode fullscreen tanpa bilah browser (<code>"display": "fullscreen"</code>), dan menetapkan warna tema emas Nusantara (<code>"theme_color": "#b45309"</code>).
+    </div>
+  </div>
+
+  <div class="tool-card">
+    <div class="tool-card-header">
+      <span class="tool-name">Service Worker v2 (sw.js)</span>
+      <span class="tool-tag">Offline &amp; Caching</span>
+    </div>
+    <div class="tool-desc">
+      Menerapkan strategi <strong>Network-First</strong>: selalu mengambil file terbaru saat terhubung ke internet, lalu menyimpannya ke cache <code>sahabat-nusantara-v2</code>. Jika koneksi terputus, game langsung disajikan dari cache lokal sehingga dapat dimainkan 100% tanpa internet.
+    </div>
+  </div>
+
+  <div class="section-title">6. TOOLS PENGUJIAN OTOMATIS (QA &amp; CROSS-DEVICE TESTING)</div>
+  
+  <div class="tool-card">
+    <div class="tool-card-header">
+      <span class="tool-name">Microsoft Edge Headless via Chrome DevTools Protocol (CDP)</span>
+      <span class="tool-tag">Automated Testing</span>
+    </div>
+    <div class="tool-desc">
+      Skrip <code>scratch/verify_all_mobile_and_desktop.js</code> menjalankan browser Edge dalam mode headless tanpa GUI untuk menguji:
+      <ul>
+        <li><strong>Layar Desktop (1280x720):</strong> Memverifikasi tampilan tombol karakter pil lebar tetap aktif dan overlay putar layar tersembunyi total.</li>
+        <li><strong>Layar Mobile Landscape (800x320):</strong> Menguji fungsi tombol panah karakter <code>[ ◀ ]</code> dan <code>[ ▶ ]</code>, memastikan seluruh 4 tombol menu kanan terlihat (tidak terpotong), serta mengecek ketiga kartu misi di Jawa Hub tampil utuh.</li>
+        <li><strong>Layar Kuis &amp; Tebak Gambar:</strong> Memverifikasi foto candi terskala proporsional (&le; 65px) dan 4 opsi jawaban terlihat lengkap.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-title">7. CARA MENJALANKAN PROYEK DI KOMPUTER LOKAL</div>
+  <pre><code># 1. Kloning kode proyek dari GitHub:
+git clone https://github.com/majidatp/game.git
+
+# 2. Masuk ke folder proyek:
+cd game
+
+# 3. Jalankan server lokal:
+node server.js
+
+# 4. Buka di browser favorit Anda:
+http://localhost:3000</code></pre>
+
+</body>
+</html>

@@ -1,0 +1,1452 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Bank Soal Zona 2: Sumatera - Petualangan Sahabat Nusantara</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 18mm 16mm 20mm 16mm;
+      @bottom-right {
+        content: counter(page);
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 9pt;
+        color: #78350f;
+      }
+    }
+    
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 10pt;
+      line-height: 1.5;
+      color: #1e293b;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+    }
+    
+    .cover-page {
+      page-break-after: always;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 85vh;
+      text-align: center;
+      border: 5px double #b45309;
+      border-radius: 18px;
+      padding: 40px 30px;
+      background: linear-gradient(180deg, #fffbeb 0%, #ffffff 100%);
+      box-sizing: border-box;
+    }
+    
+    .cover-badge {
+      display: inline-block;
+      background: #b45309;
+      color: #ffffff;
+      padding: 6px 18px;
+      border-radius: 20px;
+      font-size: 10.5pt;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    
+    .cover-title {
+      font-family: 'Segoe UI', 'Trebuchet MS', sans-serif;
+      font-size: 24pt;
+      font-weight: 900;
+      color: #78350f;
+      margin: 8px 0;
+      line-height: 1.2;
+    }
+    
+    .cover-subtitle {
+      font-size: 13pt;
+      font-weight: 600;
+      color: #92400e;
+      margin-bottom: 25px;
+    }
+    
+    .zone-box {
+      background: #fef3c7;
+      border: 1px solid #fde68a;
+      border-radius: 12px;
+      padding: 16px 20px;
+      max-width: 500px;
+      margin: 0 auto 30px auto;
+      text-align: left;
+      font-size: 9.5pt;
+    }
+    
+    .zone-box ul {
+      margin: 6px 0 0 0;
+      padding-left: 18px;
+    }
+    
+    .cover-meta {
+      font-size: 9pt;
+      color: #64748b;
+      margin-top: 25px;
+    }
+    
+    .section-heading {
+      font-family: 'Segoe UI', 'Trebuchet MS', sans-serif;
+      font-size: 13pt;
+      font-weight: 800;
+      color: #78350f;
+      border-bottom: 2px solid #fde68a;
+      padding-bottom: 4px;
+      margin: 24px 0 14px 0;
+    }
+    
+    .question-card {
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 12px 16px;
+      margin-bottom: 12px;
+      background: #f8fafc;
+    }
+    
+    .q-number-badge {
+      display: inline-block;
+      background: #b45309;
+      color: #fff;
+      font-size: 8pt;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 12px;
+      margin-bottom: 6px;
+    }
+    
+    .q-text {
+      font-size: 10pt;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 8px;
+    }
+    
+    .options-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 8px;
+    }
+    
+    .option-item {
+      flex: 1 1 45%;
+      padding: 5px 10px;
+      border-radius: 6px;
+      font-size: 9pt;
+      border: 1px solid #cbd5e1;
+      background: #ffffff;
+      box-sizing: border-box;
+    }
+    
+    .option-item.correct {
+      border-color: #16a34a;
+      background: #f0fdf4;
+      color: #15803d;
+      font-weight: 700;
+    }
+    
+    .key-box {
+      background: #ecfdf5;
+      border-left: 4px solid #10b981;
+      padding: 6px 10px;
+      border-radius: 4px;
+      font-size: 8.5pt;
+      color: #065f46;
+      margin-top: 6px;
+    }
+    
+    .matching-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 8px 0 12px 0;
+      font-size: 9pt;
+      background: #fff;
+    }
+    
+    .matching-table th, .matching-table td {
+      border: 1px solid #cbd5e1;
+      padding: 6px 10px;
+      text-align: left;
+    }
+    
+    .matching-table th {
+      background: #f1f5f9;
+      color: #334155;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- COVER PAGE -->
+  <div class="cover-page">
+    <div class="cover-badge">Kompilasi Soal Resmi &middot; Zona 2</div>
+    <div class="cover-title">BANK SOAL &amp; KUNCI JAWABAN<br>ZONA 2: SUMATERA</div>
+    <div class="cover-subtitle">"Bumi Sriwijaya, Jam Gadang, & Ranah Minang"</div>
+    
+    <div class="zone-box">
+      <strong style="color: #78350f;">Identitas Kebudayaan Wilayah:</strong>
+      <ul>
+        <li><strong>Tokoh Penjaga Adat:</strong> Penjaga Budaya Sumatera</li>
+        <li><strong>Salam Khas:</strong> <em>"Salamaik tibo! Selamat datang di Pulau Emas Sumatera. Dari tanah Rencong Aceh, Danau Toba, hingga kemegahan Songket Minang & Sriwijaya!"</em></li>
+        <li><strong>Pusaka Adat yang Dicari:</strong> 🧣 Kain Songket Emas Minang</li>
+        <li><strong>Lencana Wilayah:</strong> 🏅 Pelindung Ranah Andalas (Memahami keindahan arsitektur Rumah Gadang, keperkasaan rencong, dan tarian tradisional Sumatera.)</li>
+        <li><strong>Jumlah Soal:</strong> 50 Soal Pilihan Ganda + 5 Tebak Visual + 3 Level Matching</li>
+      </ul>
+    </div>
+    
+    <div class="cover-meta">
+      Game: <strong>Petualangan Sahabat Nusantara</strong> (PWA v2.2)<br>
+      Pengembang: majidatp &middot; URL: majidatp.github.io/game/
+    </div>
+  </div>
+
+  <div class="section-heading">📝 MISI 1: SOAL PILIHAN GANDA (50 SOAL)</div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 1 / 50</div>
+      <div class="q-text">Rumah adat khas Minangkabau dengan atap melengkung runcing menyerupai tanduk kerbau (Gonjong) adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Rumah Bolon 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Rumah Gadang ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Rumah Limas 
+          </div><div class="option-item ">
+            <strong>D.</strong> Rumah Panggung 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Rumah Gadang</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Rumah Gadang melambangkan kemenangan adu kerbau leluhur Minang dan keharmonisan hidup bersaudara.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 2 / 50</div>
+      <div class="q-text">Kain tenunan mewah khas Palembang dan Minangkabau yang ditenun dengan benang emas berkilau dijuluki sebagai?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Ratu Kain Tenun (Songket) ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Kain Ulos 
+          </div><div class="option-item ">
+            <strong>C.</strong> Kain Sasirangan 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kain Tapis 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Ratu Kain Tenun (Songket)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Kain Songket ditenun dengan teknik rumit menggunakan benang emas murni peninggalan Kerajaan Sriwijaya.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 3 / 50</div>
+      <div class="q-text">Senjata pusaka berbilah tajam khas Serambi Mekkah Aceh dengan bentuk pangkal melengkung menyerupai huruf arab Ba/Bismillah adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Keris 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Rencong ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Badik 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kujang 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Rencong</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Rencong adalah lambang keberanian, kehormatan, dan keteguhan jihad masyarakat Aceh.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 4 / 50</div>
+      <div class="q-text">Kain tenun tradisional masyarakat Batak yang menjadi simbol berkah, kehangatan, dan restu kehidupan dinamakan?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Kain Ulos ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Kain Endek 
+          </div><div class="option-item ">
+            <strong>C.</strong> Kain Poleng 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kain Gringsing 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Kain Ulos</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Ulos diberikan dalam upacara adat 'Mangulosi' sebagai wujud doa restu, cinta kasih, dan kehangatan.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 5 / 50</div>
+      <div class="q-text">Menara jam raksasa peninggalan sejarah Belanda yang menjadi ikon utama kota Bukittinggi, Sumatera Barat adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Monas 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Jam Gadang ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Tugu Khatulistiwa 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tugu Monpera 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Jam Gadang</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Jam Gadang memiliki mesin mekanik langka yang hanya ada dua di dunia (satu lagi di Big Ben London).
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 6 / 50</div>
+      <div class="q-text">Tarian seribu tangan asal Gayo Aceh yang menuntut kekompakan tepukan dada dan tangan dalam kecepatan tinggi adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Tari Piring 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Tari Saman ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Tari Tor-tor 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tari Seudati 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Tari Saman</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tari Saman diakui UNESCO sebagai Warisan Budaya Takbenda Dunia berkat keharmonisan gerak dan pesan dakwahnya.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 7 / 50</div>
+      <div class="q-text">Tarian tradisional Minangkabau di mana penari mengayunkan piring porselen di kedua telapak tangan lalu menginjak pecahan kaca adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Tari Payung 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Tari Piring ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Tari Pasambahan 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tari Lilin 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Tari Piring</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tari Piring melambangkan rasa syukur para petani atas panen melimpah dan kekebalan hati dari godaan.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 8 / 50</div>
+      <div class="q-text">Tarian persembahan masyarakat Batak yang diiringi tabuhan ansambel Gondang Sabangunan dengan gerak tangan menyembah adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Tari Tor-tor ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Tari Sigale-gale 
+          </div><div class="option-item ">
+            <strong>C.</strong> Tari Balumpa 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tari Serampang Dua Belas 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Tari Tor-tor</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tari Tor-tor ditarikan dengan penuh hormat untuk menyapa roh leluhur dan menghormati para tetua adat.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 9 / 50</div>
+      <div class="q-text">Tradisi adu ketangkasan fisik pemuda Nias melompati tumpukan batu setinggi lebih dari 2 meter disebut?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Pacu Jawi 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Hombo Batu (Lompat Batu) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Tabuik 
+          </div><div class="option-item ">
+            <strong>D.</strong> Karapan Sapi 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Hombo Batu (Lompat Batu)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Hombo Batu melambangkan kedewasaan, ketangkasan ksatria, dan keberanian membela kampung halaman.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 10 / 50</div>
+      <div class="q-text">Tradisi balapan sepasang sapi di sawah berlumpur basah yang diadakan masyarakat Tanah Datar, Sumatera Barat adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Pacu Jawi ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Pacu Jalur 
+          </div><div class="option-item ">
+            <strong>C.</strong> Karapan Sapi 
+          </div><div class="option-item ">
+            <strong>D.</strong> Makepung 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Pacu Jawi</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Pacu Jawi digelar setelah panen padi untuk menjalin silaturahmi dan menilai ketangkasan sapi ternak.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 11 / 50</div>
+      <div class="q-text">Perlombaan dayung perahu kayu panjang berhias kepala naga yang menampung hingga 60 pendayung di Sungai Kuantan Riau adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Pacu Jawi 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Pacu Jalur ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Perahu Bidar 
+          </div><div class="option-item ">
+            <strong>D.</strong> Lomba Pinisi 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Pacu Jalur</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Pacu Jalur adalah pesta rakyat akbar di Teluk Kuantan yang merayakan kekompakan dan semangat bahari.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 12 / 50</div>
+      <div class="q-text">Kerajaan maritim Buddha terbesar di Nusantara abad ke-7 hingga ke-11 yang berpusat di Palembang dan Jambi adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Kerajaan Sriwijaya ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Kerajaan Majapahit 
+          </div><div class="option-item ">
+            <strong>C.</strong> Kerajaan Samudera Pasai 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kerajaan Melayu 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Kerajaan Sriwijaya</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Sriwijaya menguasai jalur perdagangan Selat Malaka dan menjadi pusat studi agama Buddha internasional.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 13 / 50</div>
+      <div class="q-text">Kerajaan Islam pertama di Indonesia yang terletak di Lhokseumawe, Aceh pada abad ke-13 adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Kesultanan Malaka 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Kesultanan Samudera Pasai ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Kesultanan Aceh Darussalam 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kesultanan Deli 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Kesultanan Samudera Pasai</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Samudera Pasai didirikan oleh Marah Silu (Sultan Malik As-Saleh) dan menerbitkan mata uang emas Deureuham.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 14 / 50</div>
+      <div class="q-text">Kompleks percandian bata merah peninggalan Kerajaan Sriwijaya dan Melayu Kuno terluas di Asia Tenggara terletak di?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Candi Borobudur 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Candi Muaro Jambi ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Candi Bahal 
+          </div><div class="option-item ">
+            <strong>D.</strong> Candi Muara Takus 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Candi Muaro Jambi</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Kawasan Percandian Muaro Jambi membentang sepanjang 12 kilometer di tepian Sungai Batanghari.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 15 / 50</div>
+      <div class="q-text">Istana megah berwarna kuning cerah di Kota Medan perpaduan arsitektur Melayu, Islam, Spanyol, dan Italia adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Istana Siak 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Istana Maimun ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Istana Pagaruyung 
+          </div><div class="option-item ">
+            <strong>D.</strong> Istana Asahan 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Istana Maimun</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Istana Maimun dibangun oleh Sultan Ma'mun Al Rasyid Perkasa Alamsyah pada tahun 1888.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 16 / 50</div>
+      <div class="q-text">Danau vulkanik terbesar di dunia yang terbentuk akibat letusan supervolcano 74.000 tahun lalu di Sumatera Utara adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Danau Maninjau 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Danau Toba ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Danau Singkarak 
+          </div><div class="option-item ">
+            <strong>D.</strong> Danau Ranau 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Danau Toba</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Danau Toba memiliki Pulau Samosir di tengahnya dan ditetapkan sebagai UNESCO Global Geopark.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 17 / 50</div>
+      <div class="q-text">Masjid megah berkubah hitam di Banda Aceh yang tetap kokoh berdiri saat diterjang tsunami dahsyat tahun 2004 adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Masjid Raya Medan 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Masjid Raya Baiturrahman ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Masjid Agung Palembang 
+          </div><div class="option-item ">
+            <strong>D.</strong> Masjid Tuo Kayu Jao 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Masjid Raya Baiturrahman</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Masjid Baiturrahman dibangun sejak era Sultan Iskandar Muda dan menjadi simbol keteguhan iman rakyat Aceh.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 18 / 50</div>
+      <div class="q-text">Olahan daging sapi khas Minangkabau yang dimasak perlahan dengan santan dan aneka rempah hingga kering kehitaman adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Gulai Tunjang 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Rendang (Randang) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Dendeng Balado 
+          </div><div class="option-item ">
+            <strong>D.</strong> Soto Padang 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Rendang (Randang)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Rendang dinobatkan sebagai salah satu hidangan terlezat di dunia berkat ketahanan awet dan cita rasa rempahnya.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 19 / 50</div>
+      <div class="q-text">Makanan khas Palembang berbahan olahan daging ikan tenggiri dan sagu yang disajikan bersama kuah cuko pedas asam manis adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Tekwan 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Pempek ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Model 
+          </div><div class="option-item ">
+            <strong>D.</strong> Laksan 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Pempek</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Pempek memiliki berbagai varian seperti Kapal Selam (berisi telur utuh), Lenjer, Kulit, dan Keriting.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 20 / 50</div>
+      <div class="q-text">Tumbuhan parasit langka dengan bunga raksasa berdiameter mencapai 1 meter yang ditemukan di hutan Bengkulu adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Bunga Bangkai (Amorphophallus) 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Rafflesia arnoldii ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Kantong Semar 
+          </div><div class="option-item ">
+            <strong>D.</strong> Anggrek Hitam 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Rafflesia arnoldii</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Rafflesia arnoldii adalah bunga terbesar di dunia yang ditemukan oleh Thomas Stamford Raffles dan Dr. Joseph Arnold.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 21 / 50</div>
+      <div class="q-text">Subspesies harimau terakhir di Indonesia yang dilindungi ketat di hutan pegunungan Bukit Barisan adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Harimau Jawa 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Harimau Sumatera (Panthera tigris sumatrae) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Harimau Bali 
+          </div><div class="option-item ">
+            <strong>D.</strong> Macan Dahan 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Harimau Sumatera (Panthera tigris sumatrae)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Harimau Sumatera memiliki bulu loreng lebih gelap dan rapat untuk kamuflase di lebatnya hutan hujan tropis.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 22 / 50</div>
+      <div class="q-text">Pusat konservasi dan sekolah pelatihan gajah jinak terbesar di Indonesia terletak di Taman Nasional?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Kerinci Seblat 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Way Kambas (Lampung) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Gunung Leuser 
+          </div><div class="option-item ">
+            <strong>D.</strong> Bukit Tigapuluh 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Way Kambas (Lampung)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Taman Nasional Way Kambas menjadi suaka perlindungan gajah Sumatera dan badak Sumatera.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 23 / 50</div>
+      <div class="q-text">Buku sastra epik terpanjang di dunia melebihi Mahabharata asal suku Bugis dan Melayu yang menceritakan asal-usul manusia adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Negarakertagama 
+          </div><div class="option-item correct">
+            <strong>B.</strong> I La Galigo ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Hikayat Hang Tuah 
+          </div><div class="option-item ">
+            <strong>D.</strong> Gurindam Dua Belas 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] I La Galigo</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> I La Galigo diakui UNESCO Memory of the World sebagai mahakarya sastra lisan warisan Nusantara.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 24 / 50</div>
+      <div class="q-text">Karya sastra puisi Melayu berisi nasihat agama dan budi pekerti karya Raja Ali Haji dari Pulau Penyengat Kepulauan Riau adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Syair Perahu 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Gurindam Dua Belas ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Babad Tanah Jawi 
+          </div><div class="option-item ">
+            <strong>D.</strong> Serat Centhini 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Gurindam Dua Belas</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Gurindam Dua Belas memuat petuah bijak tentang tata cara pergaulan, pemerintahan, dan ketakwaan.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 25 / 50</div>
+      <div class="q-text">Senjata genggam tradisional Minangkabau berbentuk melengkung kecil mirip cakar harimau yang mematikan dalam pencak silat adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Keris 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Kurambiak (Karambit) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Rencong 
+          </div><div class="option-item ">
+            <strong>D.</strong> Badik 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Kurambiak (Karambit)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Karambit dirancang terinspirasi dari cakar harimau Sumatera dan kini dipelajari militer di berbagai belahan dunia.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 26 / 50</div>
+      <div class="q-text">Upacara peringatan Asyura di Pariaman Sumatera Barat yang ditandai dengan melarung menara peti berornamen indah ke laut adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Sedekah Laut 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Upacara Tabuik ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Pacu Jawi 
+          </div><div class="option-item ">
+            <strong>D.</strong> Grebeg Maulud 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Upacara Tabuik</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tabuik menampilkan patung Burak berkepala manusia bersayap yang diarak menuju Pantai Gandoriah.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 27 / 50</div>
+      <div class="q-text">Sistem kekerabatan masyarakat Minangkabau yang menarik garis keturunan dari pihak ibu disebut?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Patrilineal 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Matrilineal ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Bilateral 
+          </div><div class="option-item ">
+            <strong>D.</strong> Parental 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Matrilineal</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Minangkabau merupakan masyarakat penganut sistem kekerabatan matrilineal terbesar di dunia.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 28 / 50</div>
+      <div class="q-text">Gelar kehormatan adat yang diberikan kepada perempuan tertua penjaga harta pusaka dalam kaum Minangkabau adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Datuk 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Bundo Kanduang ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Penghulu 
+          </div><div class="option-item ">
+            <strong>D.</strong> Mamak 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Bundo Kanduang</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Bundo Kanduang adalah perlambang kehormatan, kebijaksanaan, dan pemegang kunci lumbung pangan keluarga.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 29 / 50</div>
+      <div class="q-text">Alat musik tiup tradisional Minangkabau berbahan bambu talang tipis dengan 4 lubang nada yang ditiup miring adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Seruling 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Saluang ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Talempong 
+          </div><div class="option-item ">
+            <strong>D.</strong> Pupuik 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Saluang</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Peniup Saluang mahir memainkan teknik pernapasan memutar (circular breathing) tanpa henti.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 30 / 50</div>
+      <div class="q-text">Alat musik perkusi kuningan atau perunggu khas Minangkabau berbentuk gong kecil berpencon di tengah adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Bonang 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Talempong ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Kolintang 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kenong 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Talempong</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Talempong dimainkan berpacu ritmis dalam upacara perkawinan dan penyambutan tamu agung.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 31 / 50</div>
+      <div class="q-text">Tutup kepala adat wanita Minangkabau berbentuk runcing menyerupai tanduk kerbau pada busana Baju Kurung Basiba disebut?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Suntiang 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Tikuluak Tanduak ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Tanjak 
+          </div><div class="option-item ">
+            <strong>D.</strong> Mahkota 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Tikuluak Tanduak</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tikuluak melambangkan kepemimpinan kaum ibu yang melindungi anak kemenakan dari mara bahaya.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 32 / 50</div>
+      <div class="q-text">Hiasan mahkota emas bertingkat mewah yang dikenakan pengantin wanita Minangkabau dengan juntaian keemasan dinamakan?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Suntiang ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Tikuluak 
+          </div><div class="option-item ">
+            <strong>C.</strong> Blangkon 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tajuk 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Suntiang</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Suntiang pengantin Minang memiliki 7 hingga 11 tingkat yang melambangkan beratnya tanggung jawab berumah tangga.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 33 / 50</div>
+      <div class="q-text">Kue bika berserat kenyal kuning berongga harum pandan dan serai yang menjadi oleh-oleh khas Kota Medan adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Bika Padang 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Bika Ambon ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Kue lapis 
+          </div><div class="option-item ">
+            <strong>D.</strong> Bolu Gulung 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Bika Ambon</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Dinamakan Bika Ambon karena pertama kali diproduksi dan populer di Jalan Ambon, Sei Kera, Medan.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 34 / 50</div>
+      <div class="q-text">Kopi dataran tinggi di Aceh yang sangat terkenal di pasar internasional dengan aroma rempah earthy yang kaya adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Kopi Toraja 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Kopi Gayo ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Kopi Kintamani 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kopi Bajawa 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Kopi Gayo</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Kopi Arabika Gayo ditanam di atas ketinggian 1.200 meter di sekitar Danau Laut Tawar Aceh Tengah.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 35 / 50</div>
+      <div class="q-text">Seni bela diri asli Indonesia yang berkembang pesat di Minangkabau dengan berbagai aliran seperti Silek Harimau dan Silek Tuo adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Karate 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Pencak Silat (Silek) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Taekwondo 
+          </div><div class="option-item ">
+            <strong>D.</strong> Judo 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Pencak Silat (Silek)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Silek Minang mengajarkan 'Lahir mencari kawan, batin mencari Tuhan' sebagai pedoman ksatria.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 36 / 50</div>
+      <div class="q-text">Tradisi merantau bagi pemuda Minangkabau untuk menuntut ilmu, berdagang, dan mencari pengalaman hidup disebut?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Marharoan Bolon 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Merantau ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Mangokal Holi 
+          </div><div class="option-item ">
+            <strong>D.</strong> Upacara Tiwah 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Merantau</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Merantau membentuk karakter mandiri, tangguh, dan kepedulian membangun kampung halaman saat kembali.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 37 / 50</div>
+      <div class="q-text">Boneka kayu raksasa suku Batak yang dapat menari sendiri dalam upacara kematian mengiringi kesedihan keluarga adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Si Gale-gale ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Si Cepot 
+          </div><div class="option-item ">
+            <strong>C.</strong> Ondel-ondel 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tau-tau 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Si Gale-gale</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Patung Si Gale-gale digerakkan menggunakan sistem tali tersembunyi dengan ritme tabuhan Gondang.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 38 / 50</div>
+      <div class="q-text">Pahlawan wanita pemberani asal Aceh yang memimpin perlawanan gerilya melawan penjajah Belanda di pedalaman Meulaboh adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> R.A. Kartini 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Cut Nyak Dien ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Dewi Sartika 
+          </div><div class="option-item ">
+            <strong>D.</strong> Martha Christina Tiahahu 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Cut Nyak Dien</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Cut Nyak Dien terus memimpin pasukan di hutan rimba meski telah lanjut usia dan rabun mata.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 39 / 50</div>
+      <div class="q-text">Pahlawan nasional pemimpin Perang Padri (1821-1837) di Sumatera Barat yang wajahnya tertera di uang kertas Rp5.000 adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Pangeran Diponegoro 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Tuanku Imam Bonjol ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Teuku Umar 
+          </div><div class="option-item ">
+            <strong>D.</strong> Sultan Hasanuddin 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Tuanku Imam Bonjol</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tuanku Imam Bonjol memperjuangkan persatuan kaum adat dan kaum ulama Minang melawan penjajah.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 40 / 50</div>
+      <div class="q-text">Raja dan pahlawan ksatria dari Tanah Batak yang berjuang hingga titik darah penghabisan mempertahankan Danau Toba adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Sultan Iskandar Muda 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Sisingamangaraja XII ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Sultan Mahmud Badaruddin II 
+          </div><div class="option-item ">
+            <strong>D.</strong> Raja Ali Haji 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Sisingamangaraja XII</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Sisingamangaraja XII gugur pada tahun 1907 sebagai simbol perlawanan rakyat Batak tanpa pernah menyerah.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 41 / 50</div>
+      <div class="q-text">Kue tradisional khas Palembang yang berwarna hijau daun suji berlapis-lapis lembut dengan rasa gurih manis adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Kue Maksuba 
+          </div><div class="option-item ">
+            <strong>B.</strong> Kue Delapan Jam 
+          </div><div class="option-item ">
+            <strong>C.</strong> Kue Srikaya 
+          </div><div class="option-item correct">
+            <strong>D.</strong> Kue Lapis Kojo ✔️
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [D] Kue Lapis Kojo</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Kojo berarti kemboja karena bentuk cetakan loyang tradisionalnya menyerupai bunga kamboja.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 42 / 50</div>
+      <div class="q-text">Mie kuah atau goreng kaya bumbu kari rempah pekat yang disajikan dengan irisan daging sapi atau kepiting khas Aceh adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Mie Celor 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Mie Aceh ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Mie Gomak 
+          </div><div class="option-item ">
+            <strong>D.</strong> Mie Kocok 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Mie Aceh</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Mie Aceh disajikan hangat bersama emping renyah, irisan bawang merah segar, dan acar mentimun.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 43 / 50</div>
+      <div class="q-text">Olahan mie kenyal khas Batak Toba yang sering dijuluki 'Spaghetti Batak' dengan kuah santan bumbu andaliman adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Mie Gomak ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Mie Aceh 
+          </div><div class="option-item ">
+            <strong>C.</strong> Mie Celor 
+          </div><div class="option-item ">
+            <strong>D.</strong> Bihun Bebek 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Mie Gomak</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Dinamakan Mie Gomak karena pada zaman dahulu cara penyajiannya digenggam langsung dengan tangan (gomak).
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 44 / 50</div>
+      <div class="q-text">Bumbu rempah khas Sumatera Utara yang memberikan sensasi getir bergetar di lidah dan aroma sitrus menyegarkan adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Kluwek 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Andaliman (Merica Batak) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Asam Gelugur 
+          </div><div class="option-item ">
+            <strong>D.</strong> Bunga Lawang 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Andaliman (Merica Batak)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Andaliman adalah rempah liar pegunungan Danau Toba yang menjadi bumbu utama hidangan arsik ikan mas.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 45 / 50</div>
+      <div class="q-text">Benteng pertahanan peninggalan bangsa Inggris abad ke-18 yang terletak di tepi pantai Kota Bengkulu adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Fort de Kock 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Fort Marlborough ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Fort Rotterdam 
+          </div><div class="option-item ">
+            <strong>D.</strong> Fort Belgica 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Fort Marlborough</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Fort Marlborough adalah benteng Inggris terkuat kedua di Asia Timur setelah Fort St. George di India.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 46 / 50</div>
+      <div class="q-text">Batu cadas granit raksasa di tepi pantai berpasir putih jernih yang menjadi daya tarik pariwisata Pulau Belitung adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Pantai Tanjung Tinggi ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Pantai Parangtritis 
+          </div><div class="option-item ">
+            <strong>C.</strong> Pantai Kuta 
+          </div><div class="option-item ">
+            <strong>D.</strong> Pantai Losari 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Pantai Tanjung Tinggi</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Pantai Tanjung Tinggi terkenal sebagai lokasi syuting film legendaris Laskar Pelangi.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 47 / 50</div>
+      <div class="q-text">Tari kreasi berpasangan asal Melayu Riau dan Sumatera Barat dengan tempo cepat irama gembira adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Tari Zapin 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Tari Serampang Dua Belas ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Tari Balumpa 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tari Sekapur Sirih 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Tari Serampang Dua Belas</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tari Serampang Dua Belas menggambarkan tahapan perkenalan muda-mudi hingga menuju pelaminan pernikahan.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 48 / 50</div>
+      <div class="q-text">Tarian selamat datang asal Jambi di mana penari menyuguhkan daun sirih dan pinang dalam wadah cerana kuningan adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Tari Piring 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Tari Sekapur Sirih ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Tari Tanggai 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tari Tor-tor 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Tari Sekapur Sirih</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Menyuguhkan sirih melambangkan ketulusan hati masyarakat Melayu menyambut sahabat dan tamu agung.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 49 / 50</div>
+      <div class="q-text">Tutup kepala adat kain songket pria Melayu Riau dan Sumatera yang dilipat anggun berujung runcing disebut?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Blangkon 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Tanjak (Tengkolok) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Udeng 
+          </div><div class="option-item ">
+            <strong>D.</strong> Passapu 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Tanjak (Tengkolok)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tanjak melambangkan kehormatan, wibawa, dan ketajaman akal budi ksatria Melayu.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 50 / 50</div>
+      <div class="q-text">Jembatan megah yang membentang di atas Sungai Musi menghubungkan seberang Ulu dan Ilir di Kota Palembang adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Jembatan Suramadu 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Jembatan Ampera ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Jembatan Barelang 
+          </div><div class="option-item ">
+            <strong>D.</strong> Jembatan Barito 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Jembatan Ampera</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Jembatan Ampera (Amanat Penderitaan Rakyat) dibangun tahun 1962 dan menjadi lambang kejayaan Sumatera Selatan.
+      </div>
+    </div>
+  
+
+  <div class="section-heading">🖼️ MISI 2: TEBAK VISUAL / ARTEFAK &amp; LANDMARK (5 SOAL)</div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Visual 1 / 5</div>
+      <div class="q-text">Rumah adat khas Minangkabau dengan atap runcing melengkung menyerupai tanduk kerbau (Gonjong) ini bernama?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Rumah Gadang ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Rumah Bolon 
+          </div><div class="option-item ">
+            <strong>C.</strong> Rumah Limas 
+          </div><div class="option-item ">
+            <strong>D.</strong> Rumah Melayu 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Rumah Gadang</strong><br>
+        <strong>📚 Pembahasan:</strong> Hebat! Rumah Gadang dibangun tahan gempa dengan pasak kayu tanpa paku besi modern.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Visual 2 / 5</div>
+      <div class="q-text">Kain tenunan mewah asal Minangkabau & Palembang yang ditenun menggunakan benang emas berkilau ini adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Kain Songket Emas ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Kain Ulos 
+          </div><div class="option-item ">
+            <strong>C.</strong> Kain Batik 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kain Tapis 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Kain Songket Emas</strong><br>
+        <strong>📚 Pembahasan:</strong> Tepat! Songket dijuluki Ratu Kain Tenun Nusantara karena kerumitan dan kemewahannya.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Visual 3 / 5</div>
+      <div class="q-text">Senjata pusaka berbilah tajam khas Serambi Mekkah Aceh dengan bentuk huruf arab ini bernama?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Rencong Aceh ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Keris Jawa 
+          </div><div class="option-item ">
+            <strong>C.</strong> Mandau Dayak 
+          </div><div class="option-item ">
+            <strong>D.</strong> Badik Bugis 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Rencong Aceh</strong><br>
+        <strong>📚 Pembahasan:</strong> Sempurna! Rencong senantiasa diselipkan di pinggang depan sebagai perlambang kesiapan membela kebenaran.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Visual 4 / 5</div>
+      <div class="q-text">Wastra tenun tradisional Batak berhias rumbai benang dengan warna dominan merah, hitam, dan putih ini adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Kain Ulos ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Kain Songket 
+          </div><div class="option-item ">
+            <strong>C.</strong> Kain Poleng 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kain Tenun Ikat 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Kain Ulos</strong><br>
+        <strong>📚 Pembahasan:</strong> Benar! Ulos Ragi Hotang sering diberikan kepada pengantin sebagai doa ikatan yang kokoh.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Visual 5 / 5</div>
+      <div class="q-text">Menara jam raksasa peninggalan sejarah yang menjadi ikon kebanggaan kota Bukittinggi, Sumatera Barat adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Jam Gadang ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Monas 
+          </div><div class="option-item ">
+            <strong>C.</strong> Tugu Khatulistiwa 
+          </div><div class="option-item ">
+            <strong>D.</strong> Benteng Kuto Besak 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Jam Gadang</strong><br>
+        <strong>📚 Pembahasan:</strong> Tepat! Jam Gadang memiliki keunikan angka romawi 4 yang ditulis 'IIII' bukan 'IV'.
+      </div>
+    </div>
+  
+
+  <div class="section-heading">🎯 MISI 3: TANTANGAN TAP-MATCHING (PASANGAN BUDAYA)</div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">🟢 Tahap Easy (3 Pasangan)</div>
+      <div class="q-text">Pasangkan Kuliner Khas Sumatera dengan Kota Asalnya!</div>
+      <table class="matching-table">
+        <thead>
+          <tr>
+            <th style="width: 45%;">Elemen Budaya / Tradisi</th>
+            <th style="width: 10%; text-align: center;">➔</th>
+            <th style="width: 45%;">Pasangan Wilayah / Makna Tepat</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+            <tr>
+              <td><strong>Rendang Daging Rempah</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Padang (Sumbar)</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Bika Ambon Harum</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Medan (Sumut)</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Pempek Ikan Cuka</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Palembang (Sumsel)</strong></td>
+            </tr>
+          
+        </tbody>
+      </table>
+      <div class="key-box">
+        <strong>💡 Catatan Edukatif:</strong> Lezat sekali! Kamu hafal kuliner favorit nusantara dari ranah Andalas!
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">🟡 Tahap Normal (4 Pasangan)</div>
+      <div class="q-text">Pasangkan Tarian Adat Sumatera dengan Daerah Asalnya!</div>
+      <table class="matching-table">
+        <thead>
+          <tr>
+            <th style="width: 45%;">Elemen Budaya / Tradisi</th>
+            <th style="width: 10%; text-align: center;">➔</th>
+            <th style="width: 45%;">Pasangan Wilayah / Makna Tepat</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+            <tr>
+              <td><strong>Tari Saman Cepat</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Gayo (Aceh)</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Tari Tor-Tor Khidmat</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Toba (Sumut)</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Tari Piring Akrobatik</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Minangkabau (Sumbar)</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Tari Gending Sriwijaya</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Palembang (Sumsel)</strong></td>
+            </tr>
+          
+        </tbody>
+      </table>
+      <div class="key-box">
+        <strong>💡 Catatan Edukatif:</strong> Bagus sekali! Tarian tradisional Sumatera kaya akan makna sejarah dan keindahan gerak!
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">🔴 Tahap Hard (5 Pasangan)</div>
+      <div class="q-text">Tantangan Arsitektur: Pasangkan Rumah Adat dengan Suku / Provinsinya!</div>
+      <table class="matching-table">
+        <thead>
+          <tr>
+            <th style="width: 45%;">Elemen Budaya / Tradisi</th>
+            <th style="width: 10%; text-align: center;">➔</th>
+            <th style="width: 45%;">Pasangan Wilayah / Makna Tepat</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+            <tr>
+              <td><strong>Rumah Gadang Atap Gonjong</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Suku Minangkabau</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Rumah Bolon Panggung</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Suku Batak Toba</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Rumah Limas Bertingkat</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Sumatera Selatan</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Rumoh Aceh Berkolong</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Provinsi Aceh</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Rumah Selaso Jatuh Kembar</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Melayu Riau</strong></td>
+            </tr>
+          
+        </tbody>
+      </table>
+      <div class="key-box">
+        <strong>💡 Catatan Edukatif:</strong> Istimewa! Kamu berhasil menyelesaikan tantangan arsitektur adat terlengkap di Pulau Sumatera!
+      </div>
+    </div>
+  
+
+</body>
+</html>
+  

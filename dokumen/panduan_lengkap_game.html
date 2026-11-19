@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Buku Panduan & Penjelasan Lengkap Game - Petualangan Sahabat Nusantara</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 18mm 16mm 20mm 16mm;
+      @bottom-right {
+        content: counter(page);
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 9pt;
+        color: #78350f;
+      }
+    }
+    
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 10pt;
+      line-height: 1.6;
+      color: #1e293b;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+    }
+    
+    .cover-page {
+      page-break-after: always;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 88vh;
+      text-align: center;
+      border: 5px double #b45309;
+      border-radius: 18px;
+      padding: 40px 30px;
+      background: linear-gradient(180deg, #fffbeb 0%, #ffffff 100%);
+      box-sizing: border-box;
+    }
+    
+    .cover-badge {
+      display: inline-block;
+      background: #b45309;
+      color: #ffffff;
+      padding: 6px 18px;
+      border-radius: 20px;
+      font-size: 11pt;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 25px;
+    }
+    
+    .cover-title {
+      font-family: 'Segoe UI', 'Trebuchet MS', sans-serif;
+      font-size: 26pt;
+      font-weight: 900;
+      color: #78350f;
+      margin: 10px 0;
+      line-height: 1.2;
+    }
+    
+    .cover-subtitle {
+      font-size: 14pt;
+      font-weight: 600;
+      color: #92400e;
+      margin-bottom: 30px;
+    }
+    
+    .cover-desc {
+      font-size: 11pt;
+      color: #475569;
+      max-width: 580px;
+      margin: 0 auto 35px auto;
+      line-height: 1.6;
+    }
+    
+    .guide-features-box {
+      background: #fef3c7;
+      border: 1px solid #fde68a;
+      border-radius: 12px;
+      padding: 16px 24px;
+      max-width: 540px;
+      margin: 0 auto;
+      text-align: left;
+      font-size: 9.5pt;
+    }
+    
+    .guide-features-box ul {
+      margin: 6px 0 0 0;
+      padding-left: 20px;
+    }
+    
+    .cover-meta {
+      font-size: 9.5pt;
+      color: #64748b;
+      margin-top: 35px;
+    }
+    
+    .section-title {
+      font-family: 'Segoe UI', 'Trebuchet MS', sans-serif;
+      font-size: 15pt;
+      font-weight: 800;
+      color: #78350f;
+      border-bottom: 2px solid #fde68a;
+      padding-bottom: 4px;
+      margin: 28px 0 14px 0;
+      page-break-after: avoid;
+    }
+    
+    .char-card {
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 14px 18px;
+      margin-bottom: 14px;
+      background: #f8fafc;
+      page-break-inside: avoid;
+    }
+    
+    .char-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+    
+    .char-name {
+      font-size: 12pt;
+      font-weight: 800;
+      color: #78350f;
+    }
+    
+    .skill-tag {
+      background: #fef3c7;
+      color: #b45309;
+      border: 1px solid #f59e0b;
+      font-size: 8.5pt;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 14px;
+    }
+    
+    .char-body {
+      font-size: 9.5pt;
+      color: #334155;
+      line-height: 1.5;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 9.5pt;
+      page-break-inside: avoid;
+    }
+    
+    th, td {
+      border: 1px solid #cbd5e1;
+      padding: 8px 12px;
+      text-align: left;
+    }
+    
+    th {
+      background: #fef3c7;
+      color: #78350f;
+      font-weight: 700;
+    }
+    
+    tr:nth-child(even) {
+      background: #f8fafc;
+    }
+    
+    .page-break {
+      page-break-before: always;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- COVER PAGE -->
+  <div class="cover-page">
+    <div class="cover-badge">Buku Panduan Pemain &amp; Lore Budaya</div>
+    <div class="cover-title">BUKU PANDUAN LENGKAP GAME<br>PETUALANGAN SAHABAT NUSANTARA</div>
+    <div class="cover-subtitle">Kuis Edukasi Budaya, Sejarah, Wastra &amp; Pusaka 38 Provinsi Indonesia</div>
+    <div class="cover-desc">
+      Buku panduan resmi yang mengulas tuntas konsep permainan, latar cerita, profil &amp; keahlian 3 karakter penjelajah, 
+      sistem kostum daerah, penjelajahan 6 zona pulau, mekanisme 3 misi berjenjang, timer 60 detik, 
+      gamifikasi gelar budaya, hingga jukebox musik tradisional prosedural.
+    </div>
+    
+    <div class="guide-features-box">
+      <strong style="color: #78350f;">Fitur Unggulan Permainan:</strong>
+      <ul>
+        <li><strong>3 Karakter Unik:</strong> Boni (Refresh Soal), Rara (Eliminasi 50:50), Pendekar (Perisai Kebal).</li>
+        <li><strong>6 Wilayah Budaya:</strong> Jawa, Sumatera, Kalimantan, Sulawesi, Maluku &amp; Papua, Bali &amp; Nusra.</li>
+        <li><strong>3 Misi Berjenjang:</strong> Pilihan Ganda (Trivia), Tebak Visual (Foto Gambar), Tap-Matching.</li>
+        <li><strong>Tantangan Timer:</strong> Batas waktu 60 detik per soal dengan animasi peringatan visual.</li>
+        <li><strong>Jukebox Musik:</strong> 6 Instrumen Musik Tradisional sintesis Web Audio API tanpa MP3.</li>
+        <li><strong>PWA:</strong> Bisa diinstal langsung ke layar HP &amp; dimainkan offline 100%.</li>
+      </ul>
+    </div>
+    
+    <div class="cover-meta">
+      <strong>Pengembang:</strong> majidatp &middot; <strong>Rilis Versi:</strong> 2.2 PWA &middot; <strong>Tahun:</strong> 2026<br>
+      Repositori: github.com/majidatp/game &middot; URL Live: majidatp.github.io/game/
+    </div>
+  </div>
+
+  <!-- ISI BUKU PANDUAN -->
+  <div class="page-break">
+    <div class="section-title">1. SINOPSIS &amp; FILOSOFI PERMAINAN</div>
+    <p>
+      Di tengah gempuran budaya pop global di era modern, game <strong>Petualangan Sahabat Nusantara</strong> lahir sebagai jembatan interaktif untuk memperkenalkan kembali keagungan budaya leluhur Indonesia kepada anak-anak dan generasi muda.
+    </p>
+    <p>
+      Pemain memimpin petualangan <strong>Tiga Sahabat</strong> melintasi kepulauan Nusantara untuk menyelamatkan 6 Pusaka Adat yang hampir terlupakan. Di setiap pulau, pemain akan disambut oleh Tokoh Penjaga Budaya Asli dan ditantang menyelesaikan serangkaian misi kuis pengetahuan adat, kuliner, arsitektur rumah tradisional, hingga musik daerah.
+    </p>
+  </div>
+
+  <div class="section-title">2. PROFIL TIGA SAHABAT PENJELAJAH &amp; KEAHLIAN KHUSUS</div>
+  
+  <div class="char-card">
+    <div class="char-header">
+      <span class="char-name">🧑‍🦱 Boni &ndash; Penjelajah Cilik Berbaju Batik</span>
+      <span class="skill-tag">🧭 Skill: Kompas Penjelajah</span>
+    </div>
+    <div class="char-body">
+      <strong>Deskripsi:</strong> Anak laki-laki pemberani yang mencintai eksplorasi candi dan situs sejarah. Mengenakan kemeja batik parang, celana kargo, dan ransel petualang.<br>
+      <strong>Efek Keahlian:</strong> Mengganti (refresh) soal kuis yang sedang aktif dengan pertanyaan baru dari bank soal tanpa penalti nyawa (dapat dipakai 1x per misi).
+    </div>
+  </div>
+
+  <div class="char-card">
+    <div class="char-header">
+      <span class="char-name">👧 Rara &ndash; Pencinta Budaya Berbunga Kamboja</span>
+      <span class="skill-tag">✨ Skill: Intuisi Budaya (50:50)</span>
+    </div>
+    <div class="char-body">
+      <strong>Deskripsi:</strong> Gadis cerdas dan anggun yang mencintai seni tari dan wastra tenun. Mengenakan kebaya Kartini modern dengan sematan bunga kamboja kuning khas Nusantara.<br>
+      <strong>Efek Keahlian:</strong> Mengeliminasi 2 opsi pilihan salah sekaligus (mekanisme 50:50), menyisakan 1 jawaban benar dan 1 pengecoh (dapat dipakai 1x per misi).
+    </div>
+  </div>
+
+  <div class="char-card">
+    <div class="char-header">
+      <span class="char-name">🥋 Pendekar Cilik &ndash; Penjaga Tradisi Tangguh</span>
+      <span class="skill-tag">🛡️ Skill: Perisai Pusaka</span>
+    </div>
+    <div class="char-body">
+      <strong>Deskripsi:</strong> Pendekar muda tangkas yang menjunjung tinggi ilmu bela diri pencak silat warisan leluhur. Mengenakan busana silat hitam dengan selempang emas dan ikat kepala pendekar.<br>
+      <strong>Efek Keahlian:</strong> Memberikan kekebalan mutlak terhadap 1 kali jawaban salah. Nyawa hati tidak berkurang dan pemain mendapatkan kesempatan kedua untuk menjawab.
+    </div>
+  </div>
+
+  <div class="section-title">3. SISTEM KOSTUM ADAT DAERAH (TAMU KEHORMATAN)</div>
+  <p>
+    Karakter pemain secara dinamis berganti pakaian adat saat mendarat di setiap pulau:
+  </p>
+  <table>
+    <thead>
+      <tr>
+        <th>Wilayah Pulau</th>
+        <th>Busana Karakter Boni</th>
+        <th>Busana Karakter Rara</th>
+        <th>Sambutan Tokoh Adat Setempat</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Jawa</strong></td>
+        <td>Beskap Kraton Batik Parang</td>
+        <td>Kebaya Kartini Sanggul Melati</td>
+        <td><em>"Sugeng rawuh! Mari lestarikan filosofi luhur candi megah &amp; batik keraton."</em></td>
+      </tr>
+      <tr>
+        <td><strong>Sumatera</strong></td>
+        <td>Baju Demang &amp; Ulos Batak</td>
+        <td>Baju Kurung Songket Minang</td>
+        <td><em>"Horas &amp; Salamaik Datang di Tanah Andalas yang sarat keagungan maritim!"</em></td>
+      </tr>
+      <tr>
+        <td><strong>Kalimantan</strong></td>
+        <td>Rompi Dayak Kulit Kayu</td>
+        <td>Busana Ta'a Dayak Mahkota Enggang</td>
+        <td><em>"Adil Ka' Talino! Selamat datang di rimba zamrud khatulistiwa Borneo."</em></td>
+      </tr>
+      <tr>
+        <td><strong>Sulawesi</strong></td>
+        <td>Jas Tutu &amp; Passapu Bugis</td>
+        <td>Baju Bodo Sutra Makassar</td>
+        <td><em>"Tabe'! Selamat tiba di tanah pelaut perkasa Pinisi &amp; adat luhur Toraja."</em></td>
+      </tr>
+      <tr>
+        <td><strong>Maluku &amp; Papua</strong></td>
+        <td>Baniang Maluku &amp; Noken Papua</td>
+        <td>Kain Tenun Asmat Mahkota Cendrawasih</td>
+        <td><em>"Moluccas &amp; Papua menyambutmu! Lindungi kepulauan rempah &amp; tanah mutiara timur."</em></td>
+      </tr>
+      <tr>
+        <td><strong>Bali &amp; Nusra</strong></td>
+        <td>Safari Udeng &amp; Kamen Bali</td>
+        <td>Kebaya Bali Selendang Prada</td>
+        <td><em>"Om Swastiastu! Selamat tiba di Pulau Dewata &amp; tanah eksotis Nusa Tenggara."</em></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="page-break">
+    <div class="section-title">4. TIGA MISI PERMAINAN BERJENJANG</div>
+    <p>
+      Di setiap pulau, pemain harus menuntaskan 3 tantangan misi untuk meraih 3 Bintang Emas penuh:
+    </p>
+    <ul>
+      <li><strong>Misi 1: Pilihan Ganda (Trivia Budaya Luhur):</strong> 5 soal trivia sejarah dan adat yang diacak dari 50 bank soal per pulau.</li>
+      <li><strong>Misi 2: Tebak Visual (Landmark, Wastra &amp; Pusaka):</strong> Mengidentifikasi foto candi, rumah adat, kain tenun, dan senjata tradisional.</li>
+      <li><strong>Misi 3: Tap-Matching (Pasangan Budaya Bertingkat):</strong> Menghubungkan unsur budaya dengan kota/daerah asalnya melalui 3 level bertingkat:
+        <ul>
+          <li><em>Easy:</em> 3 Pasangan kartu budaya (misal: kuliner khas &amp; kota asal).</li>
+          <li><em>Normal:</em> 4 Pasangan kartu seni tari &amp; alat musik.</li>
+          <li><em>Hard:</em> 5 Pasangan senjata adat, rumah adat, &amp; filosofi luhur.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="section-title">5. ATURAN GAME: TIMER 60 DETIK &amp; NYAWA</div>
+  <div class="char-card">
+    <div class="char-header">
+      <span class="char-name">⏳ Batas Waktu 60 Detik (Timer Countdown)</span>
+      <span class="skill-tag">Tantangan Cepat</span>
+    </div>
+    <div class="char-body">
+      Setiap soal kuis dibatasi waktu 1 menit (60 detik). Tampilan lencana timer di bilah atas akan beradaptasi:
+      <ul>
+        <li><strong>&gt; 15 detik:</strong> Berwarna kuning emas tenang.</li>
+        <li><strong>&le; 15 detik:</strong> Berubah oranye (*Warning*).</li>
+        <li><strong>&le; 5 detik:</strong> Berubah merah menyala dan berdenyut kencang (*Danger Pulse*).</li>
+      </ul>
+      Jika waktu habis, nyawa berkurang 1 dan popup edukatif kunci jawaban akan muncul secara otomatis.
+    </div>
+  </div>
+
+  <div class="char-card">
+    <div class="char-header">
+      <span class="char-name">❤️❤️❤️ Sistem 3 Nyawa Hati &amp; Pembahasan Edukatif</span>
+      <span class="skill-tag">Gamifikasi Edukatif</span>
+    </div>
+    <div class="char-body">
+      Pemain memulai setiap misi dengan 3 hati. Kesalahan menjawab atau kehabisan waktu mengurangi 1 hati. Setiap kali soal selesai dijawab, sistem selalu menyajikan <strong>Fakta Sejarah &amp; Filosofi Edukatif</strong> agar pemain belajar secara mendalam, bukan sekadar menebak angka nilai.
+    </div>
+  </div>
+
+  <div class="section-title">6. ENAM GELAR PENJELAJAH BUDAYA</div>
+  <table>
+    <thead>
+      <tr>
+        <th>Gelar Kebudayaan</th>
+        <th>Bintang Syarat</th>
+        <th>Makna Penghargaan</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Penjelajah Baru</strong></td><td>0 Bintang</td><td>Baru memulai ekspedisi budaya Nusantara</td></tr>
+      <tr><td><strong>Sahabat Tradisi</strong></td><td>1 &ndash; 2 Bintang</td><td>Mulai menguasai pengetahuan dasar tradisi</td></tr>
+      <tr><td><strong>Pelindung Wastra</strong></td><td>3 &ndash; 4 Bintang</td><td>Memahami keindahan batik dan tenun Nusantara</td></tr>
+      <tr><td><strong>Penjaga Pusaka</strong></td><td>5 &ndash; 8 Bintang</td><td>Menyelamatkan sebagian besar pusaka kepulauan</td></tr>
+      <tr><td><strong>Ksatria Nusantara</strong></td><td>9 &ndash; 12 Bintang</td><td>Penjelajah tangguh yang melintasi berbagai pulau besar</td></tr>
+      <tr><td><strong>Maha Guru Budaya</strong></td><td>13 &ndash; 18 Bintang</td><td>Pangkat Tertinggi! Menguasai seluruh rahasia budaya 38 provinsi!</td></tr>
+    </tbody>
+  </table>
+
+  <div class="section-title">7. CARA INSTALASI PWA DI SMARTPHONE (OFFLINE READY)</div>
+  <p>
+    Game dapat diinstal di smartphone tanpa perlu Google Play Store atau App Store:
+  </p>
+  <ul>
+    <li><strong>Android (Chrome):</strong> Buka <code>majidatp.github.io/game/</code> &rarr; Tekan menu tiga titik (<strong>⋮</strong>) &rarr; Pilih <em>"Tambahkan ke Layar Utama"</em> atau <em>"Instal Aplikasi"</em>.</li>
+    <li><strong>iOS (Safari):</strong> Buka <code>majidatp.github.io/game/</code> &rarr; Tekan ikon Bagikan (kotak panah atas) &rarr; Pilih <em>"Tambah ke Layar Utama"</em>.</li>
+  </ul>
+</body>
+</html>

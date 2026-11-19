@@ -1,0 +1,1452 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Bank Soal Zona 3: Kalimantan - Petualangan Sahabat Nusantara</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 18mm 16mm 20mm 16mm;
+      @bottom-right {
+        content: counter(page);
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 9pt;
+        color: #78350f;
+      }
+    }
+    
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 10pt;
+      line-height: 1.5;
+      color: #1e293b;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+    }
+    
+    .cover-page {
+      page-break-after: always;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 85vh;
+      text-align: center;
+      border: 5px double #b45309;
+      border-radius: 18px;
+      padding: 40px 30px;
+      background: linear-gradient(180deg, #fffbeb 0%, #ffffff 100%);
+      box-sizing: border-box;
+    }
+    
+    .cover-badge {
+      display: inline-block;
+      background: #b45309;
+      color: #ffffff;
+      padding: 6px 18px;
+      border-radius: 20px;
+      font-size: 10.5pt;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    
+    .cover-title {
+      font-family: 'Segoe UI', 'Trebuchet MS', sans-serif;
+      font-size: 24pt;
+      font-weight: 900;
+      color: #78350f;
+      margin: 8px 0;
+      line-height: 1.2;
+    }
+    
+    .cover-subtitle {
+      font-size: 13pt;
+      font-weight: 600;
+      color: #92400e;
+      margin-bottom: 25px;
+    }
+    
+    .zone-box {
+      background: #fef3c7;
+      border: 1px solid #fde68a;
+      border-radius: 12px;
+      padding: 16px 20px;
+      max-width: 500px;
+      margin: 0 auto 30px auto;
+      text-align: left;
+      font-size: 9.5pt;
+    }
+    
+    .zone-box ul {
+      margin: 6px 0 0 0;
+      padding-left: 18px;
+    }
+    
+    .cover-meta {
+      font-size: 9pt;
+      color: #64748b;
+      margin-top: 25px;
+    }
+    
+    .section-heading {
+      font-family: 'Segoe UI', 'Trebuchet MS', sans-serif;
+      font-size: 13pt;
+      font-weight: 800;
+      color: #78350f;
+      border-bottom: 2px solid #fde68a;
+      padding-bottom: 4px;
+      margin: 24px 0 14px 0;
+    }
+    
+    .question-card {
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 12px 16px;
+      margin-bottom: 12px;
+      background: #f8fafc;
+    }
+    
+    .q-number-badge {
+      display: inline-block;
+      background: #b45309;
+      color: #fff;
+      font-size: 8pt;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 12px;
+      margin-bottom: 6px;
+    }
+    
+    .q-text {
+      font-size: 10pt;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 8px;
+    }
+    
+    .options-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 8px;
+    }
+    
+    .option-item {
+      flex: 1 1 45%;
+      padding: 5px 10px;
+      border-radius: 6px;
+      font-size: 9pt;
+      border: 1px solid #cbd5e1;
+      background: #ffffff;
+      box-sizing: border-box;
+    }
+    
+    .option-item.correct {
+      border-color: #16a34a;
+      background: #f0fdf4;
+      color: #15803d;
+      font-weight: 700;
+    }
+    
+    .key-box {
+      background: #ecfdf5;
+      border-left: 4px solid #10b981;
+      padding: 6px 10px;
+      border-radius: 4px;
+      font-size: 8.5pt;
+      color: #065f46;
+      margin-top: 6px;
+    }
+    
+    .matching-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 8px 0 12px 0;
+      font-size: 9pt;
+      background: #fff;
+    }
+    
+    .matching-table th, .matching-table td {
+      border: 1px solid #cbd5e1;
+      padding: 6px 10px;
+      text-align: left;
+    }
+    
+    .matching-table th {
+      background: #f1f5f9;
+      color: #334155;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- COVER PAGE -->
+  <div class="cover-page">
+    <div class="cover-badge">Kompilasi Soal Resmi &middot; Zona 3</div>
+    <div class="cover-title">BANK SOAL &amp; KUNCI JAWABAN<br>ZONA 3: KALIMANTAN</div>
+    <div class="cover-subtitle">"Jantung Rimba Borneo, Kerajaan Kutai & Sungai Megah"</div>
+    
+    <div class="zone-box">
+      <strong style="color: #78350f;">Identitas Kebudayaan Wilayah:</strong>
+      <ul>
+        <li><strong>Tokoh Penjaga Adat:</strong> Penjaga Budaya Kalimantan</li>
+        <li><strong>Salam Khas:</strong> <em>"Adil Ka' Talino, Bacuramin Ka' Saruga, Basengat Ka' Jubata! Selamat datang di Bumi Borneo, tanah adat suku Dayak dan kemegahan sungai purba!"</em></li>
+        <li><strong>Pusaka Adat yang Dicari:</strong> ⚔️ Mandau Pusaka Dayak</li>
+        <li><strong>Lencana Wilayah:</strong> 🎖️ Ksatria Enggang Borneo (Menguasai rahasia melodi Sape', arsitektur Rumah Betang, dan kelestarian rimba Kalimantan.)</li>
+        <li><strong>Jumlah Soal:</strong> 50 Soal Pilihan Ganda + 5 Tebak Visual + 3 Level Matching</li>
+      </ul>
+    </div>
+    
+    <div class="cover-meta">
+      Game: <strong>Petualangan Sahabat Nusantara</strong> (PWA v2.2)<br>
+      Pengembang: majidatp &middot; URL: majidatp.github.io/game/
+    </div>
+  </div>
+
+  <div class="section-heading">📝 MISI 1: SOAL PILIHAN GANDA (50 SOAL)</div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 1 / 50</div>
+      <div class="q-text">Rumah panggung kayu ulin panjang khas suku Dayak Kalimantan yang dihuni puluhan kepala keluarga secara rukun adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Rumah Betang (Lamin) ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Rumah Gadang 
+          </div><div class="option-item ">
+            <strong>C.</strong> Rumah Tongkonan 
+          </div><div class="option-item ">
+            <strong>D.</strong> Rumah Honai 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Rumah Betang (Lamin)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Rumah Betang dapat mencapai panjang 150 meter dan melambangkan nilai persaudaraan serta musyawarah suku Dayak.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 2 / 50</div>
+      <div class="q-text">Alat musik petik tradisional Dayak yang terbuat dari kayu pohon adau dengan ukiran flora fauna dan suara petikan syahdu adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Kolintang 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Sape' (Sampe) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Kacapi 
+          </div><div class="option-item ">
+            <strong>D.</strong> Sasando 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Sape' (Sampe)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Sape' sering dimainkan untuk mengiringi tarian, pesta panen raya, dan ritual pengobatan adat Dayak.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 3 / 50</div>
+      <div class="q-text">Burung hutan Kalimantan bertanduk merah-kuning menyala yang sangat dihormati dan menjadi lambang kesucian suku Dayak adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Burung Cendrawasih 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Burung Enggang Gading (Rangkong) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Burung Maleo 
+          </div><div class="option-item ">
+            <strong>D.</strong> Burung Jalak 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Burung Enggang Gading (Rangkong)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Bulu sayap dan ekor burung Enggang digunakan sebagai hiasan mahkota dan properti tarian sakral Dayak.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 4 / 50</div>
+      <div class="q-text">Senjata tajam pusaka suku Dayak bertatahkan kuningan dengan hulu ukiran tanduk rusa dan sarung berhias bulu enggang adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Keris 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Mandau ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Rencong 
+          </div><div class="option-item ">
+            <strong>D.</strong> Badik 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Mandau</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Mandau bukan sekadar senjata perang, melainkan lambang kehormatan, pusaka turun-temurun, dan keberanian ksatria Dayak.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 5 / 50</div>
+      <div class="q-text">Perisai kayu pelindung diri suku Dayak berbentuk segi enam meruncing dengan ukiran wajah 'Kamang' penolak bala adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Salawaku 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Talawang ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Kurambiak 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tameng 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Talawang</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Talawang terbuat dari kayu ulin atau liat yang kokoh menangkis serangan senjata tajam musuh.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 6 / 50</div>
+      <div class="q-text">Senjata berburu tradisional suku Dayak berupa pipa bambu panjang pelontar anak sumpit beracun getah pohon ipoh disebut?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Busur Panah 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Sipet (Sumpitan) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Tulup 
+          </div><div class="option-item ">
+            <strong>D.</strong> Ketapel 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Sipet (Sumpitan)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Sumpitan memiliki akurasi tinggi dan ujung bilah tombak untuk pertarungan jarak dekat saat berburu di rimba lebat.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 7 / 50</div>
+      <div class="q-text">Kain tradisional khas suku Banjar Kalimantan Selatan yang dibuat dengan teknik jelujur dan celup rintang warna alami adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Batik Sogan 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Kain Sasirangan ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Kain Songket 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kain Ulos 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Kain Sasirangan</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Sasirangan berasal dari kata 'sirang' (menjelujur) dan dahulu diyakini berkhasiat sebagai sarana pengobatan spiritual.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 8 / 50</div>
+      <div class="q-text">Tarian ksatria Dayak yang menggambarkan kelincahan dua pemuda bertarung memperagakan jurus silat mandau dan talawang adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Tari Mandau (Kancet Papatai) ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Tari Piring 
+          </div><div class="option-item ">
+            <strong>C.</strong> Tari Saman 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tari Cakalele 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Tari Mandau (Kancet Papatai)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tari Kancet Papatai menampilkan gerak akrobatik, jeritan semangat perang, dan ketangkasan pedang mandau.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 9 / 50</div>
+      <div class="q-text">Tarian anggun wanita Dayak yang menari lemah gemulai di atas gong perunggu tanpa membunyikannya adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Tari Gong (Kancet Ledo) ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Tari Jaipong 
+          </div><div class="option-item ">
+            <strong>C.</strong> Tari Pendet 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tari Gambyong 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Tari Gong (Kancet Ledo)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tari Gong melambangkan kelembutan, kesucian budi pekerti, dan kepiawaian gadis Dayak menjaga keseimbangan.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 10 / 50</div>
+      <div class="q-text">Upacara pemakaman adat terbesar suku Dayak Ngaju untuk menyucikan dan mengantar tulang belulang leluhur ke Lewu Tatau disebut?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Ngaben 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Upacara Tiwah ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Rambu Solo' 
+          </div><div class="option-item ">
+            <strong>D.</strong> Grebeg 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Upacara Tiwah</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Dalam upacara Tiwah, tulang jenazah dibersihkan lalu disemayamkan dalam bangunan kayu ukir berpilar yang disebut Sandung.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 11 / 50</div>
+      <div class="q-text">Tradisi unik memanjangkan daun telinga menggunakan pemberat gelang tembaga yang dilakukan wanita Dayak Kayan dan Kenyah dinamakan?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Telingaan Aruu ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Tutang 
+          </div><div class="option-item ">
+            <strong>C.</strong> Mentawai 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tato 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Telingaan Aruu</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Telingaan Aruu melambangkan kecantikan, kesabaran menanggung beban hidup, dan status sosial bangsawan Dayak.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 12 / 50</div>
+      <div class="q-text">Seni rajah tubuh tradisional Dayak Iban yang menggambarkan kedewasaan, perjalanan merantau, dan simbol bunga terung disebut?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Tato Tutang (Iki) ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Lukisan Kulit 
+          </div><div class="option-item ">
+            <strong>C.</strong> Body Painting 
+          </div><div class="option-item ">
+            <strong>D.</strong> Ukir Tubuh 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Tato Tutang (Iki)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Motif bunga terung di kedua bahu menandakan bahwa pemuda Dayak telah mandiri dan siap memikul tanggung jawab.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 13 / 50</div>
+      <div class="q-text">Kerajaan Hindu tertua di Indonesia yang berdiri abad ke-4 Masehi di tepi Sungai Mahakam Kalimantan Timur adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Kerajaan Tarumanegara 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Kerajaan Kutai Martadipura ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Kerajaan Majapahit 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kerajaan Sriwijaya 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Kerajaan Kutai Martadipura</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Raja Mulawarman dari Kerajaan Kutai menyedekahkan 20.000 ekor sapi kepada kaum Brahmana tertulis pada tiang batu Yupa.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 14 / 50</div>
+      <div class="q-text">Tujuh prasasti tiang batu bertuliskan huruf Pallawa dan bahasa Sanskerta peninggalan Kerajaan Kutai dinamakan?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Prasasti Ciaruteun 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Prasasti Yupa ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Prasasti Kebon Kopi 
+          </div><div class="option-item ">
+            <strong>D.</strong> Prasasti Kedukan Bukit 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Prasasti Yupa</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Prasasti Yupa menjadi bukti sejarah tertulis tertua dimulainya zaman sejarah di wilayah Indonesia.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 15 / 50</div>
+      <div class="q-text">Pusat perdagangan terapung di atas perahu kelotok di muara Sungai Barito dan Martapura Banjarmasin yang sudah ada sejak abad ke-14 adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Pasar Terapung Lok Baintan ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Pasar Klewer 
+          </div><div class="option-item ">
+            <strong>C.</strong> Pasar Beringharjo 
+          </div><div class="option-item ">
+            <strong>D.</strong> Pasar Sukawati 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Pasar Terapung Lok Baintan</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Pasar Terapung menggunakan perahu jukung tradisional dan sistem barter hasil kebun serta panganan khas Banjar.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 16 / 50</div>
+      <div class="q-text">Primata berhidung besar dan panjang dengan perut buncit yang menjadi satwa endemik Kalimantan dan maskot provinsi Kalimantan Selatan adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Orangutan 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Bekantan (Nasalis larvatus) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Owa 
+          </div><div class="option-item ">
+            <strong>D.</strong> Lutung 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Bekantan (Nasalis larvatus)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Masyarakat lokal kerap menjuluki Bekantan sebagai 'monyet belanda' karena hidungnya yang mancung besar kemerahan.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 17 / 50</div>
+      <div class="q-text">Kera besar cerdas berambut merah kecokelatan yang dilindungi di Taman Nasional Tanjung Puting, Kalimantan Tengah adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Gorila 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Orangutan Kalimantan (Pongo pygmaeus) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Simpanse 
+          </div><div class="option-item ">
+            <strong>D.</strong> Gibbon 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Orangutan Kalimantan (Pongo pygmaeus)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tanjung Puting merupakan pusat rehabilitasi orangutan liar terbesar di dunia yang didirikan oleh Dr. Birute Galdikas.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 18 / 50</div>
+      <div class="q-text">Mamalia air tawar langka sejenis lumba-lumba yang hidup di perairan Sungai Mahakam Kalimantan Timur adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Dugong 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Pesut Mahakam (Orcaella brevirostris) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Lumba-lumba Hidung Botol 
+          </div><div class="option-item ">
+            <strong>D.</strong> Paus Orca 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Pesut Mahakam (Orcaella brevirostris)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Pesut Mahakam bernapas menggunakan paru-paru dan kini berstatus satwa kritis terancam punah.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 19 / 50</div>
+      <div class="q-text">Pohon kayu khas hutan hujan tropis Kalimantan yang terkenal sangat keras, tahan rayap, dan semakin awet di dalam air adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Kayu Jati 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Kayu Ulin (Kayu Besi) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Kayu Cendana 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kayu Mahoni 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Kayu Ulin (Kayu Besi)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Kayu Ulin (Eusideroxylon zwageri) digunakan sebagai tiang pancang rumah panggung dan jembatan sungai Kalimantan.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 20 / 50</div>
+      <div class="q-text">Tugu peringatan di Kota Pontianak, Kalimantan Barat yang tepat dilalui oleh garis khatulistiwa (lintang 0 derajat) dinamakan?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Monas 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Tugu Khatulistiwa (Equator Monument) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Tugu Pahlawan 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tugu Perdamaian 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Tugu Khatulistiwa (Equator Monument)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Pada saat titik kulminasi matahari (21-23 Maret dan September), bayangan benda di sekitar tugu akan hilang sejenak.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 21 / 50</div>
+      <div class="q-text">Kuliner khas Banjar berupa sup ayam berkuah harum rempah kayu manis dan cengkih disajikan bersama ketupat dan perkedel adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Soto Betawi 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Soto Banjar ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Soto Lamongan 
+          </div><div class="option-item ">
+            <strong>D.</strong> Coto Makassar 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Soto Banjar</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Soto Banjar memiliki kuah gurih yang khas berkat campuran susu evaporasi atau telur bebek kocok.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 22 / 50</div>
+      <div class="q-text">Makanan khas suku Melayu Sambas Kalimantan Barat berbahan aneka sayuran pakis, kangkung, rebung, dan beras sangrai tumbuk adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Bubur Manado 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Bubur Pedas Sambas ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Bubur Ayam 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kapurung 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Bubur Pedas Sambas</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Meskipun bernama 'bubur pedas', kuliner ini tidak pedas cabai melainkan kaya rasa rempah daun kesum yang harum.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 23 / 50</div>
+      <div class="q-text">Ikan air tawar konsumsi bernilai tinggi yang hidup di hulu sungai berarus deras pedalaman Kalimantan adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Ikan Gurami 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Ikan Jelawat ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Ikan Lele 
+          </div><div class="option-item ">
+            <strong>D.</strong> Ikan Mas 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Ikan Jelawat</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Ikan Jelawat berdaging lembut dan gurih, sangat lezat diolah menjadi pepes tempoyak atau sup ikan asam pedas.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 24 / 50</div>
+      <div class="q-text">Kue tradisional khas Banjarmasin berbahan tepung beras, santan, dan air daun pandan yang dikukus dalam mangkuk cetakan daun pisang adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Kue Bingka ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Kue Wadai Amparan Tatak 
+          </div><div class="option-item ">
+            <strong>C.</strong> Kue Cucur 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kue Lumpur 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Kue Bingka</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Kue Bingka Banjar memiliki tekstur legit lembut dengan aroma wangi kentang dan telur bebek.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 25 / 50</div>
+      <div class="q-text">Tradisi perayaan pesta syukur pascapanen padi suku Dayak Kanayatn di Kalimantan Barat yang berlangsung meriah dinamakan?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Gawai Dayak (Naik Dango) ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Seren Taun 
+          </div><div class="option-item ">
+            <strong>C.</strong> Sedekah Bumi 
+          </div><div class="option-item ">
+            <strong>D.</strong> Erau 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Gawai Dayak (Naik Dango)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Gawai Dayak menampilkan ritual penyimpanan padi ke lumbung, pertunjukan musik sape', dan lomba sumpit tradisional.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 26 / 50</div>
+      <div class="q-text">Festival budaya tahunan Kesultanan Kutai Kartanegara di Tenggarong Kalimantan Timur yang diramaikan ritual Mengulur Naga adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Festival Danau Sentani 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Festival Erau ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Festival Sriwijaya 
+          </div><div class="option-item ">
+            <strong>D.</strong> Pesta Danau Toba 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Festival Erau</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Erau berasal dari bahasa Kutai 'eroh' yang berarti suasana ramai gembira penuh sukacita adat istiadat.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 27 / 50</div>
+      <div class="q-text">Kerajinan anyaman topi caping lebar khas pedalaman Dayak yang terbuat dari daun nipah atau palem hutan adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Seraung ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Caping Bambu 
+          </div><div class="option-item ">
+            <strong>C.</strong> Tanjak 
+          </div><div class="option-item ">
+            <strong>D.</strong> Songkok 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Seraung</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Seraung melindungi masyarakat dari sengatan terik matahari dan hujan lebat saat berladang atau mengayuh perahu.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 28 / 50</div>
+      <div class="q-text">Anyaman tas ransel punggung khas Dayak berbahan rotan alami yang kuat untuk membawa hasil hutan dinamakan?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Tas Noken 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Anjat ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Tas Koja 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kantong Anyam 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Anjat</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Anjat dianyam halus dengan pola motif flora fauna hitam putih yang sangat indah dan tahan lama.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 29 / 50</div>
+      <div class="q-text">Kerajaan Islam pertama di Kalimantan Selatan yang didirikan oleh Sultan Suriansyah pada abad ke-16 adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Kesultanan Banjar ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Kesultanan Kutai 
+          </div><div class="option-item ">
+            <strong>C.</strong> Kesultanan Sambas 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kesultanan Pontianak 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Kesultanan Banjar</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Masjid Sultan Suriansyah di Kuin Banjarmasin merupakan masjid tertua peninggalan Kesultanan Banjar.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 30 / 50</div>
+      <div class="q-text">Istana kayu bertingkat megah di hulu Sungai Mahakam yang menjadi kediaman Sultan Kutai Kartanegara abad ke-19 kini menjadi?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Museum Mulawarman ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Museum Nasional 
+          </div><div class="option-item ">
+            <strong>C.</strong> Museum Fatahillah 
+          </div><div class="option-item ">
+            <strong>D.</strong> Museum Sri Baduga 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Museum Mulawarman</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Museum Mulawarman menyimpan benda pusaka kerajaan, singgasana emas, payung kebesaran, dan keramik Dinasti Ming.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 31 / 50</div>
+      <div class="q-text">Danau air tawar terluas di pedalaman Kalimantan Barat yang menjadi surga habitat burung air dan ikan arwana adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Danau Toba 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Danau Sentarum ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Danau Matano 
+          </div><div class="option-item ">
+            <strong>D.</strong> Danau Poso 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Danau Sentarum</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Taman Nasional Danau Sentarum merupakan lahan basah unik yang saat musim hujan menjadi danau dan musim kemarau menjadi hutan rawa.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 32 / 50</div>
+      <div class="q-text">Ikan hias air tawar endemik Sungai Kapuas berjuluk 'Naga Air' dengan sisik kemerahan berkilau harga fantastis adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Ikan Cupang 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Ikan Arwana Super Red (Scleropages formosus) ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Ikan Louhan 
+          </div><div class="option-item ">
+            <strong>D.</strong> Ikan Koi 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Ikan Arwana Super Red (Scleropages formosus)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Arwana Super Red Kalimantan Barat diyakini membawa keberuntungan, kemakmuran, dan ketenteraman bagi pemeliharanya.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 33 / 50</div>
+      <div class="q-text">Pohon hutan Kalimantan yang menghasilkan kristal getah beraroma harum semerbak untuk dupa dan bahan parfum dunia adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Pohon Gaharu ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Pohon Pinus 
+          </div><div class="option-item ">
+            <strong>C.</strong> Pohon Jati 
+          </div><div class="option-item ">
+            <strong>D.</strong> Pohon Karet 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Pohon Gaharu</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Kayu Gaharu terbentuk dari respon alami pohon Aquilaria terhadap infeksi jamur, menghasilkan resin bernilai sangat tinggi.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 34 / 50</div>
+      <div class="q-text">Pakaian adat wanita suku Dayak Kenyah yang berupa rompi tanpa lengan dan rok kain berhias sulaman manik-manik indah disebut?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Baju Bodo 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Baju Ta'a ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Baju Kurung 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kebaya 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Baju Ta'a</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Baju Ta'a dipadukan dengan ikat kepala manik bermahkota bulu enggang dan gelang gading di kedua lengan.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 35 / 50</div>
+      <div class="q-text">Pakaian adat pria suku Dayak berupa rompi kulit kayu atau kain tenun bermotif ksatria gagah dinamakan?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Sapei Sapaq ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Beskap 
+          </div><div class="option-item ">
+            <strong>C.</strong> Teluk Belanga 
+          </div><div class="option-item ">
+            <strong>D.</strong> Surjan 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Sapei Sapaq</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Sapei Sapaq dikenakan bersama cawat (abett), mandau di pinggang, dan tameng talawang di tangan.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 36 / 50</div>
+      <div class="q-text">Tradisi lisan masyarakat Banjar berupa pantun berbalas jenaka berirama yang diiringi musik terbang dinamakan?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Madihin ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Didong 
+          </div><div class="option-item ">
+            <strong>C.</strong> Macapat 
+          </div><div class="option-item ">
+            <strong>D.</strong> Sinrilik 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Madihin</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Madihin dibawakan oleh seorang pemadihin tunggal yang mahir merangkai syair spontan sarat humor dan petuah moral.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 37 / 50</div>
+      <div class="q-text">Pertunjukan teater boneka khas suku Banjar yang mengangkat kisah kepahlawanan rakyat dan kritik sosial jenaka adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Wayang Golek 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Wayang Kulit Banjar ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Wayang Potehi 
+          </div><div class="option-item ">
+            <strong>D.</strong> Lenong 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Wayang Kulit Banjar</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Wayang Banjar berkembang dari pengaruh Kesultanan Demak pada abad ke-16 dengan bahasa dan karakter tokoh lokal.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 38 / 50</div>
+      <div class="q-text">Kue tradisional Banjar berbentuk loyang bundar bergerigi menyerupai kelopak bunga mawar mekar dengan rasa manis legit adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Kue Lumpur 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Kue Bingka Barandam ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Kue Apam Barabai 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kue Kararaban 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Kue Bingka Barandam</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Bingka Barandam disajikan bersama siraman kuah air gula beraroma kayu manis dan daun pandan wangi.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 39 / 50</div>
+      <div class="q-text">Cemilan manis khas Barabai Kalimantan Selatan berbahan tape singkong dan tepung beras yang kenyal lezat adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Apam Barabai ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Dodol Kandangan 
+          </div><div class="option-item ">
+            <strong>C.</strong> Bika 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kue Putu 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Apam Barabai</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Apam Barabai dikemas dalam bungkus daun pisang dengan varian warna putih gula pasir dan cokelat gula aren.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 40 / 50</div>
+      <div class="q-text">Olahan durian fermentasi khas masyarakat pedalaman Kalimantan dan Sumatera yang dimasak bersama ikan sungai dinamakan?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Terasi 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Tempoyak ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Cincalok 
+          </div><div class="option-item ">
+            <strong>D.</strong> Petis 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Tempoyak</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tempoyak menghasilkan perpaduan rasa asam segar dan aroma durian kuat yang sangat cocok dimasak gulai ikan baung.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 41 / 50</div>
+      <div class="q-text">Pegunungan karst purba di Kalimantan Timur dengan dinding gua kapur berlukisan telapak tangan manusia purba berusia 40.000 tahun adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Pegunungan Meratus 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Karst Sangkulirang-Mangkalihat ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Pegunungan Schwaner 
+          </div><div class="option-item ">
+            <strong>D.</strong> Gunung Palung 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Karst Sangkulirang-Mangkalihat</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Gua Sangkulirang menyimpan bukti arkeologi lukisan cadas tertua di dunia yang menggambarkan kehidupan manusia prasejarah.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 42 / 50</div>
+      <div class="q-text">Sungai terpanjang di Indonesia yang mengalir sepanjang 1.143 kilometer di wilayah Kalimantan Barat adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Sungai Mahakam 
+          </div><div class="option-item ">
+            <strong>B.</strong> Sungai Barito 
+          </div><div class="option-item correct">
+            <strong>C.</strong> Sungai Kapuas ✔️
+          </div><div class="option-item ">
+            <strong>D.</strong> Sungai Kahayan 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [C] Sungai Kapuas</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Sungai Kapuas bermula dari Pegunungan Muller dan bermuara ke Selat Karimata, menjadi urat nadi perhubungan utama.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 43 / 50</div>
+      <div class="q-text">Sungai terbesar di Kalimantan Timur yang menjadi jalur transportasi kapal ponton batu bara dan kayu gelondongan adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Sungai Kapuas 
+          </div><div class="option-item ">
+            <strong>B.</strong> Sungai Barito 
+          </div><div class="option-item correct">
+            <strong>C.</strong> Sungai Mahakam ✔️
+          </div><div class="option-item ">
+            <strong>D.</strong> Sungai Berau 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [C] Sungai Mahakam</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Sungai Mahakam memiliki panjang 920 kilometer dan menghidupi ribuan desa di tepian perairannya.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 44 / 50</div>
+      <div class="q-text">Upacara adat suku Dayak Tunjung dan Benuaq di Kutai Barat untuk menyembuhkan orang sakit melalui tarian pemanggilan roh leluhur adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Belian ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Ngaben 
+          </div><div class="option-item ">
+            <strong>C.</strong> Tiwah 
+          </div><div class="option-item ">
+            <strong>D.</strong> Erau 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Belian</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Ritual Belian dipimpin oleh seorang dukun adat (Pawang Belian) diiringi alunan ritmis gelang genta kuningan.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 45 / 50</div>
+      <div class="q-text">Pusat penambangan intan tradisional terbesar di Kalimantan Selatan yang terkenal menghasilkan intan 'Trisakti' seberat 166 karat adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Pendulangan Intan Cempaka (Banjarbaru) ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Martapura 
+          </div><div class="option-item ">
+            <strong>C.</strong> Pelaihari 
+          </div><div class="option-item ">
+            <strong>D.</strong> Kandangan 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Pendulangan Intan Cempaka (Banjarbaru)</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Pendulang intan menggunakan mangkuk kayu linggangan untuk memisahkan butiran kerikil intan di dasar lumpur sungai.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 46 / 50</div>
+      <div class="q-text">Tarian penyambutan tamu terhormat khas suku Banjar yang ditarikan oleh penari putri berbusana kuning memegang mangkuk beras kuning adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Tari Radap Rahayu 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Tari Baksa Kembang ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Tari Kuda Gepang 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tari Japin 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Tari Baksa Kembang</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tari Baksa Kembang ditarikan di lingkungan keraton Banjar sebagai bentuk doa keselamatan dan kebahagiaan bagi tamu.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 47 / 50</div>
+      <div class="q-text">Tari ritual tolak bala khas suku Banjar yang dibawakan saat terjadi wabah penyakit atau musibah perahu karam di sungai adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Tari Radap Rahayu ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Tari Baksa Dadap 
+          </div><div class="option-item ">
+            <strong>C.</strong> Tari Tirik 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tari Japin Sigam 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Tari Radap Rahayu</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Radap Rahayu melambangkan turunnya bidadari khayangan membawa ketenteraman dan kesembuhan ke bumi.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 48 / 50</div>
+      <div class="q-text">Kota di Kalimantan Timur yang kini berkembang menjadi kawasan penyangga Ibu Kota Nusantara (IKN) dengan pelabuhan laut modern adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Banjarmasin 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Balikpapan ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Samarinda 
+          </div><div class="option-item ">
+            <strong>D.</strong> Tarakan 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Balikpapan</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Balikpapan dijuluki 'Kota Minyak' dan menjadi pintu gerbang logistik dan maritim utama Kalimantan Timur.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 49 / 50</div>
+      <div class="q-text">Pulau di Kepulauan Derawan Kalimantan Timur yang terkenal di dunia karena memiliki danau air asin berisi ubur-ubur tanpa sengat adalah?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Pulau Maratua 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Pulau Kakaban ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Pulau Sangalaki 
+          </div><div class="option-item ">
+            <strong>D.</strong> Pulau Derawan 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Pulau Kakaban</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Ubur-ubur di Danau Kakaban berevolusi ribuan tahun tanpa pemangsa alami sehingga kehilangan kemampuan menyengat.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Nomor 50 / 50</div>
+      <div class="q-text">Kearifan lokal suku Dayak dalam menjaga hutan larangan agar tidak ditebang demi menjaga sumber mata air dan habitat satwa disebut?</div>
+      <div class="options-grid">
+        <div class="option-item ">
+            <strong>A.</strong> Hutan Lindung 
+          </div><div class="option-item correct">
+            <strong>B.</strong> Tana Ulen ✔️
+          </div><div class="option-item ">
+            <strong>C.</strong> Hutan Adat 
+          </div><div class="option-item ">
+            <strong>D.</strong> Cagar Alam 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [B] Tana Ulen</strong><br>
+        <strong>💡 Fakta Edukatif:</strong> Tana Ulen dikelola ketat oleh hukum adat Dayak; pelanggar yang menebang pohon dikenai denda adat berat berupa guci keramik kuno.
+      </div>
+    </div>
+  
+
+  <div class="section-heading">🖼️ MISI 2: TEBAK VISUAL / ARTEFAK &amp; LANDMARK (5 SOAL)</div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Visual 1 / 5</div>
+      <div class="q-text">Alat musik petik khas Dayak berbentuk badan perahu ramping dengan ukiran flora fauna rumit ini bernama?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Sape' Dayak ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Gitar Akustik 
+          </div><div class="option-item ">
+            <strong>C.</strong> Kecapi Sunda 
+          </div><div class="option-item ">
+            <strong>D.</strong> Gambus Melayu 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Sape' Dayak</strong><br>
+        <strong>📚 Pembahasan:</strong> Tepat! Sape' bermakna 'memetik dengan jari' dan biasa dimainkan untuk ritual pengobatan dan pesta panen.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Visual 2 / 5</div>
+      <div class="q-text">Burung hutan Kalimantan bertanduk merah-kuning mencolok yang menjadi lambang kesucian suku Dayak adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Burung Enggang Gading ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Burung Cendrawasih 
+          </div><div class="option-item ">
+            <strong>C.</strong> Burung Elang Jawa 
+          </div><div class="option-item ">
+            <strong>D.</strong> Burung Kasuari 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Burung Enggang Gading</strong><br>
+        <strong>📚 Pembahasan:</strong> Hebat! Enggang melambangkan kesetiaan karena burung ini hanya memiliki satu pasangan seumur hidupnya.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Visual 3 / 5</div>
+      <div class="q-text">Rumah panggung kayu ulin panjang khas suku Dayak Kalimantan ini bernama?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Rumah Betang ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Rumah Gadang 
+          </div><div class="option-item ">
+            <strong>C.</strong> Rumah Tongkonan 
+          </div><div class="option-item ">
+            <strong>D.</strong> Rumah Honai 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Rumah Betang</strong><br>
+        <strong>📚 Pembahasan:</strong> Benar! Tiang tinggi pada Rumah Betang berfungsi melindungi warga dari serangan binatang buas dan banjir luapan sungai.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Visual 4 / 5</div>
+      <div class="q-text">Senjata tajam pusaka suku Dayak bertatahkan kuningan dengan sarung berhias bulu burung enggang ini adalah?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Mandau Dayak ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Keris Jawa 
+          </div><div class="option-item ">
+            <strong>C.</strong> Rencong Aceh 
+          </div><div class="option-item ">
+            <strong>D.</strong> Badik Makassar 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Mandau Dayak</strong><br>
+        <strong>📚 Pembahasan:</strong> Sempurna! Mandau adalah benda pusaka turun-temurun yang melambangkan marwah ksatria Dayak.
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">Visual 5 / 5</div>
+      <div class="q-text">Perisai kayu ulin pelindung perang suku Dayak dengan ukiran wajah 'Kamang' penolak bala ini disebut?</div>
+      <div class="options-grid">
+        <div class="option-item correct">
+            <strong>A.</strong> Talawang ✔️
+          </div><div class="option-item ">
+            <strong>B.</strong> Salawaku 
+          </div><div class="option-item ">
+            <strong>C.</strong> Tameng Kurabu 
+          </div><div class="option-item ">
+            <strong>D.</strong> Perisai Kujang 
+          </div>
+      </div>
+      <div class="key-box">
+        <strong>✔️ KUNCI: [A] Talawang</strong><br>
+        <strong>📚 Pembahasan:</strong> Tepat sekali! Talawang dihiasi motif ukiran khas yang dipercaya membangkitkan keberanian prajurit di medan juang.
+      </div>
+    </div>
+  
+
+  <div class="section-heading">🎯 MISI 3: TANTANGAN TAP-MATCHING (PASANGAN BUDAYA)</div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">🟢 Tahap Easy (3 Pasangan)</div>
+      <div class="q-text">Pasangkan Kuliner Kalimantan dengan Kota Asalnya!</div>
+      <table class="matching-table">
+        <thead>
+          <tr>
+            <th style="width: 45%;">Elemen Budaya / Tradisi</th>
+            <th style="width: 10%; text-align: center;">➔</th>
+            <th style="width: 45%;">Pasangan Wilayah / Makna Tepat</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+            <tr>
+              <td><strong>Soto Banjar Kuah Susu</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Banjarmasin (Kalsel)</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Bubur Pedas Sayur Mayur</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Pontianak / Sambas (Kalbar)</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Lemang Pulut Bakar Bambu</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Palangkaraya (Kalteng)</strong></td>
+            </tr>
+          
+        </tbody>
+      </table>
+      <div class="key-box">
+        <strong>💡 Catatan Edukatif:</strong> Lezat! Masakan khas Kalimantan kaya akan rempah kayu manis dan kesegaran sayuran rimba!
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">🟡 Tahap Normal (4 Pasangan)</div>
+      <div class="q-text">Pasangkan Kesenian & Tradisi Dayak dengan Cirinya!</div>
+      <table class="matching-table">
+        <thead>
+          <tr>
+            <th style="width: 45%;">Elemen Budaya / Tradisi</th>
+            <th style="width: 10%; text-align: center;">➔</th>
+            <th style="width: 45%;">Pasangan Wilayah / Makna Tepat</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+            <tr>
+              <td><strong>Tari Mandau Berani</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Keperkasaan Prajurit Berpedang</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Tari Kancet Papatai</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Tarian Perang Bertameng Talawang</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Melodi Sape' Damai</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Petikan Dawai Ketenangan Alam</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Upacara Adat Tiwah</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Pengantaran Arwah Leluhur Ngaju</strong></td>
+            </tr>
+          
+        </tbody>
+      </table>
+      <div class="key-box">
+        <strong>💡 Catatan Edukatif:</strong> Bagus sekali! Kamu menghayati keindahan seni tarian dan kearifan spiritual Dayak!
+      </div>
+    </div>
+  
+    <div class="question-card">
+      <div class="q-number-badge">🔴 Tahap Hard (5 Pasangan)</div>
+      <div class="q-text">Tantangan Pusaka: Pasangkan Benda Adat Dayak dengan Fungsinya!</div>
+      <table class="matching-table">
+        <thead>
+          <tr>
+            <th style="width: 45%;">Elemen Budaya / Tradisi</th>
+            <th style="width: 10%; text-align: center;">➔</th>
+            <th style="width: 45%;">Pasangan Wilayah / Makna Tepat</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+            <tr>
+              <td><strong>Pedang Mandau Bertatah</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Pusaka Kehormatan & Pertahanan Diri</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Perisai Kayu Talawang</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Tameng Pelindung Berukir Kamang</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Sumpit Sipet Beracun</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Senjata Berburu Senyap dari Jauh</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Tombak Lonjo Panjang</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Senjata Tikam Berdaun Lebar</strong></td>
+            </tr>
+          
+            <tr>
+              <td><strong>Manik-Manik Etnik Dayak</strong></td>
+              <td style="text-align: center; color: #16a34a; font-weight: bold;">➔</td>
+              <td><strong style="color: #15803d;">Hiasan Busana & Penangkal Bala</strong></td>
+            </tr>
+          
+        </tbody>
+      </table>
+      <div class="key-box">
+        <strong>💡 Catatan Edukatif:</strong> Luar biasa tangguh! Kamu telah menuntaskan seluruh tingkatan tantangan rimba Kalimantan!
+      </div>
+    </div>
+  
+
+</body>
+</html>
+  
