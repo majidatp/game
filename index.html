@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Petualangan Sahabat Nusantara</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800;900&family=Fredoka:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <!-- PWA Meta & Manifest -->
+  <meta name="theme-color" content="#b45309">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="SahabatNusantara">
+  <link rel="icon" type="image/png" href="assets/images/icon-192.png">
+  <link rel="apple-touch-icon" href="assets/images/icon-192.png">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+  <div id="game-wrapper">
+    <!-- Bar Audio Global -->
+    <div class="top-bar-overlay">
+      <button id="btn-open-jukebox" class="btn-sound-toggle btn-jukebox-pill">🎵 Pilih Musik</button>
+      <button id="btn-toggle-sound" class="btn-sound-toggle">🔊 Suara Nyala</button>
+    </div>
+
+    <!-- ==================== 1. SCREEN TITLE (MENU UTAMA IDENTIK PANEL KIRI-ATAS) ==================== -->
+    <div id="screen-title" class="game-screen active">
+      <!-- Background Fullscreen Alam Nusantara (object-fit: cover) -->
+      <img src="assets/images/bg_menu_utama.jpg" alt="Latar Alam Nusantara" class="title-bg-fullscreen">
+
+      <!-- Papan Judul Kayu Besar di Tengah Atas -->
+      <div class="title-board-wrapper">
+        <div class="title-wood-plank">
+          <!-- Hiasan Daun Tropis di Sudut -->
+          <span class="decor-leaf leaf-left">🌿</span>
+          <span class="decor-leaf leaf-right">🍃</span>
+          
+          <!-- Bendera Merah Putih di Kanan Atas Papan -->
+          <div class="title-flag-badge">
+            <div class="flag-pole"></div>
+            <div class="mini-flag">
+              <div class="flag-red"></div>
+              <div class="flag-white"></div>
+            </div>
+          </div>
+
+          <!-- Teks Emas 3D Bergaya Game -->
+          <div class="title-gold-text">
+            <div class="title-word-top">Petualangan</div>
+            <div class="title-word-bottom">Sahabat Nusantara</div>
+          </div>
+
+          <!-- Sub-papan Kayu Melengkung di Bawah -->
+          <div class="title-wood-subplank">
+            Jelajahi Indonesia, Lestarikan Budayanya!
+          </div>
+        </div>
+      </div>
+
+      <!-- Area Panggung: Trio Karakter (Kiri) & Tiga Tombol Menu (Kanan) -->
+      <div class="title-main-stage">
+        <!-- Panggung Karakter Pilihan (Kotak Tengah & Tab Pemilihan) -->
+        <div class="characters-hero-section char-bounce-anim">
+          <div class="trio-image-wrapper">
+            <img id="img-hero-character" src="assets/images/boni_transparent.png" alt="Karakter Pilihan" class="img-trio-hero">
+          </div>
+          <div id="hero-character-desc" class="char-hero-desc">
+            Boni: Penjelajah Cilik Berbaju Batik
+          </div>
+          <!-- Tab Pemilihan Karakter (Boni, Rara, Pendekar Cilik) -->
+          <div class="char-selection-pills">
+            <button class="char-pill-btn active-char" data-char="boni">Boni</button>
+            <button class="char-pill-btn" data-char="rara">Rara</button>
+            <button class="char-pill-btn" data-char="pendekar">Pendekar Cilik</button>
+          </div>
+        </div>
+
+        <!-- Tiga Tombol Bertumpuk di Kanan Tengah (Besar, Mengkilap, Lebar Sama) -->
+        <div class="title-buttons-stack button-pulse-anim">
+          <!-- Tombol 1: Mulai Game (Oranye Mengkilap) -->
+          <button id="btn-start-game" class="btn-menu-pill btn-pill-orange">
+            <svg class="pill-icon" viewBox="0 0 24 24">
+              <path d="M8 5v14l11-7z" fill="#ffffff" stroke="#78350f" stroke-width="1.5"/>
+            </svg>
+            <span class="pill-label">Mulai Game</span>
+          </button>
+
+          <!-- Tombol 2: Petunjuk (Biru Mengkilap) -->
+          <button id="btn-guide" class="btn-menu-pill btn-pill-blue">
+            <svg class="pill-icon" viewBox="0 0 24 24">
+              <path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z" fill="#ffffff" stroke="#082f49" stroke-width="1.2"/>
+            </svg>
+            <span class="pill-label">Petunjuk</span>
+          </button>
+
+          <!-- Tombol 3: Profil (Biru Muda Mengkilap) -->
+          <button id="btn-profile" class="btn-menu-pill btn-pill-cyan">
+            <svg class="pill-icon" viewBox="0 0 24 24">
+              <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" fill="#ffffff" stroke="#0c4a6e" stroke-width="1.2"/>
+            </svg>
+            <span class="pill-label">Profil</span>
+          </button>
+
+          <!-- Tombol 4: Jukebox / Pilih Musik (Ungu Mengkilap) -->
+          <button id="btn-jukebox-title" class="btn-menu-pill btn-pill-purple">
+            <span style="font-size:20px; filter:drop-shadow(0 2px 3px rgba(0,0,0,0.4));">🎵</span>
+            <span class="pill-label">Pilih Musik</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== 2. SCREEN MAP (PETA PETUALANGAN IDENTIK PANEL KANAN-ATAS) ==================== -->
+    <div id="screen-map" class="game-screen">
+      <!-- Background Fullscreen Peta Kepulauan Nusantara (object-fit: cover) -->
+      <img src="assets/images/bg_peta_petualangan.jpg" alt="Peta Petualangan Nusantara" class="map-bg-fullscreen">
+
+      <!-- Papan Kayu Judul Besar di Tengah Atas -->
+      <div class="map-title-board-wrapper">
+        <div class="map-wood-title-plank">
+          <span class="decor-leaf leaf-left">🌿</span>
+          <span class="decor-leaf leaf-right">🍃</span>
+          <h2 class="map-title-gold">Peta Petualangan</h2>
+          <div class="map-wood-subplank">
+            Jelajahi 6 Zona Budaya Indonesia!
+          </div>
+        </div>
+      </div>
+
+      <!-- Wadah Interaktif 6 Zona Budaya (Posisi Absolut Persen %) -->
+      <div id="map-interactive-layer" class="map-interactive-layer"></div>
+
+      <!-- Tombol Kembali Bergaya Kayu di Kiri Bawah -->
+      <button id="btn-map-back" class="btn-wood-back">
+        <span>◀</span> Kembali
+      </button>
+
+      <!-- Indikator Statistik Bintang & Progres di Kanan Bawah -->
+      <div class="map-hud-stats">
+        <span id="map-stats-stars">⭐ 0 / 1800</span>
+        <span id="map-stats-progress">🗺️ 1/6 Wilayah</span>
+      </div>
+
+      <!-- Overlay Debug Koordinat (Tekan D untuk aktifkan) -->
+      <div id="map-debug-overlay" class="map-debug-overlay hidden">
+        <span>🛠️ Mode Debug Koordinat Peta (Tekan D untuk sembunyikan)</span>
+      </div>
+    </div>
+
+    <!-- ==================== 3. SCREEN DIALOG (PENJAGA BUDAYA ASLI) ==================== -->
+    <div id="screen-dialog" class="game-screen">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+        <button id="btn-dialog-back-map" class="btn-3d" style="background:#64748b; color:#fff; padding:4px 12px; font-size:12px;">
+          ◀ Kembali ke Peta
+        </button>
+        <div class="wood-board-title" style="padding: 4px 16px; margin: 0;">
+          <h2 id="dialog-zone-subtitle" style="font-size:16px; color:#fff;">Zona Budaya</h2>
+        </div>
+        <div style="width:100px;"></div>
+      </div>
+
+      <div class="dialog-content-area">
+        <!-- Opsi 1: Pasangan Penjaga Budaya Asli (Tuan Rumah Pulau) -->
+        <div class="npc-avatar-box">
+          <div class="npc-img-frame">
+            <img id="dialog-npc-img" src="assets/images/npc_pair_jawa.png" alt="Penjaga Budaya Jawa" class="npc-real-img">
+          </div>
+          <span id="dialog-npc-name" class="npc-title-tag">Raden Bagus & Dewi Sekartaji</span>
+          <span id="dialog-npc-costume" class="npc-costume-subtag">👘 Beskap & Kebaya Parang Kencana</span>
+        </div>
+
+        <!-- Balon Percakapan Sambutan & Tamu Kehormatan Berbusana Adat (Opsi 2) -->
+        <div class="dialog-bubble-box">
+          <p id="dialog-npc-speech" class="dialog-speech-text">
+            Sugeng rawuh! Kami Raden Bagus dan Dewi Sekartaji menyambutmu di Tanah Jawa. Mari lestarikan filosofi luhur, candi megah, dan keagungan batik keraton warisan leluhur!
+          </p>
+
+          <!-- Kartu Pertemuan Tamu Berbusana Adat (Opsi 2) -->
+          <div id="dialog-traveler-meeting-card" class="traveler-meeting-card">
+            <img id="dialog-traveler-avatar" src="assets/images/boni_transparent.png" class="traveler-avatar-mini" alt="Petualang">
+            <div class="traveler-info">
+              <span class="traveler-badge-label">Tamu Kehormatan</span>
+              <b id="dialog-traveler-name">Boni</b> mengenakan <span id="dialog-traveler-costume" class="highlight-costume">Beskap & Blangkon Batik Jawa</span>
+            </div>
+          </div>
+
+          <div style="font-size:13px; font-weight:bold; color:#b45309; background:#fef3c7; padding:6px 12px; border-radius:8px; border:1px dashed #d97706; margin-top:6px;">
+            🔍 Target: Selamatkan <b id="dialog-target-artifact">Keris Pusaka Jawa</b>
+          </div>
+        </div>
+      </div>
+
+      <!-- Papan 3 Misi Budaya Pulau -->
+      <div class="island-missions-board">
+        <!-- Misi 1: Pilihan Ganda -->
+        <div class="mission-choice-card">
+          <div class="mission-icon-box">📝</div>
+          <div class="mission-title">Misi 1: Pilihan Ganda</div>
+          <div class="mission-desc">5 Soal Budaya Luhur & Tren Populer</div>
+          <button id="btn-start-mcq" class="btn-3d btn-start" style="padding:6px 14px; font-size:12px; width:100%;">
+            Mulai Kuis ➔
+          </button>
+        </div>
+
+        <!-- Misi 2: Tebak Gambar -->
+        <div class="mission-choice-card">
+          <div class="mission-icon-box">🖼️</div>
+          <div class="mission-title">Misi 2: Tebak Gambar</div>
+          <div class="mission-desc">5 Gambar Landmark, Wastra, & Fauna</div>
+          <button id="btn-start-image" class="btn-3d btn-blue" style="padding:6px 14px; font-size:12px; width:100%;">
+            Tebak Visual ➔
+          </button>
+        </div>
+
+        <!-- Misi 3: Tap-Matching Bertingkat -->
+        <div class="mission-choice-card">
+          <div class="mission-icon-box">🎯</div>
+          <div class="mission-title">Misi 3: Tap-Matching</div>
+          <div class="mission-desc">Bertingkat: Easy ➔ Normal ➔ Hard</div>
+          <button id="btn-start-match" class="btn-3d btn-green" style="padding:6px 14px; font-size:12px; width:100%;">
+            Tantangan ➔
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== 4. SCREEN KUIS ARENA ==================== -->
+    <div id="screen-quiz" class="game-screen">
+      <div class="quiz-header-bar">
+        <button id="btn-quiz-quit" class="btn-3d" style="background:#ef4444; color:#fff; padding:4px 10px; font-size:11px;">
+          ✕ Keluar Kuis
+        </button>
+        <!-- Bar Pendamping Karakter Pemain Berbusana Adat (Opsi 2) -->
+        <div id="quiz-companion-bar" class="quiz-companion-bar">
+          <div class="companion-avatar-wrapper">
+            <img id="quiz-companion-avatar" src="assets/images/boni_transparent.png" alt="Mascot Avatar" class="companion-avatar-circle">
+            <span id="quiz-costume-badge" class="companion-costume-badge" title="Ornamen Adat Daerah">🟤</span>
+          </div>
+          <div class="companion-text-box">
+            <span id="quiz-companion-name" class="companion-name-pill">Boni</span>
+            <span id="quiz-companion-costume" class="companion-costume-pill">Beskap & Blangkon Jawa</span>
+          </div>
+        </div>
+        <div id="quiz-lives-container" class="quiz-lives-box" title="Sisa Nyawa Misi">
+          <span class="heart-icon active">❤️</span>
+          <span class="heart-icon active">❤️</span>
+          <span class="heart-icon active">❤️</span>
+        </div>
+        <span id="quiz-step-indicator" class="quiz-step-tag">Tantangan 1 dari 5</span>
+      </div>
+
+      <!-- Balon Motivasi Interaktif Karakter Pendamping (Opsi 2) -->
+      <div id="quiz-companion-bubble" class="companion-speech-bubble">
+        <span>💬</span>
+        <span id="quiz-companion-quote">Boni siap buktikan pengetahuan budaya Jawa!</span>
+      </div>
+
+      <!-- Bar Keahlian Khusus Karakter (Skill Bar) -->
+      <div id="quiz-skills-container" class="quiz-skills-container">
+        <span class="skill-label-text">⚡ Keahlian Karakter:</span>
+        <div id="quiz-skills-btn-wrapper" class="quiz-skills-btn-wrapper"></div>
+      </div>
+
+      <div id="quiz-card-content" class="quiz-card"></div>
+    </div>
+
+    <!-- ==================== 5. SCREEN VICTORY (MISI BERHASIL ASLI) ==================== -->
+    <div id="screen-victory" class="game-screen">
+      <div class="victory-box glow-anim">
+        <div class="victory-banner">🎉 MISI BERHASIL! 🎉</div>
+        <p style="font-size:14px; font-weight:bold; color:#78350f;">
+          Kamu telah menyelamatkan warisan luhur pusaka Nusantara!
+        </p>
+
+        <div class="victory-pedestal-group">
+          <!-- Selebrasi Foto Bersama: Penjaga Budaya Lokal (Opsi 1) & Petualang Berbusana Adat (Opsi 2) -->
+          <div class="victory-photo-together">
+            <div class="victory-photo-frame">
+              <img id="victory-guardian-img" src="assets/images/npc_pair_jawa.png" alt="Penjaga Budaya" class="victory-pair-img">
+              <div class="victory-traveler-overlay">
+                <img id="victory-player-img" src="assets/images/boni_transparent.png" alt="Karakter Pemain" class="victory-player-thumb">
+                <span id="victory-player-costume-tag" class="victory-player-badge">Blangkon Jawa</span>
+              </div>
+            </div>
+            <div id="victory-honor-text" class="victory-honor-banner">
+              📜 Raden Bagus & Dewi Sekartaji menganugerahkan gelar <b>Sahabat Budaya Luhur Jawa</b> kepada Boni!
+            </div>
+          </div>
+
+          <!-- Artefak Bersinar Asli -->
+          <div class="artifact-glow-display">
+            <img src="assets/images/artifact_keris.png" alt="Keris Pusaka" class="img-artifact-real">
+            <h3 id="victory-artifact-name" style="color:#b45309; margin-top:2px; font-size:14px;">Keris Pusaka Jawa</h3>
+            <p id="victory-artifact-lore" style="font-size:10px; color:#475569; max-width:200px;">Simbol kearifan luhur budi pekerti.</p>
+          </div>
+
+          <!-- Lencana Budaya & Hadiah Bintang -->
+          <div class="victory-reward-pill">
+            <div style="font-size:14px; margin-bottom:4px; color:#b45309;">
+              ⭐ <b>Hadiah: +100 Bintang</b>
+            </div>
+            <div>
+              <span id="victory-badge-icon" style="font-size:20px;">🏅</span>
+              <b id="victory-badge-name">Koleksi Budaya (Jawa)</b>
+            </div>
+            <p id="victory-badge-desc" style="font-size:10px; color:#64748b; margin-top:2px;">Lencana tersimpan di profil.</p>
+          </div>
+        </div>
+
+        <button id="btn-victory-continue" class="btn-3d btn-start" style="font-size:14px; padding:10px 24px;">
+          Lanjutkan ➔
+        </button>
+      </div>
+    </div>
+
+    <!-- ==================== MODAL FEEDBACK KUIS ==================== -->
+    <div id="feedback-modal" class="game-modal hidden">
+      <div class="modal-content" style="max-width: 420px;">
+        <div class="feedback-box">
+          <div id="feedback-icon" class="feedback-icon">🎉</div>
+          <h2 id="feedback-title" class="feedback-title">Jawaban Tepat!</h2>
+          <p id="feedback-text" class="feedback-text">Penjelasan edukatif materi budaya.</p>
+          <button id="feedback-btn-next" class="btn-3d btn-start" style="width:100%; margin-top:8px;">
+            Lanjut ➔
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== MODAL PROFIL SISWA & LENCANA ==================== -->
+    <div id="modal-profile" class="game-modal hidden">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 style="color:#78350f; font-size:18px;">👤 Profil Siswa & Lencana Budaya</h2>
+          <button class="btn-close-modal">✕</button>
+        </div>
+
+        <div style="display:flex; justify-content:space-between; align-items:center; background:#fef3c7; padding:10px; border-radius:12px; border:2px solid #d97706; margin-bottom:10px;">
+          <div>
+            <label style="font-size:11px; font-weight:bold; color:#78350f;">Nama Penjelajah:</label><br>
+            <input type="text" id="input-student-name" style="padding:4px 8px; border-radius:6px; border:1px solid #b45309; font-weight:bold; font-size:13px; margin-top:2px;" value="Penjelajah Cilik">
+          </div>
+          <div style="text-align:right;">
+            <div style="font-size:11px; color:#78350f;">Total Bintang Budaya:</div>
+            <div style="font-size:20px; font-weight:900; color:#b45309;">⭐ <span id="profile-total-stars">0</span> / 1800</div>
+          </div>
+        </div>
+
+        <h3 style="color:#78350f; font-size:13px; margin-top:8px;">🏅 Koleksi Lencana Digital (Badges):</h3>
+        <div id="profile-badge-grid" class="badge-grid"></div>
+
+        <h3 style="color:#78350f; font-size:13px; margin-top:12px;">📖 Ensiklopedia Pusaka Nusantara:</h3>
+        <div id="profile-artifact-grid" class="artifact-grid"></div>
+
+        <div style="text-align:center; margin-top:12px; border-top:1px solid #e2e8f0; padding-top:8px;">
+          <button id="btn-reset-progress" style="background:#fee2e2; border:1px solid #ef4444; color:#b91c1c; padding:4px 12px; border-radius:6px; cursor:pointer; font-size:11px; font-weight:bold;">
+            ⚠️ Reset Progres Petualangan
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== MODAL PETUNJUK ==================== -->
+    <div id="modal-guide" class="game-modal hidden">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 style="color:#78350f; font-size:18px;">📖 Petunjuk Petualangan Nusantara</h2>
+          <button class="btn-close-modal">✕</button>
+        </div>
+        <div style="line-height:1.5; font-size:13px; color:#37200e;">
+          <p>Selamat datang di <b>Petualangan Sahabat Nusantara</b>! Bersama Boni, Rara, dan Pendekar Cilik, jelajahi 6 zona budaya Indonesia:</p>
+          <ol style="margin-left:18px; margin-top:6px;">
+            <li><b>Pilih Wilayah di Peta</b>: Buka pulau yang tersedia, dimulai dari Pulau Jawa.</li>
+            <li><b>Selesaikan 3 Misi Budaya di Setiap Pulau</b>:
+              <ul style="margin-left:16px;">
+                <li>📝 <b>Misi 1: Pilihan Ganda</b> (5 Soal tradisi & tren kekinian).</li>
+                <li>🖼️ <b>Misi 2: Tebak Gambar</b> (5 Soal visual landmark, wastra, dan fauna).</li>
+                <li>🎯 <b>Misi 3: Tap-Matching</b> (Tantangan berjenjang: Easy 3 pasang ➔ Normal 4 pasang ➔ Hard 5 pasang).</li>
+              </ul>
+            </li>
+            <li><b>Kumpulkan Bintang & Lencana</b>: Dapatkan hingga <b>⭐ 1.800 Bintang</b> dan raih seluruh 6 Lencana Pusaka di Profil Siswamu!</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== MODAL JUKABOX / PILIH MUSIK NUSANTARA ==================== -->
+    <div id="modal-music" class="game-modal hidden">
+      <div class="modal-content modal-music-content">
+        <div class="modal-header">
+          <h2 style="color:#78350f; font-size:18px;">🎶 Jukebox Musik Nusantara</h2>
+          <button class="btn-close-modal">✕</button>
+        </div>
+        <p style="font-size:12.5px; color:#57534e; margin:0 0 12px 0; line-height:1.4;">
+          Pilih musik santai tradisional untuk lagu tema <b>Menu Utama & Peta</b>! Musik daerah akan terbuka saat pulau berhasil dijelajahi atau diselesaikan 100%.
+        </p>
+        <div id="music-track-list" class="music-track-list">
+          <!-- Diisi secara dinamis oleh app.js -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== MODAL NOTIFIKASI GAME (PAPAN KAYU NUSANTARA) ==================== -->
+    <div id="modal-game-dialog" class="game-modal hidden">
+      <div class="modal-dialog-board dialog-pop-anim">
+        <!-- Hiasan Daun Tropis di Sudut -->
+        <span class="decor-leaf leaf-left">🌿</span>
+        <span class="decor-leaf leaf-right">🍃</span>
+        
+        <!-- Ikon Pesan -->
+        <div id="game-dialog-icon" class="dialog-wood-icon">🔒</div>
+
+        <!-- Judul Emas Bergaya Game -->
+        <h3 id="game-dialog-title" class="dialog-wood-title">Wilayah Masih Terkunci!</h3>
+
+        <!-- Pesan Teks -->
+        <p id="game-dialog-message" class="dialog-wood-message">
+          Selesaikan seluruh misi di wilayah sebelumnya untuk membuka daerah ini.
+        </p>
+
+        <!-- Tombol Aksi Bertema Game -->
+        <div id="game-dialog-actions" class="dialog-actions-container">
+          <button id="btn-dialog-cancel" class="btn-menu-pill btn-pill-cyan hidden">
+            <span class="pill-label">Batal</span>
+          </button>
+          <button id="btn-dialog-confirm" class="btn-menu-pill btn-pill-orange">
+            <span class="pill-label">Siap, Mengerti! 🌟</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="js/game-data.js"></script>
+  <script src="js/costume-data.js"></script>
+  <script src="js/audio-synth.js"></script>
+  <script src="js/profile.js"></script>
+  <script src="js/quiz-engine.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js').then(reg => {
+          console.log('[PWA] ServiceWorker registered with scope:', reg.scope);
+        }).catch(err => {
+          console.log('[PWA] ServiceWorker registration failed:', err);
+        });
+      });
+    }
+  </script>
+</body>
+</html>

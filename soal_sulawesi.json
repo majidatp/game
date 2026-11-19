@@ -1,0 +1,302 @@
+[
+  {
+    "question": "Rumah adat suku Toraja di Sulawesi Selatan yang memiliki atap melengkung menjulang mirip perahu terbalik dan berhias tanduk kerbau adalah?",
+    "options": ["Rumah Betang", "Rumah Tongkonan", "Rumah Boyang", "Rumah Souraja"],
+    "correctIndex": 1,
+    "explanation": "Tongkonan berasal dari kata 'tongkon' (duduk bermusyawarah) dan menghadap ke utara tempat asal leluhur bersemayam."
+  },
+  {
+    "question": "Kapal layar kayu bertiang ganda karya pelaut ulung suku Bugis dan Makassar yang diakui UNESCO sebagai Warisan Budaya Dunia adalah?",
+    "options": ["Perahu Cadik", "Kapal Pinisi", "Perahu Kora-Kora", "Perahu Jukung"],
+    "correctIndex": 1,
+    "explanation": "Kapal Pinisi dibuat secara tradisional di Bulukumba tanpa paku besi, melainkan pasak kayu ulin yang kokoh menyeberangi samudera."
+  },
+  {
+    "question": "Pakaian adat wanita suku Bugis-Makassar berbentuk segi empat berlengan pendek yang diyakini sebagai salah satu busana tertua di dunia adalah?",
+    "options": ["Kebaya", "Baju Bodo", "Baju Kurung", "Baju Ta'a"],
+    "correctIndex": 1,
+    "explanation": "Baju Bodo terbuat dari kain kasa sutra tenun transparan dengan warna cerah yang mencerminkan usia dan status pemakainya."
+  },
+  {
+    "question": "Alat musik perkusi khas Minahasa Sulawesi Utara yang terbuat dari bilah-bilah kayu bernada merdu di atas meja resonator adalah?",
+    "options": ["Gamelan", "Kolintang", "Calung", "Talempong"],
+    "correctIndex": 1,
+    "explanation": "Kolintang berasal dari bunyi 'Tong-Ting-Tang' yang ditala harmonis dan dimainkan dalam ansambel orkestra kayu."
+  },
+  {
+    "question": "Makam kuno di tebing batu cadas Tana Toraja yang dihiasi patung kayu leluhur berpakaian adat di balkon tebing dinamakan?",
+    "options": ["Makam Lemo & Londa", "Makam Imogiri", "Makam Giri", "Makam Trowulan"],
+    "correctIndex": 0,
+    "explanation": "Patung kayu pahat di tebing makam Toraja disebut 'Tau-Tau', melambangkan sosok bangsawan yang telah berpulang ke alam baka."
+  },
+  {
+    "question": "Upacara pemakaman adat terbesar dan termewah di dunia yang diselenggarakan oleh masyarakat Tana Toraja disebut?",
+    "options": ["Tiwah", "Rambu Solo'", "Ngaben", "Grebeg"],
+    "correctIndex": 1,
+    "explanation": "Rambu Solo' melibatkan penyembelihan puluhan kerbau belang (Tedong Bonga) sebagai bekal arwah menuju surga (Puya)."
+  },
+  {
+    "question": "Kerbau langka khas Tana Toraja yang memiliki corak belang putih-hitam dengan bola mata biru dan bernilai harga hingga ratusan juta rupiah adalah?",
+    "options": ["Kerbau Bule", "Tedong Bonga", "Banteng Jawa", "Anoa"],
+    "correctIndex": 1,
+    "explanation": "Tedong Bonga menempati kasta tertinggi dalam adat Toraja sebagai persembahan paling mulia pada upacara Rambu Solo'."
+  },
+  {
+    "question": "Tradisi tahunan suku Toraja membersihkan jenazah leluhur, mengganti pakaian kain baru, dan menata peti kubur di liang batu disebut?",
+    "options": ["Ma'nene", "Tiwah", "Tedak Siten", "Brokohan"],
+    "correctIndex": 0,
+    "explanation": "Ritual Ma'nene menunjukkan bakti cinta anak cucu yang tak pernah putus kepada orang tua dan leluhur yang telah tiada."
+  },
+  {
+    "question": "Senjata tikam tradisional khas masyarakat Bugis dan Makassar yang berbilah tajam satu sisi dengan pamor beracun mematikan adalah?",
+    "options": ["Keris", "Badik (Kawali/Gecong)", "Rencong", "Kujang"],
+    "correctIndex": 1,
+    "explanation": "Bagi pria Bugis, Badik disisipkan di pinggang kiri sebagai penjaga kehormatan diri dan simbol kedewasaan ksatria."
+  },
+  {
+    "question": "Benteng pertahanan berbentuk penyu menghadap ke laut di tepi Pantai Makassar peninggalan Kerajaan Gowa-Tallo abad ke-16 adalah?",
+    "options": ["Benteng Belgica", "Benteng Fort Rotterdam (Ujung Pandang)", "Benteng Vredeburg", "Benteng Marlborough"],
+    "correctIndex": 1,
+    "explanation": "Bentuk penyu pada Fort Rotterdam melambangkan Kerajaan Gowa yang berjaya di daratan maupun di lautan samudra."
+  },
+  {
+    "question": "Benteng terluas di dunia versi Guinness World Records seluas 23 hektare yang terbuat dari susunan batu kapur putih berada di?",
+    "options": ["Benteng Keraton Buton (Sulawesi Tenggara)", "Benteng Marlborough", "Benteng Otanaha", "Benteng Somba Opu"],
+    "correctIndex": 0,
+    "explanation": "Benteng Keraton Buton memiliki 12 pintu gerbang (Lawa) dan 16 meriam kuno pertahanan Kesultanan Buton."
+  },
+  {
+    "question": "Tarian sakral kesultanan Gowa yang dibawakan oleh penari wanita berbusana Baju Bodo dengan gerakan sangat lambat dan kipas di tangan adalah?",
+    "options": ["Tari Saman", "Tari Kipas Pakarena", "Tari Jaipong", "Tari Piring"],
+    "correctIndex": 1,
+    "explanation": "Tari Pakarena melambangkan kelembutan, kesetiaan, dan kepatuhan perempuan Bugis-Makassar di hadapan sang pencipta."
+  },
+  {
+    "question": "Tarian perang ksatria Minahasa di mana penari mengenakan busana merah menyala membawa pedang santi dan perisai sambil membelalakkan mata adalah?",
+    "options": ["Tari Kabasaran (Kawasaran)", "Tari Cakalele", "Tari Mandau", "Tari Caci"],
+    "correctIndex": 0,
+    "explanation": "Tari Kabasaran ditarikan oleh ksatria penjaga keamanan kampung yang siap mempertahankan tanah air dari musuh."
+  },
+  {
+    "question": "Kain tenun sutra kebanggaan masyarakat Bugis Wajo yang ditenun secara tradisional dengan motif kotak-kotak cerah dinamakan?",
+    "options": ["Kain Ulos", "Kain Sutra Lipa Sabbe (Sengkang)", "Kain Sasirangan", "Kain Songket"],
+    "correctIndex": 1,
+    "explanation": "Sengkang di Kabupaten Wajo dikenal sebagai 'Kota Sutra' penghasil tenun sutra ulat sutra murbei alami bermutu tinggi."
+  },
+  {
+    "question": "Pahlawan nasional berjuluk 'Ayam Jantan dari Timur' (De Haantjes van Het Oosten) yang gigih memimpin Kerajaan Gowa melawan VOC Belanda adalah?",
+    "options": ["Sultan Iskandar Muda", "Sultan Hasanuddin", "Pangeran Antasari", "Pattimura"],
+    "correctIndex": 1,
+    "explanation": "Sultan Hasanuddin memimpin perang laut heroik mempertahankan kedaulatan jalur perdagangan rempah di Indonesia Timur."
+  },
+  {
+    "question": "Pahlawan nasional wanita pejuang emansipasi dan kemerdekaan asal Minahasa Sulawesi Utara yang wafat di pengasingan Jawa Tengah adalah?",
+    "options": ["R.A. Kartini", "Maria Walanda Maramis", "Cut Meutia", "Nyi Ageng Serang"],
+    "correctIndex": 1,
+    "explanation": "Maria Walanda Maramis mendirikan organisasi PIKAT untuk memperjuangkan hak pendidikan dan bersuara bagi perempuan."
+  },
+  {
+    "question": "Satwa mamalia terkecil di dunia bermata bulat sangat besar dan berkepala dapat berputar 180 derajat yang hidup di Tangkoko Bitung adalah?",
+    "options": ["Kukang", "Tarsius (Tarsius spectrumgularis)", "Bekantan", "Owa"],
+    "correctIndex": 1,
+    "explanation": "Tarsius berukuran hanya 12 cm, hidup nokturnal di lubang pohon beringin, dan melompat lincah menangkap serangga malam."
+  },
+  {
+    "question": "Hewan endemik Sulawesi menyerupai babi hutan bertaring runcing melengkung menembus moncong atas kepalanya adalah?",
+    "options": ["Babi Kutil", "Babirusa (Babyrousa)", "Babi Hutan", "Anoa"],
+    "correctIndex": 1,
+    "explanation": "Taring atas babirusa jantan melengkung ke atas hingga mendekati mata, berfungsi untuk menarik perhatian betina."
+  },
+  {
+    "question": "Mamalia kerdil bertanduk runcing lurus menyerupai kerbau mini yang menjadi satwa endemik pulau Sulawesi adalah?",
+    "options": ["Banteng", "Anoa (Bubalus depressicornis)", "Kambing Hutan", "Rusa Timor"],
+    "correctIndex": 1,
+    "explanation": "Anoa terbagi atas Anoa Pegunungan dan Anoa Dataran Rendah, keduanya hidup soliter di lebatnya rimba Sulawesi."
+  },
+  {
+    "question": "Burung endemik pulau Sulawesi yang mengubur telurnya di pasir pantai hangat atau tanah geotermal vulkanik untuk ditetaskan adalah?",
+    "options": ["Burung Cendrawasih", "Burung Maleo (Macrocephalon maleo)", "Burung Enggang", "Burung Kasuari"],
+    "correctIndex": 1,
+    "explanation": "Anak burung Maleo yang baru menetas dapat langsung terbang mandiri begitu berhasil menggali keluar dari tumpukan pasir hangat."
+  },
+  {
+    "question": "Taman Nasional Laut di Sulawesi Utara yang tersohor di seluruh dunia dengan tebing palung karang vertikal sedalam ratusan meter adalah?",
+    "options": ["Raja Ampat", "Bunaken", "Wakatobi", "Togean"],
+    "correctIndex": 1,
+    "explanation": "Taman Nasional Bunaken memiliki 390 spesies terumbu karang dan ribuan jenis ikan hias tropis yang memukau penyelam dunia."
+  },
+  {
+    "question": "Gugusan kepulauan di Sulawesi Tenggara yang terkenal sebagai surga terumbu karang dunia di pusat segitiga terumbu karang karibia timur adalah?",
+    "options": ["Bunaken", "Kepulauan Wakatobi", "Derawan", "Karimunjawa"],
+    "correctIndex": 1,
+    "explanation": "Wakatobi merupakan akronim dari empat pulau utamanya: Wangi-Wangi, Kaledupa, Tomia, dan Binongko."
+  },
+  {
+    "question": "Kuliner sup daging sapi berkuah rempah kental gurih khas Makassar yang disajikan dengan potongan ketupat daun kelapa adalah?",
+    "options": ["Rawon", "Coto Makassar", "Gudeg", "Soto Banjar"],
+    "correctIndex": 1,
+    "explanation": "Kuah Coto Makassar dibuat dengan rebusan jeroan dan daging sapi dipadukan dengan kacang tanah sangrai giling yang lezat."
+  },
+  {
+    "question": "Olahan iga sapi bakar khas Makassar yang dibumbui rempah kayu manis dan kluwek disajikan bersama kuah sup gurih adalah?",
+    "options": ["Sop Buntut", "Konro Bakar (Sop Konro)", "Empal Gentong", "Brongkos"],
+    "correctIndex": 1,
+    "explanation": "Sop Konro bercita rasa gurih pekat dengan taburan bawang goreng dan sambal cabai rawit pedas mengigit."
+  },
+  {
+    "question": "Hidangan penutup manis khas Makassar berbahan pisang raja matang dibalut adonan tepung hijau pandan kenyal disiram sirup merah adalah?",
+    "options": ["Kolak Pisang", "Es Pisang Ijo", "Es Cendol", "Es Doger"],
+    "correctIndex": 1,
+    "explanation": "Es Pisang Ijo disajikan dingin bersama bubur sumsum lembut gurih, es serut, dan kucuran susu kental manis."
+  },
+  {
+    "question": "Bubur gurih khas Manado yang kaya akan sayuran kangkung, bayam, kemangi, jagung manis, dan ubi labu kuning adalah?",
+    "options": ["Bubur Pedas", "Tinutuan (Bubur Manado)", "Bubur Ayam", "Bubur Sumsum"],
+    "correctIndex": 1,
+    "explanation": "Tinutuan disajikan hangat bersama sambal roa pedas asap dan perkedel jagung (bakwan nikmat)."
+  },
+  {
+    "question": "Masakan khas Minahasa berupa olahan ikan laut segar yang dimasak bumbu kuning pedas dengan daun kemangi dalam belanga tanah liat adalah?",
+    "options": ["Gulai Ikan", "Ikan Woku Belanga", "Ikan Kuah Asam", "Pesmol Ikan"],
+    "correctIndex": 1,
+    "explanation": "Bumbu Woku kaya daun jeruk, daun kunyit, daun pandan, kemangi, dan cabai yang menghasilkan aroma harum menggugah selera."
+  },
+  {
+    "question": "Sambal khas Sulawesi Utara yang terbuat dari ulekan cabai rawit merah pedas dicampur dengan suwiran ikan asap roa gurih adalah?",
+    "options": ["Sambal Terasi", "Sambal Roa", "Sambal Matah", "Sambal Dabu-Dabu"],
+    "correctIndex": 1,
+    "explanation": "Ikan roa diasap kering berhari-hari sebelum ditumbuk halus bersama bawang dan cabai rawit pedas."
+  },
+  {
+    "question": "Kue pie gurih manis khas Manado berisi serutan daging kelapa muda segar, susu, dan taburan kayu manis bubuk serta kismis adalah?",
+    "options": ["Bika Ambon", "Klappertaart", "Pastel", "Kue Lumpur"],
+    "correctIndex": 1,
+    "explanation": "Klappertaart berakar dari pengaruh kuliner Belanda yang berpadu dengan melimpahnya kelapa di bumi Nyiur Melambai Minahasa."
+  },
+  {
+    "question": "Danau purba terdalam di Indonesia dan nomor delapan terdalam di dunia (590 meter) yang terletak di Sulawesi Selatan adalah?",
+    "options": ["Danau Toba", "Danau Matano", "Danau Towuti", "Danau Poso"],
+    "correctIndex": 1,
+    "explanation": "Danau Matano memiliki air jernih kristal dengan keanekaragaman ikan endemik yang tidak ditemukan di belahan bumi lain."
+  },
+  {
+    "question": "Pantai indah di pesisir Kota Makassar yang terkenal sebagai tempat terbaik menikmati pemandangan matahari terbenam (sunset) adalah?",
+    "options": ["Pantai Kuta", "Pantai Losari", "Pantai Sanur", "Pantai Senggigi"],
+    "correctIndex": 1,
+    "explanation": "Di sepanjang anjungan Pantai Losari, pengunjung dapat menikmati jajanan pisang epe bakar saus gula aren durian."
+  },
+  {
+    "question": "Alat musik petik tradisional berbentuk rebab kayu dua dawai bersuara melankolis khas masyarakat suku Mandar dan Bugis dinamakan?",
+    "options": ["Kacapi", "Keso-Keso (Geso-Geso)", "Sape'", "Sasando"],
+    "correctIndex": 1,
+    "explanation": "Keso-Keso dimainkan dengan menggesek dawai menggunakan busur berambut ekor kuda untuk mengiringi syair tutur petuah kuno."
+  },
+  {
+    "question": "Seni bercerita dan melantunkan kisah kepahlawanan lisan suku Bugis dan Makassar yang diiringi petikan alat musik keso-keso disebut?",
+    "options": ["Macapat", "Sinrilik", "Madihin", "Didong"],
+    "correctIndex": 1,
+    "explanation": "Penyair Sinrilik (Pa'sinrilik) membawakan kisah heroik Datu Museng dan Maipa Deapati yang melegenda."
+  },
+  {
+    "question": "Tutup kepala adat pria bangsawan Bugis yang terbuat dari anyaman serat pelepah lontar bertatah sulaman benang emas dinamakan?",
+    "options": ["Blangkon", "Songkok Recca (Songkok To Bone)", "Udeng", "Tanjak"],
+    "correctIndex": 1,
+    "explanation": "Songkok Recca dahulu hanya boleh dipakai oleh kaum raja dan bangsawan tinggi Bone sebagai lambang kedaulatan."
+  },
+  {
+    "question": "Filosofi luhur masyarakat Bugis-Makassar yang menjunjung tinggi harga diri, martabat, dan rasa malu pantang menyerah adalah?",
+    "options": ["Siri' Na Pacce", "Tri Hita Karana", "Urip Iku Urup", "Torang Samua Basudara"],
+    "correctIndex": 0,
+    "explanation": "Siri' berarti menjaga kehormatan diri dan keluarga, sedangkan Pacce adalah rasa solidaritas dan empati mendalam kepada sesama."
+  },
+  {
+    "question": "Semboyan kerukunan masyarakat Sulawesi Utara yang bermakna 'Kita Semua Bersaudara' tanpa membedakan suku dan agama adalah?",
+    "options": ["Bhinneka Tunggal Ika", "Torang Samua Basudara", "Siri' Na Pacce", "Salassae"],
+    "correctIndex": 1,
+    "explanation": "Semboyan Torang Samua Basudara dicetuskan oleh Pahlawan Nasional Dr. G.S.S.J. Ratulangi (Sam Ratulangi)."
+  },
+  {
+    "question": "Perahu kayu bercadik tradisional khas masyarakat nelayan Mandar Sulawesi Barat yang terkenal lincah melaju cepat di lautan adalah?",
+    "options": ["Pinisi", "Perahu Sandeq", "Jukung", "Kora-Kora"],
+    "correctIndex": 1,
+    "explanation": "Sandeq adalah perahu layar terhalus dan tercepat di dunia yang digerakkan oleh kepiawaian pelaut Mandar menunggang angin."
+  },
+  {
+    "question": "Rumah adat tradisional masyarakat Kaili di Lembah Palu Sulawesi Tengah yang dibangun tanpa paku besi di atas pilar balok kayu ulin adalah?",
+    "options": ["Tongkonan", "Souraja (Banua Mbaso)", "Boyang", "Tambi"],
+    "correctIndex": 1,
+    "explanation": "Souraja merupakan kediaman bangsawan kerajaan Kaili yang memiliki sirkulasi udara sejuk di tengah panasnya lembah Palu."
+  },
+  {
+    "question": "Kue tradisional khas Manado berupa dadar gulung pandan hijau berisi kelapa parut manis gula aren yang legit adalah?",
+    "options": ["Lalampa", "Kue Cucur", "Kue Balapis", "Panada"],
+    "correctIndex": 2,
+    "explanation": "Balapis Manado memiliki tekstur lembut bertingkat dengan aroma wangi daun pandan dan cokelat bubuk."
+  },
+  {
+    "question": "Roti goreng berbentuk pastel khas Manado dengan isian daging ikan cakalang bumbu pampis pedas gurih dinamakan?",
+    "options": ["Pastel", "Panada", "Cireng", "Kroket"],
+    "correctIndex": 1,
+    "explanation": "Panada berakar dari pengaruh kuliner Spanyol 'empanada' yang diadaptasi dengan isian ikan cakalang asap khas Minahasa."
+  },
+  {
+    "question": "Kue tradisional khas Palu Sulawesi Tengah berbahan parutan kelapa muda dan gula merah yang dibakar harum di atas wajan tanah liat adalah?",
+    "options": ["Kue Tetu", "Kue Lalampa", "Bagea", "Kue Paranggi"],
+    "correctIndex": 0,
+    "explanation": "Kue Tetu disajikan di dalam cetakan wadah perahu daun pandan hutan beraroma sangat harum saat disajikan hangat."
+  },
+  {
+    "question": "Kue kering bulat keras khas Palopo dan Sulawesi Tenggara berbahan tepung sagu dengan aroma rempah kayu manis dan pala adalah?",
+    "options": ["Bagea", "Kue Nastar", "Kastengel", "Kue Semprit"],
+    "correctIndex": 0,
+    "explanation": "Kue Bagea memiliki kerenyahan khas yang sangat nikmat dicelupkan ke dalam secangkir kopi panas atau teh rempah."
+  },
+  {
+    "question": "Kawasan perbukitan karst kapur terindah kedua di dunia setelah Madagaskar yang terletak di Maros-Pangkep Sulawesi Selatan adalah?",
+    "options": ["Rammang-Rammang", "Gunung Bromo", "Kelimutu", "Dieng"],
+    "correctIndex": 0,
+    "explanation": "Rammang-Rammang menyajikan gugusan menara karst menjulang di tengah tenangnya sungai dan hamparan sawah hijau permadani."
+  },
+  {
+    "question": "Tarian pergaulan muda-mudi suku Kaili di Sulawesi Tengah yang ditarikan berputar melingkar saling bergandengan tangan adalah?",
+    "options": ["Tari Dero", "Tari Poco-Poco", "Tari Sajojo", "Tari Yospan"],
+    "correctIndex": 0,
+    "explanation": "Tari Dero dibawakan pada pesta panen padi diiringi tabuhan gong dan nyanyian pantun persahabatan yang riang."
+  },
+  {
+    "question": "Kain tenun ikat tradisional Donggala Sulawesi Tengah yang dibuat menggunakan alat tenun bukan mesin (ATBM) dengan motif bunga sube adalah?",
+    "options": ["Tenun Donggala", "Songket", "Ulos", "Lipa Sabbe"],
+    "correctIndex": 0,
+    "explanation": "Tenun Donggala terkenal dengan kehalusan benang sutra dan warna cerah keemasan lambang wibawa para tetua adat."
+  },
+  {
+    "question": "Batu megalitikum purba misterius berupa patung berwujud wajah manusia berpahat mata lonjong yang terletak di Lembah Besoa Lore Lindu adalah?",
+    "options": ["Arca Dwarapala", "Megalit Lore Lindu (Patung Palindo)", "Prasasti Yupa", "Menhir"],
+    "correctIndex": 1,
+    "explanation": "Patung Megalitikum Lore Lindu Sulawesi Tengah diperkirakan berusia lebih dari 3.000 tahun sebelum masehi."
+  },
+  {
+    "question": "Pusat industri kerajinan perak bakar tradisional di Sulawesi Selatan yang menghasilkan ornamen miniatur kapal pinisi dan rumah adat adalah?",
+    "options": ["Kendari", "Kaledupa", "Somba Opu (Makassar)", "Gorontalo"],
+    "correctIndex": 2,
+    "explanation": "Jalan Somba Opu Makassar terkenal dengan sentra toko cinderamata emas, perak bakar filigri, dan kain tenun sutra Bugis."
+  },
+  {
+    "question": "Festival Danau Poso di Sulawesi Tengah yang diselenggarakan di tepi danau pasir kuning berair jernih merayakan?",
+    "options": ["Kerukunan budaya dan pesta panen rakyat Poso", "Balapan sapi", "Perang perahu", "Tolak bala"],
+    "correctIndex": 0,
+    "explanation": "Festival Danau Poso menampilkan atraksi tari dero kolosal, peragaan busana tenun kulit kayu, dan lomba dayung perahu tradisional."
+  },
+  {
+    "question": "Bahan pakaian tradisional tertua di dunia yang dibuat masyarakat suku Lore Sulawesi Tengah dari kulit pohon beringin yang dipukul-pukul adalah?",
+    "options": ["Kain Sutra", "Kain Kulit Kayu (Fuya)", "Kain Katun", "Kain Mori"],
+    "correctIndex": 1,
+    "explanation": "Pembuatan Fuya menggunakan batu pemukul 'Ike' kuno yang melembutkan serat kulit kayu menjadi kain pakaian alami."
+  },
+  {
+    "question": "Pintu gerbang masuk pelabuhan kuno Kerajaan Luwu di Palopo yang terkenal dengan julukan 'Bumi Sawerigading' di Sulawesi Selatan adalah?",
+    "options": ["Istana Datu Luwu", "Pelabuhan Paotere", "Fort Rotterdam", "Pelabuhan Tanjung Silopo"],
+    "correctIndex": 0,
+    "explanation": "Kedatuan Luwu merupakan kerajaan tertua di Sulawesi Selatan yang menjadi latar utama epos kesusastraan I La Galigo."
+  }
+]

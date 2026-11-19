@@ -1,0 +1,102 @@
+/* main.css - Tata Letak dan Tema Visual Nusantara */
+:root {
+  --wood-dark: #6d411b;
+  --wood-mid: #9b5c2a;
+  --wood-light: #c98242;
+  --wood-border: #442409;
+  --gold-primary: #f59e0b;
+  --gold-glow: #fef08a;
+  --gold-dark: #b45309;
+  --sky-blue: #38bdf8;
+  --ocean-blue: #0284c7;
+  --jungle-green: #15803d;
+  --text-dark: #37200e;
+  --text-light: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: 'Baloo 2', 'Fredoka', 'Comic Sans MS', cursive, sans-serif;
+  background: #000;
+  color: #fff;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Container Layar Game Fullscreen 100vw x 100vh (Tanpa Kartu / Bingkai Gelap) */
+#game-wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
+  background: #38bdf8;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+@media (max-height: 600px) {
+  #game-wrapper {
+    height: 100vh;
+    max-height: 100vh;
+  }
+}
+
+/* Navigasi Layar Game (State Router) */
+.game-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.game-screen.active {
+  display: flex;
+}
+
+/* Bar Kontrol Atas (Sound & Stats) */
+.top-bar-overlay {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  z-index: 100;
+  display: flex;
+  gap: 10px;
+}
+
+.btn-sound-toggle {
+  background: rgba(0, 0, 0, 0.55);
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+  transition: transform 0.1s, background 0.2s;
+}
+
+.btn-sound-toggle:active {
+  transform: scale(0.92);
+}

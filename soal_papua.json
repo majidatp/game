@@ -1,0 +1,302 @@
+[
+  {
+    "question": "Rumah adat suku pegunungan Papua (suku Dani) yang beratap kubah jerami tebal menyerupai jamur penghangat udara dingin adalah?",
+    "options": ["Rumah Betang", "Rumah Honai", "Rumah Baileo", "Rumah Sasak"],
+    "correctIndex": 1,
+    "explanation": "Rumah Honai tidak memiliki jendela dan berpintu kecil agar suhu di dalam ruangan tetap hangat dari hawa dingin pegunungan Jayawijaya."
+  },
+  {
+    "question": "Burung surga endemik Papua yang memiliki bulu ekor kuning keemasan menjuntai anggun dan menjadi lambang kemegahan tanah Papua adalah?",
+    "options": ["Burung Enggang", "Burung Cendrawasih (Paradisaeidae)", "Burung Kasuari", "Burung Maleo"],
+    "correctIndex": 1,
+    "explanation": "Burung Cendrawasih menari di atas dahan pohon tinggi untuk memamerkan keindahan bulu sayapnya kepada betina."
+  },
+  {
+    "question": "Tas tradisional multifungsi khas masyarakat Papua yang dianyam dari serat kulit kayu atau anggrek hutan dan digantungkan di dahi adalah?",
+    "options": ["Tas Anjat", "Noken", "Tas Koja", "Tas Ransel"],
+    "correctIndex": 1,
+    "explanation": "Noken diakui UNESCO sebagai Warisan Budaya Takbenda Dunia berkat filosofi kehidupan, perdamaian, dan kesuburan perempuan Papua."
+  },
+  {
+    "question": "Alat musik tabuh tradisional khas Papua dan Maluku yang terbuat dari batang kayu bulat berbalut kulit biawak atau rusa dengan ukiran khas adalah?",
+    "options": ["Kendang", "Tifa", "Gendang", "Marawis"],
+    "correctIndex": 1,
+    "explanation": "Alunan irama Tifa membakar semangat ksatria dalam tarian perang dan menjadi pemandu ritme tarian penyambutan tamu."
+  },
+  {
+    "question": "Tradisi memasak bersama secara massal menggunakan tumpukan batu panas beralas daun pisang di dalam lubang tanah dinamakan?",
+    "options": ["Bakar Batu (Barapen)", "Tiwah", "Grebeg", "Ngaben"],
+    "correctIndex": 0,
+    "explanation": "Upacara Bakar Batu merupakan lambang perdamaian antarsuku, ungkapan syukur panen raya, dan pesta kebersamaan masyarakat pedalaman Papua."
+  },
+  {
+    "question": "Gugusan pulau karang zamrud di perairan Papua Barat yang diakui dunia sebagai jantung segitiga terumbu karang dengan 75% spesies karang dunia adalah?",
+    "options": ["Bunaken", "Kepulauan Raja Ampat", "Wakatobi", "Derawan"],
+    "correctIndex": 1,
+    "explanation": "Raja Ampat terdiri dari empat gugusan pulau utama: Waigeo, Misool, Salawati, dan Batanta."
+  },
+  {
+    "question": "Suku pedalaman Papua di pesisir selatan yang termasyhur di museum seni dunia berkat keahlian mengukir patung tiang kayu leluhur (Bisj Pole) adalah?",
+    "options": ["Suku Dani", "Suku Asmat", "Suku Korowai", "Suku Amungme"],
+    "correctIndex": 1,
+    "explanation": "Ukiran Asmat dibuat tanpa sketsa pola, mengalir langsung dari imajinasi dan penghormatan sakral kepada roh para leluhur."
+  },
+  {
+    "question": "Suku pedalaman Papua yang terkenal dengan kepiawaian membangun rumah pohon setinggi 30 hingga 50 meter di atas tajuk rimba adalah?",
+    "options": ["Suku Korowai", "Suku Asmat", "Suku Biak", "Suku Sentani"],
+    "correctIndex": 0,
+    "explanation": "Rumah pohon suku Korowai melindungi keluarga dari ancaman binatang buas, serangan musuh, dan gigitan nyamuk hutan rawa."
+  },
+  {
+    "question": "Tarian pergaulan muda-mudi Papua yang sangat ceria dan energik dengan gerakan lompat kaki serentak mengikuti alunan musik akustik adalah?",
+    "options": ["Tari Saman", "Tari Yospan (Yosim Pancar)", "Tari Piring", "Tari Jaipong"],
+    "correctIndex": 1,
+    "explanation": "Tari Yospan merupakan penggabungan dua tarian rakyat (Yosim dan Pancar) yang melambangkan keakraban dan kegembiraan generasi muda."
+  },
+  {
+    "question": "Tarian selamat datang khas Papua yang dibawakan dengan penuh semangat dan irama lompatan gembira diiringi nyanyian bersama adalah?",
+    "options": ["Tari Pendet", "Tari Sajojo", "Tari Pakarena", "Tari Tor-tor"],
+    "correctIndex": 1,
+    "explanation": "Lagu dan Tari Sajojo mengisahkan tentang kembang desa yang cantik jelita dan dicintai oleh para pemuda kampung."
+  },
+  {
+    "question": "Makanan pokok tradisional masyarakat Maluku dan Papua yang dibuat dari tepung pati pohon sagu bertekstur kenyal bening adalah?",
+    "options": ["Nasi Liwet", "Papeda", "Kapurung", "Tiwoi"],
+    "correctIndex": 1,
+    "explanation": "Papeda disantap hangat menggunakan sepasang sumpit kayu (gata-gata) dengan siraman kuah ikan kuning berempah kunyit asam segar."
+  },
+  {
+    "question": "Burung darat berbadan besar yang tidak dapat terbang dengan cakar kaki perkasa dan mahkota tanduk keras di kepala khas rimba Papua adalah?",
+    "options": ["Burung Unta", "Burung Kasuari Gelambir Ganda", "Burung Cendrawasih", "Burung Mambruk"],
+    "correctIndex": 1,
+    "explanation": "Kasuari memiliki peran penting dalam ekologi hutan Papua sebagai penyebar biji buah-buahan hutan berukuran besar."
+  },
+  {
+    "question": "Hewan marsupial berkantung mirip kangguru Australia yang mahir melompat dan hidup di atas cabang pepohonan hutan Papua adalah?",
+    "options": ["Kuskus", "Kanguru Pohon (Dendrolagus)", "Koala", "Wombat"],
+    "correctIndex": 1,
+    "explanation": "Kanguru Pohon memiliki cakar tajam dan ekor panjang berotot kuat untuk menjaga keseimbangan di ranting pepohonan tinggi."
+  },
+  {
+    "question": "Puncak gunung tertinggi di Indonesia setinggi 4.884 meter di Pegunungan Jayawijaya Papua yang memiliki tutupan salju abadi adalah?",
+    "options": ["Gunung Kerinci", "Puncak Jaya (Carstensz Pyramid)", "Gunung Rinjani", "Gunung Semeru"],
+    "correctIndex": 1,
+    "explanation": "Puncak Jaya masuk ke dalam jajaran 'Seven Summits' (Tujuh Puncak Tertinggi Dunia) dan menjadi satu-satunya gletser tropis di Indonesia."
+  },
+  {
+    "question": "Pahlawan nasional asal Papua yang mengusulkan nama 'IRIAN' (Ikut Republik Indonesia Anti Nederland) dan fotonya tertera di uang kertas Rp10.000 adalah?",
+    "options": ["Silas Papare", "Frans Kaisiepo", "Johannes Abraham Dimara", "Marthen Indey"],
+    "correctIndex": 1,
+    "explanation": "Frans Kaisiepo gigih mempertahankan kemerdekaan dan kedaulatan Papua sebagai bagian tak terpisahkan dari Republik Indonesia."
+  },
+  {
+    "question": "Pahlawan nasional asal Serui Papua yang memimpin Partai Kemerdekaan Indonesia Irian (PKII) dan berjuang dalam Operasi Trikora adalah?",
+    "options": ["Silas Papare", "Frans Kaisiepo", "Marthen Indey", "Karel Satsuit Tubun"],
+    "correctIndex": 0,
+    "explanation": "Silas Papare mendirikan badan perjuangan kemerdekaan dan berulang kali dipenjara oleh penguasa kolonial Belanda."
+  },
+  {
+    "question": "Tanaman khas Papua berbentuk buah lonjong berduri kemerahan yang kaya antioksidan dan khasiat obat herbal tradisional adalah?",
+    "options": ["Matoa", "Buah Merah (Pandanus conoideus)", "Buah Gandaria", "Pandan"],
+    "correctIndex": 1,
+    "explanation": "Minyak ekstrak Buah Merah diyakini masyarakat suku pedalaman dapat meningkatkan daya tahan tubuh dan menyembuhkan berbagai penyakit."
+  },
+  {
+    "question": "Buah khas Papua yang memiliki perpaduan rasa manis unik antara durian, rambutan, dan kelengkeng dengan kulit keras hijau kemerahan adalah?",
+    "options": ["Salak", "Matoa (Pometia pinnata)", "Duku", "Langsat"],
+    "correctIndex": 1,
+    "explanation": "Pohon Matoa tumbuh subur di dataran rendah Papua dan menjadi primadona buah tangan khas tanah Papua."
+  },
+  {
+    "question": "Festival budaya tahunan terbesar di Lembah Baliem Papua yang menampilkan simulasi perang persahabatan antarsuku dan karapan babi adalah?",
+    "options": ["Festival Danau Sentani", "Festival Budaya Lembah Baliem", "Festival Raja Ampat", "Festival Asmat"],
+    "correctIndex": 1,
+    "explanation": "Festival Lembah Baliem di Wamena menarik wisatawan dari seluruh dunia untuk menyaksikan eksotisme adat suku Dani, Lani, dan Yali."
+  },
+  {
+    "question": "Festival seni budaya di danau vulkanik luas dekat Jayapura yang menampilkan tarian di atas perahu kayu dan lukisan kulit kayu adalah?",
+    "options": ["Festival Danau Sentani", "Festival Teluk Cenderawasih", "Festival Biak Munara", "Festival Asmat"],
+    "correctIndex": 0,
+    "explanation": "Masyarakat suku Sentani melukis motif khas binatang danau pada selembar kain kulit kayu Khombow alami."
+  },
+  {
+    "question": "Teluk luas di Papua tempat berkumpulnya kawanan hiu paus raksasa jinak (Whale Shark) yang sering berenang bersama nelayan bagan adalah?",
+    "options": ["Teluk Cenderawasih (Nabire)", "Teluk Mayalibit", "Teluk Youtefa", "Teluk Doreri"],
+    "correctIndex": 0,
+    "explanation": "Hiu paus di Taman Nasional Teluk Cenderawasih terbiasa mendekati perahu nelayan untuk memakan ikan puri kecil."
+  },
+  {
+    "question": "Senjata berburu tradisional ksatria pedalaman Papua yang terbuat dari kayu ulin keras dengan anak panah bertaring tulang binatang adalah?",
+    "options": ["Mandau", "Busur dan Anak Panah Papua", "Rencong", "Sumpit"],
+    "correctIndex": 1,
+    "explanation": "Anak panah tradisional memiliki berbagai bentuk mata panah yang disesuaikan untuk berburu burung, babi hutan, atau bertahan diri."
+  },
+  {
+    "question": "Rumah adat tradisional masyarakat Maluku yang berbentuk balai pertemuan panggung tanpa dinding pembatas dinamakan?",
+    "options": ["Honai", "Rumah Baileo", "Rumah Sasak", "Rumah Tambi"],
+    "correctIndex": 1,
+    "explanation": "Rumah Baileo tidak berdinding agar roh nenek moyang leluasa masuk dan menyaksikan musyawarah mufakat para pemangku adat."
+  },
+  {
+    "question": "Benteng pertahanan segi lima peninggalan bangsa Portugis dan Belanda abad ke-17 di Kepulauan Banda Neira Maluku adalah?",
+    "options": ["Fort Rotterdam", "Fort Belgica", "Fort Marlborough", "Fort de Kock"],
+    "correctIndex": 1,
+    "explanation": "Benteng Belgica tertera pada uang kertas pecahan Rp1.000 dan dibangun untuk memonopoli perdagangan buah pala dunia."
+  },
+  {
+    "question": "Pulau kecil di Kepulauan Maluku yang pada abad ke-17 pernah ditukar oleh Kerajaan Inggris dengan Pulau Manhattan di New York Amerika Serikat adalah?",
+    "options": ["Pulau Banda Neira", "Pulau Rhun (Run)", "Pulau Ambon", "Pulau Ternate"],
+    "correctIndex": 1,
+    "explanation": "Dalam Perjanjian Breda 1667, Inggris menyerahkan Pulau Rhun yang kaya pohon pala kepada Belanda demi menguasai Manhattan."
+  },
+  {
+    "question": "Dua jenis rempah-rempah bernilai emas pada zaman kuno yang menjadikan Kepulauan Maluku dijuluki sebagai 'The Spice Islands' adalah?",
+    "options": ["Lada dan Jahe", "Pala dan Cengkih", "Kunyit dan Lengkuas", "Ketumbar dan Jintan"],
+    "correctIndex": 1,
+    "explanation": "Kepulauan Maluku merupakan satu-satunya tempat di muka bumi tempat pohon cengkih dan pala tumbuh alami pada masa lampau."
+  },
+  {
+    "question": "Pahlawan nasional ksatria dari Saparua Maluku yang memimpin perlawanan bersenjata merebut Benteng Duurstede dari Belanda tahun 1817 adalah?",
+    "options": ["Sultan Hasanuddin", "Kapitan Pattimura (Thomas Matulessy)", "Pangeran Antasari", "Tuanku Imam Bonjol"],
+    "correctIndex": 1,
+    "explanation": "Sebelum dieksekusi di tiang gantung, Pattimura berseru: 'Pattimura-Pattimura tua boleh dihancurkan, tetapi akan bangkit Pattimura-Pattimura muda!'"
+  },
+  {
+    "question": "Pahlawan wanita belia berusia 17 tahun asal Maluku yang gagah berani mengangkat senjata mendampingi perjuangan Pattimura adalah?",
+    "options": ["Cut Nyak Dien", "Martha Christina Tiahahu", "R.A. Kartini", "Cut Meutia"],
+    "correctIndex": 1,
+    "explanation": "Martha Christina Tiahahu melakukan mogok makan dan wafat di atas kapal perang Belanda dalam perjalanan pengasingan ke Pulau Jawa."
+  },
+  {
+    "question": "Tarian perang ksatria Maluku di mana para pria mengenakan busana serba merah memegang parang tajam dan perisai salawaku adalah?",
+    "options": ["Tari Saman", "Tari Cakalele", "Tari Piring", "Tari Tor-tor"],
+    "correctIndex": 1,
+    "explanation": "Tari Cakalele diiringi tabuhan tifa cepat dan tiupan terompet kerang laut yang membakar nyali para pejuang."
+  },
+  {
+    "question": "Perisai kayu ramping panjang khas Maluku yang dihiasi tatahan kulit kerang mutiara penolak serangan musuh disebut?",
+    "options": ["Talawang", "Salawaku", "Kurambiak", "Tameng"],
+    "correctIndex": 1,
+    "explanation": "Salawaku dipegang di tangan kiri penari Cakalele sebagai lambang perlindungan dan keteguhan iman."
+  },
+  {
+    "question": "Alat musik tiup tradisional Maluku yang dibuat dari cangkang kerang laut besar dengan lubang tiup di ujungnya dinamakan?",
+    "options": ["Suling", "Tahuri (Korno)", "Terompet", "Pupuik"],
+    "correctIndex": 1,
+    "explanation": "Tahuri ditiup oleh para tetua kampung untuk mengumpulkan warga, memberi tanda bahaya laut, atau membuka upacara adat."
+  },
+  {
+    "question": "Tradisi sumpah persaudaraan dan ikatan janji sehidup semati antardesa berlainan agama di Maluku untuk hidup rukun damai adalah?",
+    "options": ["Pela Gandong", "Bakar Batu", "Tiwah", "Siri' Na Pacce"],
+    "correctIndex": 0,
+    "explanation": "Pela Gandong mengajarkan bahwa perbedaan keyakinan tidak boleh merusak rasa persaudaraan kandung antarsesama anak negeri."
+  },
+  {
+    "question": "Kearifan lokal masyarakat Maluku dan Papua berupa larangan memanen hasil laut atau hasil kebun selama periode tertentu agar ekosistem pulih disebut?",
+    "options": ["Tana Ulen", "Sasi", "Subak", "Larung"],
+    "correctIndex": 1,
+    "explanation": "Hukum adat Sasi memastikan ikan laut, teripang, dan buah-buahan dapat berkembang biak melimpah sebelum dipanen bersama."
+  },
+  {
+    "question": "Kue cemilan kering tradisional berbahan pati sagu yang dicetak padat dalam lempengan tanah liat dan tahan berbulan-bulan adalah?",
+    "options": ["Bika Ambon", "Sagu Lempeng", "Kue Cucur", "Roti Canai"],
+    "correctIndex": 1,
+    "explanation": "Sagu Lempeng merupakan bekal wajib para nelayan dan penjelajah rimba Maluku-Papua karena sangat mengenyangkan."
+  },
+  {
+    "question": "Hidangan sup ikan segar khas Banda Neira yang dibumbui perasan air buah pala matang dan cabai dengan rasa asam pedas menyegarkan adalah?",
+    "options": ["Rawon", "Ikan Kuah Pala Banda", "Coto", "Gudeg"],
+    "correctIndex": 1,
+    "explanation": "Pala segar memberi kehangatan tubuh dan aroma wangi khas yang menjadi santapan jamuan para pembesar kesultanan."
+  },
+  {
+    "question": "Perahu perang tradisional bertiang banyak yang digunakan para ksatria Kesultanan Ternate dan Tidore mendayung cepat di lautan adalah?",
+    "options": ["Kapal Pinisi", "Perahu Kora-Kora", "Perahu Jukung", "Perahu Mayang"],
+    "correctIndex": 1,
+    "explanation": "Kora-Kora digerakkan oleh ratusan pendayung serentak diiringi tabuhan genta dan tifa pengobar semangat armada Maluku."
+  },
+  {
+    "question": "Kerajaan Islam kembar yang tersohor di Maluku Utara penghasil cengkih terbesar yang memiliki persaingan sejarah memikat adalah?",
+    "options": ["Kesultanan Ternate dan Kesultanan Tidore", "Gowa dan Tallo", "Kutai dan Banjar", "Samudera Pasai dan Malaka"],
+    "correctIndex": 0,
+    "explanation": "Ternate dan Tidore menguasai armada laut yang disegani armada penjelajah Portugis, Spanyol, dan Belanda pada abad ke-16."
+  },
+  {
+    "question": "Kain tenun ikat khas Maluku Tenggara Barat yang ditenun halus dengan motif panah, perahu, dan binatang laut adalah?",
+    "options": ["Tenun Tanimbar", "Ulos", "Songket", "Batik"],
+    "correctIndex": 0,
+    "explanation": "Tenun Tanimbar memiliki warna dominan hitam, merah tua, dan cokelat tanah yang memancarkan kewibawaan."
+  },
+  {
+    "question": "Mahkota tradisional kepala suku Papua yang dihiasi kombinasi bulu burung kasuari tegak dan bulu cendrawasih melambangkan?",
+    "options": ["Kekayaan materi", "Kepemimpinan bijak dan keberanian ksatria pelindung suku", "Hobi berburu", "Usia tua"],
+    "correctIndex": 1,
+    "explanation": "Mahkota bulu burung kasuari hanya boleh disematkan kepada pemimpin adat yang telah teruji membela sukunya."
+  },
+  {
+    "question": "Festival Danau di Papua yang menampilkan tradisi menangkap ikan bersama menggunakan perahu jaring di kaki bukit Teletubbies adalah?",
+    "options": ["Festival Danau Sentani", "Festival Danau Toba", "Festival Danau Poso", "Festival Danau Matano"],
+    "correctIndex": 0,
+    "explanation": "Danau Sentani dihiasi oleh 22 pulau kecil yang masing-masing memiliki tarian dan kesenian adat yang memikat."
+  },
+  {
+    "question": "Alat musik petik tradisional suku Dani Papua berbahan sebilah bambu berlubang yang dipetik kawat serat rotannya adalah?",
+    "options": ["Sape'", "Krombi", "Kolintang", "Tahuri"],
+    "correctIndex": 1,
+    "explanation": "Krombi dimainkan di dalam rumah honai untuk mengiringi nyanyian ratapan dan doa permohonan hujan."
+  },
+  {
+    "question": "Tradisi memotong ruas jari tangan suku Dani sebagai wujud duka cita mendalam atas kepergian anggota keluarga tercinta disebut?",
+    "options": ["Iki Palek", "Tiwah", "Ma'nene", "Ngaben"],
+    "correctIndex": 0,
+    "explanation": "Tradisi Iki Palek melambangkan rasa sakit fisik yang tak sebanding dengan pedihnya kehilangan orang yang dikasihi."
+  },
+  {
+    "question": "Lukisan purba cadas di tebing Danau Sentani dan Raja Ampat yang dibuat dengan pewarna alami getah merah pohon menggambarkan?",
+    "options": ["Peta bintang dan binatang buruan prasejarah", "Rangkaian bunga", "Kota modern", "Tulisan huruf alfabet"],
+    "correctIndex": 0,
+    "explanation": "Situs cadas Misool Raja Ampat membuktikan peradaban bahari manusia purba telah menjelajahi Papua sejak 10.000 tahun silam."
+  },
+  {
+    "question": "Perkebunan pala tertua di dunia yang masih produktif menghasilkan biji pala terbaik sejak abad ke-16 terletak di?",
+    "options": ["Kepulauan Banda Neira", "Pulau Seram", "Pulau Buru", "Kepulauan Aru"],
+    "correctIndex": 0,
+    "explanation": "Pohon pala Banda tumbuh subur di bawah naungan pohon kenari raksasa yang melindungi tanaman dari terpaan angin laut kencang."
+  },
+  {
+    "question": "Pesta adat bakar batu di pegunungan tengah Papua biasanya menggunakan daging utama yaitu?",
+    "options": ["Daging sapi", "Babi hutan ternak (Wam) dan umbi keladi", "Daging kambing", "Ikan salmon"],
+    "correctIndex": 1,
+    "explanation": "Dalam budaya pegunungan Papua, babi (wam) memiliki nilai mas kawin dan kehormatan perdamaian tertinggi."
+  },
+  {
+    "question": "Pulau berpasir putih di dekat Manokwari Papua Barat yang menjadi saksi pendaratan pertama dua misionaris penyebar Injil Ottow dan Geissler tahun 1855 adalah?",
+    "options": ["Pulau Mansinam", "Pulau Biak", "Pulau Numfor", "Pulau Yapen"],
+    "correctIndex": 0,
+    "explanation": "Setiap tanggal 5 Februari, ribuan masyarakat dari seluruh pelosok Papua berziarah ke Pulau Mansinam memperingati Hari Pekabaran Injil."
+  },
+  {
+    "question": "Satwa laut mamalia pemakan rumput laut yang hidup dilindungi di perairan pesisir Kepulauan Raja Ampat dan Maluku adalah?",
+    "options": ["Lumba-lumba", "Dugong (Putri Duyung)", "Paus Biru", "Singa Laut"],
+    "correctIndex": 1,
+    "explanation": "Dugong hidup damai merumput di padang lamun dangkal dan dijaga kelestariannya melalui hukum adat Sasi laut."
+  },
+  {
+    "question": "Pohon sagu (Metroxylon sagu) memiliki peran luar biasa dalam kehidupan masyarakat Maluku dan Papua karena?",
+    "options": ["Hanya bisa dijadikan kayu bakar", "Satu pohon menghasilkan ratusan kilogram pati makanan dan pelepahnya untuk atap rumah", "Hanya tumbuh di gurun pasir", "Tidak tahan air"],
+    "correctIndex": 1,
+    "explanation": "Pohon sagu adalah pohon kehidupan; batangnya menghasilkan tepung makanan bergizi dan daunnya dianyam menjadi atap rumah sejuk."
+  },
+  {
+    "question": "Seni bela diri tombak kayu dan perisai yang ditampilkan dalam upacara persahabatan pemuda suku Biak Papua dinamakan?",
+    "options": ["Tari Perang Wor", "Tari Caci", "Tari Mandau", "Silat"],
+    "correctIndex": 0,
+    "explanation": "Upacara Wor Biak merupakan ritual siklus kehidupan anak manusia sejak lahir, beranjak remaja, hingga dinobatkan menjadi ksatria."
+  },
+  {
+    "question": "Hutan bakau mangrove terluas dan terlengkap di Indonesia yang menjadi benteng pertahanan alami pesisir selatan Papua terletak di?",
+    "options": ["Taman Nasional Lorentz (Asmat)", "Taman Nasional Baluran", "Taman Nasional Bromo", "Kepulauan Seribu"],
+    "correctIndex": 0,
+    "explanation": "Taman Nasional Lorentz ditetapkan UNESCO sebagai Situs Warisan Dunia karena memiliki bentang alam terlengkap dari puncak salju hingga laut mangrove."
+  }
+]

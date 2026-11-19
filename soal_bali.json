@@ -1,0 +1,302 @@
+[
+  {
+    "question": "Pura terbesar dan tersuci di Bali yang terletak di lereng Gunung Agung dan dijuluki sebagai 'Pura Ibu' (Mother Temple) adalah?",
+    "options": ["Pura Tanah Lot", "Pura Agung Besakih", "Pura Uluwatu", "Pura Tirta Empul"],
+    "correctIndex": 1,
+    "explanation": "Pura Besakih merupakan pusat peribadatan utama umat Hindu di Bali yang terdiri dari 86 kompleks pura peninggalan abad ke-10."
+  },
+  {
+    "question": "Pura indah di tepi Danau Beratan Bedugul yang tampak mengapung di atas air dan gambarnya diabadikan pada uang kertas Rp50.000 adalah?",
+    "options": ["Pura Tanah Lot", "Pura Ulun Danu Beratan", "Pura Taman Ayun", "Pura Goa Lawah"],
+    "correctIndex": 1,
+    "explanation": "Pura Ulun Danu dipersembahkan untuk Dewi Danu sebagai penguasa air dan kesuburan persawahan masyarakat Bali."
+  },
+  {
+    "question": "Sistem irigasi persawahan berterasering tradisional di Bali yang sarat filosofi Tri Hita Karana dan diakui UNESCO sebagai Warisan Dunia adalah?",
+    "options": ["Terasering", "Subak", "Sasi", "Pranata Mangsa"],
+    "correctIndex": 1,
+    "explanation": "Subak mengatur pembagian aliran air secara adil dan demokratis serta berlandaskan keharmonisan spiritual antara manusia, alam, dan Tuhan."
+  },
+  {
+    "question": "Tarian persembahan selamat datang di Bali di mana para penari putri cantik menaburkan bunga warna-warni dari cawan perak adalah?",
+    "options": ["Tari Kecak", "Tari Pendet", "Tari Barong", "Tari Legong"],
+    "correctIndex": 1,
+    "explanation": "Tari Pendet awalnya merupakan tarian pemujaan di pura sebelum berkembang menjadi tarian penyambutan tamu terhormat."
+  },
+  {
+    "question": "Tarian kolosal tanpa instrumen gamelan di mana puluhan pria bertelanjang dada duduk melingkar menyerukan irama 'cak-cak-cak' adalah?",
+    "options": ["Tari Saman", "Tari Kecak (Uluwatu)", "Tari Barong", "Tari Sanghyang"],
+    "correctIndex": 1,
+    "explanation": "Tari Kecak mengangkat kisah epos Ramayana saat pasukan kera pimpinan Hanoman menolong Sri Rama melawan Rahwana."
+  },
+  {
+    "question": "Tarian drama sakral Bali yang menceritakan pertempuran abadi antara kebajikan (Dharma) melawan kejahatan (Adharma) adalah?",
+    "options": ["Tari Pendet", "Tari Barong dan Rangda", "Tari Gambuh", "Tari Topeng"],
+    "correctIndex": 1,
+    "explanation": "Barong berwujud singa pelindung kebaikan, sedangkan Rangda berwujud raksasa bertaring panjang lambang angkara murka."
+  },
+  {
+    "question": "Upacara pembakaran jenazah adat umat Hindu di Bali untuk mengembalikan unsur Panca Mahabhuta ke alam semesta dinamakan?",
+    "options": ["Tiwah", "Ngaben (Pelebon)", "Rambu Solo'", "Melasti"],
+    "correctIndex": 1,
+    "explanation": "Ngaben menggunakan replika lembu hitam atau wadah tumpang bertingkat (Bade) yang diarak menuju tempat kremasi suci."
+  },
+  {
+    "question": "Tahun Baru Saka yang dirayakan umat Hindu di Bali dengan menghentikan seluruh aktivitas duniawi selama 24 jam penuh disebut?",
+    "options": ["Hari Raya Galungan", "Hari Raya Nyepi", "Hari Raya Kuningan", "Saraswati"],
+    "correctIndex": 1,
+    "explanation": "Saat Nyepi, seluruh pulau hening dalam pelaksanaan Catur Brata Penyepian (tidak menyalakan api, tidak bekerja, tidak bepergian, tidak bersenang-senang)."
+  },
+  {
+    "question": "Boneka patung raksasa berwajah seram simbol sifat buruk (Buta Kala) yang diarak keliling desa pada malam Pengerupukan sebelum Nyepi adalah?",
+    "options": ["Ondel-ondel", "Ogoh-Ogoh", "Si Gale-gale", "Barongan"],
+    "correctIndex": 1,
+    "explanation": "Setelah diarak meriah, patung Ogoh-Ogoh dibakar sebagai simbol pemusnahan sifat buruk dan pensucian alam semesta."
+  },
+  {
+    "question": "Hari raya peringatan kemenangan kebajikan (Dharma) melawan kejahatan (Adharma) yang ditandai dengan pemasangan tiang penjor janur di jalan adalah?",
+    "options": ["Hari Raya Nyepi", "Hari Raya Galungan", "Hari Raya Saraswati", "Pagerwesi"],
+    "correctIndex": 1,
+    "explanation": "Tiang bambu lengkung berhias janur kuning (Penjor) melambangkan Gunung Agung dan ungkapan terima kasih atas kemakmuran bumi."
+  },
+  {
+    "question": "Kain tenun ikat ganda langka dari Desa Tenganan Pegringsingan Karangasem yang proses pembuatannya memakan waktu bertahun-tahun adalah?",
+    "options": ["Kain Songket", "Kain Tenun Gringsing", "Kain Endek", "Kain Poleng"],
+    "correctIndex": 1,
+    "explanation": "Gringsing adalah satu-satunya tenun ikat ganda di Indonesia, dipercaya memiliki kekuatan magis penangkal marabahaya dan penyakit."
+  },
+  {
+    "question": "Kain bermotif kotak catur hitam-putih yang kerap dililitkan pada pohon besar, patung pura, dan penabuh gamelan di Bali disebut?",
+    "options": ["Kain Songket", "Kain Poleng", "Kain Endek", "Kain Prada"],
+    "correctIndex": 1,
+    "explanation": "Kain Poleng melambangkan konsep filosofi 'Rwa Bhineda' (dua hal yang berlawanan di dunia: baik-buruk, siang-malam yang harus seimbang)."
+  },
+  {
+    "question": "Wadah anyaman janur kelapa kecil berisi bunga harum warna-warni yang dipersembahkan setiap hari sebagai wujud syukur umat Hindu Bali adalah?",
+    "options": ["Banten Pejati", "Canang Sari", "Dupa", "Tirta"],
+    "correctIndex": 1,
+    "explanation": "Canang Sari diletakkan di pelataran rumah, pura, dan persimpangan jalan bersama sebatang dupa harum yang menyala."
+  },
+  {
+    "question": "Pura laut yang berdiri kokoh di atas bongkahan batu karang besar di tengah deburan ombak pantai Tabanan Bali adalah?",
+    "options": ["Pura Uluwatu", "Pura Tanah Lot", "Pura Lempuyang", "Pura Tirta Empul"],
+    "correctIndex": 1,
+    "explanation": "Pura Tanah Lot didirikan oleh Dang Hyang Nirartha pada abad ke-16 dan menjadi magnet matahari terbenam paling ikonik di dunia."
+  },
+  {
+    "question": "Pura di puncak tebing karang terjal setinggi 97 meter di ujung barat daya Bali yang dihuni kawanan kera hutan adalah?",
+    "options": ["Pura Tanah Lot", "Pura Luhur Uluwatu", "Pura Goa Gajah", "Pura Penataran Sasih"],
+    "correctIndex": 1,
+    "explanation": "Di pelataran luar tebing Pura Uluwatu, setiap sore dipentaskan pertunjukan Tari Kecak spektakuler berlatar samudera Hindia."
+  },
+  {
+    "question": "Pura mata air suci di Gianyar Bali di mana umat dan wisatawan melakukan ritual penyucian diri (Melukat) di pancuran air jernih adalah?",
+    "options": ["Pura Besakih", "Pura Tirta Empul (Tampak Siring)", "Pura Taman Ayun", "Pura Gunung Kawi"],
+    "correctIndex": 1,
+    "explanation": "Mata air Tirta Empul dipercaya diciptakan oleh Dewa Indra sebagai penawar racun dan pembersih jiwa raga manusia."
+  },
+  {
+    "question": "Pintu gerbang pura megah di Karangasem yang dijuluki 'The Gate of Heaven' dengan latar belakang pemandangan megah Gunung Agung adalah?",
+    "options": ["Candi Bentar Pura Lempuyang", "Pura Goa Lawah", "Pura Batukaru", "Pura Ulun Danu"],
+    "correctIndex": 0,
+    "explanation": "Pura Lempuyang Luhur berdiri di lereng Gunung Lempuyang sebagai benteng timur penjaga pulau Bali."
+  },
+  {
+    "question": "Satwa endemik Pulau Bali berbulu putih bersih dengan jambul indah dan lingkar mata biru terang yang dilindungi di Taman Nasional Bali Barat adalah?",
+    "options": ["Burung Cendrawasih", "Burung Jalak Bali (Leucopsar rothschildi)", "Burung Maleo", "Burung Enggang"],
+    "correctIndex": 1,
+    "explanation": "Jalak Bali atau Curik Bali merupakan burung pengicau langka yang menjadi maskot fauna resmi Provinsi Bali."
+  },
+  {
+    "question": "Kuliner khas Bali berupa ayam atau bebek utuh yang dibumbui rempah Base Genep lalu dibungkus pelepah pinang dan dipanggang sekam berjam-jam adalah?",
+    "options": ["Sate Lilit", "Ayam Betutu", "Ayam Taliwang", "Lawar"],
+    "correctIndex": 1,
+    "explanation": "Proses memasak Betutu yang lama menghasilkan daging yang empuk meresap hingga ke tulang dengan rasa pedas rempah gurih."
+  },
+  {
+    "question": "Sate khas Bali yang terbuat dari cincangan daging ikan laut berbumbu santan dan parutan kelapa yang dililitkan pada batang serai adalah?",
+    "options": ["Sate Madura", "Sate Lilit", "Sate Maranggi", "Sate Padang"],
+    "correctIndex": 1,
+    "explanation": "Batang serai memberi aroma wangi segar saat sate lilit dipanggang di atas bara arang tempurung kelapa."
+  },
+  {
+    "question": "Sambal mentah segar khas Bali yang dibuat dari rajangan bawang merah, serai, cabai rawit, terasi bakar, dan kucuran minyak kelapa panas adalah?",
+    "options": ["Sambal Terasi", "Sambal Matah", "Sambal Roa", "Sambal Bajak"],
+    "correctIndex": 1,
+    "explanation": "Matah berarti mentah dalam bahasa Bali; sambal ini menyajikan kerenyahan bawang segar yang harum menggugah selera."
+  },
+  {
+    "question": "Hidangan tradisional Bali berupa campuran sayuran kacang panjang, parutan kelapa berbumbu rempah, dan cincangan daging adalah?",
+    "options": ["Urap", "Lawar Bali", "Karedok", "Pecel"],
+    "correctIndex": 1,
+    "explanation": "Lawar memiliki berbagai variasi seperti Lawar Kuwir (bebek), Lawar Nangka, dan Lawar Ayam."
+  },
+  {
+    "question": "Kadal raksasa purba pemakan daging terbesar di dunia yang hanya hidup di Kepulauan Nusa Tenggara Timur adalah?",
+    "options": ["Biawak Air", "Komodo (Varanus komodoensis)", "Iguana", "Buaya Muara"],
+    "correctIndex": 1,
+    "explanation": "Komodo dapat tumbuh hingga panjang 3 meter dan memiliki kelenjar bisa mematikan untuk melumpuhkan mangsanya."
+  },
+  {
+    "question": "Taman Nasional yang diakui UNESCO sebagai Situs Warisan Dunia dan Tujuh Keajaiban Alam Baru habitat asli satwa purba komodo adalah?",
+    "options": ["Taman Nasional Ujung Kulon", "Taman Nasional Komodo", "Taman Nasional Bunaken", "Taman Nasional Way Kambas"],
+    "correctIndex": 1,
+    "explanation": "Taman Nasional Komodo mencakup tiga pulau utama yaitu Pulau Komodo, Pulau Rinca, dan Pulau Padar."
+  },
+  {
+    "question": "Alat musik petik dawai tradisional khas Pulau Rote Nusa Tenggara Timur yang memiliki wadah resonansi dari anyaman daun lontar adalah?",
+    "options": ["Sape'", "Sasando", "Kolintang", "Kacapi"],
+    "correctIndex": 1,
+    "explanation": "Sasando berasal dari kata 'sasandu' yang berarti bergetar merdu, dimainkan dengan memetik dawai melingkar di tengah daun lontar."
+  },
+  {
+    "question": "Desa adat tradisional di Pulau Flores Nusa Tenggara Timur yang memiliki 7 rumah kerucut bertingkat lima di atas awan adalah?",
+    "options": ["Desa Sade", "Desa Wae Rebo (Mbaru Niang)", "Desa Penglipuran", "Desa Tenganan"],
+    "correctIndex": 1,
+    "explanation": "Wae Rebo dianugerahi UNESCO Award of Excellence berkat pelestarian arsitektur rumah kerucut Mbaru Niang setinggi 15 meter."
+  },
+  {
+    "question": "Desa tradisional terbersih di dunia yang terletak di Kabupaten Bangli Bali dengan tata ruang arsitektur seragam dan lorong bambu asri adalah?",
+    "options": ["Desa Tenganan", "Desa Penglipuran", "Desa Trunyan", "Desa Celuk"],
+    "correctIndex": 1,
+    "explanation": "Penglipuran melarang kendaraan bermotor masuk ke dalam desa dan menjunjung tinggi kelestarian hutan bambu leluhur."
+  },
+  {
+    "question": "Danau kawah gunung berapi di Pulau Flores Nusa Tenggara Timur yang airnya dapat berubah menjadi tiga warna berbeda secara alami adalah?",
+    "options": ["Danau Toba", "Danau Tiga Warna Kelimutu", "Danau Batur", "Danau Segara Anak"],
+    "correctIndex": 1,
+    "explanation": "Danau Kelimutu memiliki kawah Tiwu Ata Bupu (merah/putih), Tiwu Ko'o Fai Nuwa Muri (hijau/biru), dan Tiwu Ata Polo (hitam/cokelat)."
+  },
+  {
+    "question": "Tarian perang ksatria Manggarai Flores di mana dua pria saling bertarung menguji ketangkasan mencambuk dengan pecut kulit kerbau dan menangkis perisai adalah?",
+    "options": ["Tari Caci", "Tari Cakalele", "Tari Mandau", "Tari Kabasaran"],
+    "correctIndex": 0,
+    "explanation": "Tari Caci melambangkan kejantanan, sportivitas, dan kedewasaan pemuda yang dilakukan dengan saling menghormati."
+  },
+  {
+    "question": "Tradisi adu lempar lembing tombak kayu di atas kuda pacuan kencang yang dilakukan para ksatria padang rumput Pulau Sumba adalah?",
+    "options": ["Pacu Jawi", "Pasola Sumba", "Makepung", "Karapan Sapi"],
+    "correctIndex": 1,
+    "explanation": "Pasola digelar untuk merayakan datangnya musim tanam dan panen cacing laut (Nyale) yang melimpah."
+  },
+  {
+    "question": "Kain tenun ikat tradisional Pulau Sumba yang terkenal di galeri seni internasional dengan motif kuda gagah, rusa, dan pohon tengkorak adalah?",
+    "options": ["Tenun Ikat Sumba (Hinggi)", "Songket", "Ulos", "Sasirangan"],
+    "correctIndex": 0,
+    "explanation": "Tenun Sumba diwarnai menggunakan akar mengkudu dan lumpur alami yang membutuhkan proses pewarnaan berbulan-bulan."
+  },
+  {
+    "question": "Tradisi balapan sepasang kerbau hias bertanduk emas di lintasan sawah kering di Kabupaten Jembrana Bali dinamakan?",
+    "options": ["Pacu Jawi", "Makepung", "Karapan Sapi", "Pasola"],
+    "correctIndex": 1,
+    "explanation": "Makepung menampilkan joki cilik gagah berani yang mengendalikan pedati kerbau dengan kecepatan tinggi diiringi gamelan jegog."
+  },
+  {
+    "question": "Kuliner ayam bakar pedas manis khas Pulau Lombok yang dibumbui terasi bakar, cabai merah, dan perasan jeruk limau adalah?",
+    "options": ["Ayam Betutu", "Ayam Taliwang", "Ayam Pop", "Ayam Tangkap"],
+    "correctIndex": 1,
+    "explanation": "Ayam Taliwang menggunakan ayam kampung muda yang dibakar di atas arang disajikan bersama plecing kangkung Lombok."
+  },
+  {
+    "question": "Sayuran khas Lombok berupa kangkung air segar yang disajikan dengan sambal tomat terasi pedas, kacang tanah goreng, dan tauge adalah?",
+    "options": ["Karedok", "Plecing Kangkung", "Urap", "Gado-gado"],
+    "correctIndex": 1,
+    "explanation": "Kangkung Lombok memiliki batang besar yang sangat renyah dan empuk saat disantap hangat."
+  },
+  {
+    "question": "Desa tradisional suku Sasak di Lombok Tengah yang rumah adatnya (Bale Tani) berlantai tanah lempung yang dilumuri kotoran kerbau kering adalah?",
+    "options": ["Desa Sade", "Desa Sukarara", "Desa Banyumulek", "Desa Penglipuran"],
+    "correctIndex": 0,
+    "explanation": "Kotoran kerbau kering justru membuat lantai tanah desa Sade tidak berdebu, sejuk, dan terhindar dari gigitan serangga."
+  },
+  {
+    "question": "Desa adat di tepi Danau Batur Kintamani Bali yang memiliki tradisi unik membaringkan jenazah di bawah pohon taru menyan tanpa dikubur atau dibakar adalah?",
+    "options": ["Desa Trunyan", "Desa Penglipuran", "Desa Tenganan", "Desa Ubud"],
+    "correctIndex": 0,
+    "explanation": "Pohon Taru Menyan mengeluarkan aroma wangi semerbak alami yang menetralkan segala bau di sekitar pemakaman Trunyan."
+  },
+  {
+    "question": "Ansambel musik tradisional Bali berbahan bambu raksasa yang menghasilkan nada bas berat menggelegar dan menggetarkan bumi adalah?",
+    "options": ["Gamelan Gong Kebyar", "Gamelan Jegog Jembrana", "Angklung", "Kolintang"],
+    "correctIndex": 1,
+    "explanation": "Gamelan Jegog dibuat dari batang bambu petung berdiameter besar yang hanya tumbuh di hutan barat pulau Bali."
+  },
+  {
+    "question": "Ikat kepala tradisional pria Bali yang dilipat membentuk simpul mengarah ke atas di dahi sebagai simbol pemusatan pikiran kepada Tuhan adalah?",
+    "options": ["Blangkon", "Udeng Bali", "Tanjak", "Passapu"],
+    "correctIndex": 1,
+    "explanation": "Udeng dikenakan saat bersembahyang di pura atau menghadiri upacara adat dengan berbagai variasi motif kain batik dan putih."
+  },
+  {
+    "question": "Pakaian adat resmi wanita Bali berupa kebaya berenda yang dipadukan kain kamen dan diikat selendang di bagian pinggang dinamakan?",
+    "options": ["Baju Bodo", "Kebaya Bali berhias Selendang Senteng", "Baju Kurung", "Baju Ta'a"],
+    "correctIndex": 1,
+    "explanation": "Selendang di pinggang melambangkan pengikatan nafsu indrawi agar manusia selalu berperilaku santun dan berbudi luhur."
+  },
+  {
+    "question": "Kuda tangguh berbadan padat dan berstamina tinggi asal Pulau Sumba Nusa Tenggara Timur yang terkenal sebagai kuda tunggang adalah?",
+    "options": ["Kuda Sandalwood (Kuda Sumba)", "Kuda Poni", "Kuda Sumbawa", "Kuda Bima"],
+    "correctIndex": 0,
+    "explanation": "Kuda Sandalwood dinamakan dari pohon kayu cendana (sandalwood) yang dahulu menjadi komoditas ekspor utama Pulau Sumba."
+  },
+  {
+    "question": "Pantai berpasir merah muda langka di dunia yang terletak di dalam kawasan Taman Nasional Komodo adalah?",
+    "options": ["Pantai Sanur", "Pantai Pink (Pink Beach Komodo)", "Pantai Kuta", "Pantai Senggigi"],
+    "correctIndex": 1,
+    "explanation": "Warna merah muda berasal dari serpihan terumbu karang merah mikro Foraminifera yang bercampur dengan pasir putih lembut."
+  },
+  {
+    "question": "Desa pusat pengrajin patung perak dan emas terbaik di Bali yang terletak di Kabupaten Gianyar adalah?",
+    "options": ["Desa Celuk", "Desa Ubud", "Desa Mas", "Desa Batubulan"],
+    "correctIndex": 0,
+    "explanation": "Pengrajin di Desa Celuk mahir membuat perhiasan filigri perak dengan ketelitian dan detail seni yang sangat tinggi."
+  },
+  {
+    "question": "Desa di Gianyar Bali yang terkenal sebagai sentra seniman seni ukir patung kayu kelas dunia adalah?",
+    "options": ["Desa Mas", "Desa Celuk", "Desa Batubulan", "Desa Sukawati"],
+    "correctIndex": 0,
+    "explanation": "Pematung Desa Mas mengubah bongkahan kayu eboni dan cendana menjadi mahakarya patung Garuda, dewa-dewi, dan satwa."
+  },
+  {
+    "question": "Pusat pasar seni terbesar dan tertua di Bali tempat wisatawan berbelanja cinderamata kain pantai, lukisan, dan kerajinan adalah?",
+    "options": ["Pasar Beringharjo", "Pasar Seni Sukawati", "Pasar Klewer", "Pasar Tanah Abang"],
+    "correctIndex": 1,
+    "explanation": "Pasar Sukawati didirikan sejak tahun 1980-an dan menjadi pusat denyut nadi perdagangan cinderamata khas Bali."
+  },
+  {
+    "question": "Hutan cagar alam di Ubud Gianyar yang dihuni ratusan ekor kera ekor panjang jinak di tengah pepohonan beringin kuno adalah?",
+    "options": ["Mandala Suci Wenara Wana (Monkey Forest Ubud)", "Alas Purwo", "Taman Ujung", "Tirta Gangga"],
+    "correctIndex": 0,
+    "explanation": "Monkey Forest Ubud dikelola berdasarkan filosofi Tri Hita Karana untuk menjaga keharmonisan kera, manusia, dan pura suci."
+  },
+  {
+    "question": "Istana air peninggalan Kerajaan Karangasem dengan kolam air jernih penuh ikan koi raksasa dan pilar batu pijakan melayang adalah?",
+    "options": ["Tirta Gangga", "Taman Ayun", "Kerta Gosa", "Puri Agung"],
+    "correctIndex": 0,
+    "explanation": "Tirta Gangga dibangun oleh Raja Karangasem tahun 1946 dan airnya bersumber dari mata air suci Rejasa."
+  },
+  {
+    "question": "Seni bela diri tradisional khas Bali berupa pertarungan saling memukul menggunakan pelepah daun pandan berduri dan tameng rotan dinamakan?",
+    "options": ["Tari Caci", "Perang Pandan (Mekare-kare)", "Silat", "Tari Mandau"],
+    "correctIndex": 1,
+    "explanation": "Perang Pandan diadakan setiap tahun di Desa Tenganan sebagai penghormatan ksatria kepada Dewa Indra sang dewa perang."
+  },
+  {
+    "question": "Pulau terluar di sebelah tenggara Bali yang terkenal dengan tebing curam Kelingking Beach menyerupai bentuk kepala dinosaurus T-Rex adalah?",
+    "options": ["Nusa Lembongan", "Nusa Penida", "Nusa Ceningan", "Pulau Menjangan"],
+    "correctIndex": 1,
+    "explanation": "Nusa Penida memiliki perairan laut dalam yang menjadi tempat pertemuan kawanan ikan pari manta raksasa dan ikan Mola-Mola."
+  },
+  {
+    "question": "Ikan laut purba raksasa berbentuk bundar tanpa ekor panjang (Sunfish) yang sering muncul di perairan Nusa Penida pada bulan Juli-Oktober adalah?",
+    "options": ["Hiu Paus", "Ikan Mola-Mola", "Pari Manta", "Lumba-lumba"],
+    "correctIndex": 1,
+    "explanation": "Ikan Mola-Mola naik dari kedalaman 200 meter ke permukaan perairan Nusa Penida untuk membersihkan parasit di tubuhnya."
+  },
+  {
+    "question": "Filosofi luhur masyarakat Bali yang mengajarkan tiga penyebab terciptanya kebahagiaan hidup sejati adalah?",
+    "options": ["Siri' Na Pacce", "Tri Hita Karana", "Urip Iku Urup", "Bhinneka Tunggal Ika"],
+    "correctIndex": 1,
+    "explanation": "Tri Hita Karana mengajarkan keharmonisan hubungan manusia dengan Tuhan (Parahyangan), manusia dengan sesama (Pawongan), dan manusia dengan alam (Palemahan)."
+  }
+]

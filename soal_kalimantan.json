@@ -1,0 +1,302 @@
+[
+  {
+    "question": "Rumah panggung kayu ulin panjang khas suku Dayak Kalimantan yang dihuni puluhan kepala keluarga secara rukun adalah?",
+    "options": ["Rumah Betang (Lamin)", "Rumah Gadang", "Rumah Tongkonan", "Rumah Honai"],
+    "correctIndex": 0,
+    "explanation": "Rumah Betang dapat mencapai panjang 150 meter dan melambangkan nilai persaudaraan serta musyawarah suku Dayak."
+  },
+  {
+    "question": "Alat musik petik tradisional Dayak yang terbuat dari kayu pohon adau dengan ukiran flora fauna dan suara petikan syahdu adalah?",
+    "options": ["Kolintang", "Sape' (Sampe)", "Kacapi", "Sasando"],
+    "correctIndex": 1,
+    "explanation": "Sape' sering dimainkan untuk mengiringi tarian, pesta panen raya, dan ritual pengobatan adat Dayak."
+  },
+  {
+    "question": "Burung hutan Kalimantan bertanduk merah-kuning menyala yang sangat dihormati dan menjadi lambang kesucian suku Dayak adalah?",
+    "options": ["Burung Cendrawasih", "Burung Enggang Gading (Rangkong)", "Burung Maleo", "Burung Jalak"],
+    "correctIndex": 1,
+    "explanation": "Bulu sayap dan ekor burung Enggang digunakan sebagai hiasan mahkota dan properti tarian sakral Dayak."
+  },
+  {
+    "question": "Senjata tajam pusaka suku Dayak bertatahkan kuningan dengan hulu ukiran tanduk rusa dan sarung berhias bulu enggang adalah?",
+    "options": ["Keris", "Mandau", "Rencong", "Badik"],
+    "correctIndex": 1,
+    "explanation": "Mandau bukan sekadar senjata perang, melainkan lambang kehormatan, pusaka turun-temurun, dan keberanian ksatria Dayak."
+  },
+  {
+    "question": "Perisai kayu pelindung diri suku Dayak berbentuk segi enam meruncing dengan ukiran wajah 'Kamang' penolak bala adalah?",
+    "options": ["Salawaku", "Talawang", "Kurambiak", "Tameng"],
+    "correctIndex": 1,
+    "explanation": "Talawang terbuat dari kayu ulin atau liat yang kokoh menangkis serangan senjata tajam musuh."
+  },
+  {
+    "question": "Senjata berburu tradisional suku Dayak berupa pipa bambu panjang pelontar anak sumpit beracun getah pohon ipoh disebut?",
+    "options": ["Busur Panah", "Sipet (Sumpitan)", "Tulup", "Ketapel"],
+    "correctIndex": 1,
+    "explanation": "Sumpitan memiliki akurasi tinggi dan ujung bilah tombak untuk pertarungan jarak dekat saat berburu di rimba lebat."
+  },
+  {
+    "question": "Kain tradisional khas suku Banjar Kalimantan Selatan yang dibuat dengan teknik jelujur dan celup rintang warna alami adalah?",
+    "options": ["Batik Sogan", "Kain Sasirangan", "Kain Songket", "Kain Ulos"],
+    "correctIndex": 1,
+    "explanation": "Sasirangan berasal dari kata 'sirang' (menjelujur) dan dahulu diyakini berkhasiat sebagai sarana pengobatan spiritual."
+  },
+  {
+    "question": "Tarian ksatria Dayak yang menggambarkan kelincahan dua pemuda bertarung memperagakan jurus silat mandau dan talawang adalah?",
+    "options": ["Tari Mandau (Kancet Papatai)", "Tari Piring", "Tari Saman", "Tari Cakalele"],
+    "correctIndex": 0,
+    "explanation": "Tari Kancet Papatai menampilkan gerak akrobatik, jeritan semangat perang, dan ketangkasan pedang mandau."
+  },
+  {
+    "question": "Tarian anggun wanita Dayak yang menari lemah gemulai di atas gong perunggu tanpa membunyikannya adalah?",
+    "options": ["Tari Gong (Kancet Ledo)", "Tari Jaipong", "Tari Pendet", "Tari Gambyong"],
+    "correctIndex": 0,
+    "explanation": "Tari Gong melambangkan kelembutan, kesucian budi pekerti, dan kepiawaian gadis Dayak menjaga keseimbangan."
+  },
+  {
+    "question": "Upacara pemakaman adat terbesar suku Dayak Ngaju untuk menyucikan dan mengantar tulang belulang leluhur ke Lewu Tatau disebut?",
+    "options": ["Ngaben", "Upacara Tiwah", "Rambu Solo'", "Grebeg"],
+    "correctIndex": 1,
+    "explanation": "Dalam upacara Tiwah, tulang jenazah dibersihkan lalu disemayamkan dalam bangunan kayu ukir berpilar yang disebut Sandung."
+  },
+  {
+    "question": "Tradisi unik memanjangkan daun telinga menggunakan pemberat gelang tembaga yang dilakukan wanita Dayak Kayan dan Kenyah dinamakan?",
+    "options": ["Telingaan Aruu", "Tutang", "Mentawai", "Tato"],
+    "correctIndex": 0,
+    "explanation": "Telingaan Aruu melambangkan kecantikan, kesabaran menanggung beban hidup, dan status sosial bangsawan Dayak."
+  },
+  {
+    "question": "Seni rajah tubuh tradisional Dayak Iban yang menggambarkan kedewasaan, perjalanan merantau, dan simbol bunga terung disebut?",
+    "options": ["Tato Tutang (Iki)", "Lukisan Kulit", "Body Painting", "Ukir Tubuh"],
+    "correctIndex": 0,
+    "explanation": "Motif bunga terung di kedua bahu menandakan bahwa pemuda Dayak telah mandiri dan siap memikul tanggung jawab."
+  },
+  {
+    "question": "Kerajaan Hindu tertua di Indonesia yang berdiri abad ke-4 Masehi di tepi Sungai Mahakam Kalimantan Timur adalah?",
+    "options": ["Kerajaan Tarumanegara", "Kerajaan Kutai Martadipura", "Kerajaan Majapahit", "Kerajaan Sriwijaya"],
+    "correctIndex": 1,
+    "explanation": "Raja Mulawarman dari Kerajaan Kutai menyedekahkan 20.000 ekor sapi kepada kaum Brahmana tertulis pada tiang batu Yupa."
+  },
+  {
+    "question": "Tujuh prasasti tiang batu bertuliskan huruf Pallawa dan bahasa Sanskerta peninggalan Kerajaan Kutai dinamakan?",
+    "options": ["Prasasti Ciaruteun", "Prasasti Yupa", "Prasasti Kebon Kopi", "Prasasti Kedukan Bukit"],
+    "correctIndex": 1,
+    "explanation": "Prasasti Yupa menjadi bukti sejarah tertulis tertua dimulainya zaman sejarah di wilayah Indonesia."
+  },
+  {
+    "question": "Pusat perdagangan terapung di atas perahu kelotok di muara Sungai Barito dan Martapura Banjarmasin yang sudah ada sejak abad ke-14 adalah?",
+    "options": ["Pasar Terapung Lok Baintan", "Pasar Klewer", "Pasar Beringharjo", "Pasar Sukawati"],
+    "correctIndex": 0,
+    "explanation": "Pasar Terapung menggunakan perahu jukung tradisional dan sistem barter hasil kebun serta panganan khas Banjar."
+  },
+  {
+    "question": "Primata berhidung besar dan panjang dengan perut buncit yang menjadi satwa endemik Kalimantan dan maskot provinsi Kalimantan Selatan adalah?",
+    "options": ["Orangutan", "Bekantan (Nasalis larvatus)", "Owa", "Lutung"],
+    "correctIndex": 1,
+    "explanation": "Masyarakat lokal kerap menjuluki Bekantan sebagai 'monyet belanda' karena hidungnya yang mancung besar kemerahan."
+  },
+  {
+    "question": "Kera besar cerdas berambut merah kecokelatan yang dilindungi di Taman Nasional Tanjung Puting, Kalimantan Tengah adalah?",
+    "options": ["Gorila", "Orangutan Kalimantan (Pongo pygmaeus)", "Simpanse", "Gibbon"],
+    "correctIndex": 1,
+    "explanation": "Tanjung Puting merupakan pusat rehabilitasi orangutan liar terbesar di dunia yang didirikan oleh Dr. Birute Galdikas."
+  },
+  {
+    "question": "Mamalia air tawar langka sejenis lumba-lumba yang hidup di perairan Sungai Mahakam Kalimantan Timur adalah?",
+    "options": ["Dugong", "Pesut Mahakam (Orcaella brevirostris)", "Lumba-lumba Hidung Botol", "Paus Orca"],
+    "correctIndex": 1,
+    "explanation": "Pesut Mahakam bernapas menggunakan paru-paru dan kini berstatus satwa kritis terancam punah."
+  },
+  {
+    "question": "Pohon kayu khas hutan hujan tropis Kalimantan yang terkenal sangat keras, tahan rayap, dan semakin awet di dalam air adalah?",
+    "options": ["Kayu Jati", "Kayu Ulin (Kayu Besi)", "Kayu Cendana", "Kayu Mahoni"],
+    "correctIndex": 1,
+    "explanation": "Kayu Ulin (Eusideroxylon zwageri) digunakan sebagai tiang pancang rumah panggung dan jembatan sungai Kalimantan."
+  },
+  {
+    "question": "Tugu peringatan di Kota Pontianak, Kalimantan Barat yang tepat dilalui oleh garis khatulistiwa (lintang 0 derajat) dinamakan?",
+    "options": ["Monas", "Tugu Khatulistiwa (Equator Monument)", "Tugu Pahlawan", "Tugu Perdamaian"],
+    "correctIndex": 1,
+    "explanation": "Pada saat titik kulminasi matahari (21-23 Maret dan September), bayangan benda di sekitar tugu akan hilang sejenak."
+  },
+  {
+    "question": "Kuliner khas Banjar berupa sup ayam berkuah harum rempah kayu manis dan cengkih disajikan bersama ketupat dan perkedel adalah?",
+    "options": ["Soto Betawi", "Soto Banjar", "Soto Lamongan", "Coto Makassar"],
+    "correctIndex": 1,
+    "explanation": "Soto Banjar memiliki kuah gurih yang khas berkat campuran susu evaporasi atau telur bebek kocok."
+  },
+  {
+    "question": "Makanan khas suku Melayu Sambas Kalimantan Barat berbahan aneka sayuran pakis, kangkung, rebung, dan beras sangrai tumbuk adalah?",
+    "options": ["Bubur Manado", "Bubur Pedas Sambas", "Bubur Ayam", "Kapurung"],
+    "correctIndex": 1,
+    "explanation": "Meskipun bernama 'bubur pedas', kuliner ini tidak pedas cabai melainkan kaya rasa rempah daun kesum yang harum."
+  },
+  {
+    "question": "Ikan air tawar konsumsi bernilai tinggi yang hidup di hulu sungai berarus deras pedalaman Kalimantan adalah?",
+    "options": ["Ikan Gurami", "Ikan Jelawat", "Ikan Lele", "Ikan Mas"],
+    "correctIndex": 1,
+    "explanation": "Ikan Jelawat berdaging lembut dan gurih, sangat lezat diolah menjadi pepes tempoyak atau sup ikan asam pedas."
+  },
+  {
+    "question": "Kue tradisional khas Banjarmasin berbahan tepung beras, santan, dan air daun pandan yang dikukus dalam mangkuk cetakan daun pisang adalah?",
+    "options": ["Kue Bingka", "Kue Wadai Amparan Tatak", "Kue Cucur", "Kue Lumpur"],
+    "correctIndex": 0,
+    "explanation": "Kue Bingka Banjar memiliki tekstur legit lembut dengan aroma wangi kentang dan telur bebek."
+  },
+  {
+    "question": "Tradisi perayaan pesta syukur pascapanen padi suku Dayak Kanayatn di Kalimantan Barat yang berlangsung meriah dinamakan?",
+    "options": ["Gawai Dayak (Naik Dango)", "Seren Taun", "Sedekah Bumi", "Erau"],
+    "correctIndex": 0,
+    "explanation": "Gawai Dayak menampilkan ritual penyimpanan padi ke lumbung, pertunjukan musik sape', dan lomba sumpit tradisional."
+  },
+  {
+    "question": "Festival budaya tahunan Kesultanan Kutai Kartanegara di Tenggarong Kalimantan Timur yang diramaikan ritual Mengulur Naga adalah?",
+    "options": ["Festival Danau Sentani", "Festival Erau", "Festival Sriwijaya", "Pesta Danau Toba"],
+    "correctIndex": 1,
+    "explanation": "Erau berasal dari bahasa Kutai 'eroh' yang berarti suasana ramai gembira penuh sukacita adat istiadat."
+  },
+  {
+    "question": "Kerajinan anyaman topi caping lebar khas pedalaman Dayak yang terbuat dari daun nipah atau palem hutan adalah?",
+    "options": ["Seraung", "Caping Bambu", "Tanjak", "Songkok"],
+    "correctIndex": 0,
+    "explanation": "Seraung melindungi masyarakat dari sengatan terik matahari dan hujan lebat saat berladang atau mengayuh perahu."
+  },
+  {
+    "question": "Anyaman tas ransel punggung khas Dayak berbahan rotan alami yang kuat untuk membawa hasil hutan dinamakan?",
+    "options": ["Tas Noken", "Anjat", "Tas Koja", "Kantong Anyam"],
+    "correctIndex": 1,
+    "explanation": "Anjat dianyam halus dengan pola motif flora fauna hitam putih yang sangat indah dan tahan lama."
+  },
+  {
+    "question": "Kerajaan Islam pertama di Kalimantan Selatan yang didirikan oleh Sultan Suriansyah pada abad ke-16 adalah?",
+    "options": ["Kesultanan Banjar", "Kesultanan Kutai", "Kesultanan Sambas", "Kesultanan Pontianak"],
+    "correctIndex": 0,
+    "explanation": "Masjid Sultan Suriansyah di Kuin Banjarmasin merupakan masjid tertua peninggalan Kesultanan Banjar."
+  },
+  {
+    "question": "Istana kayu bertingkat megah di hulu Sungai Mahakam yang menjadi kediaman Sultan Kutai Kartanegara abad ke-19 kini menjadi?",
+    "options": ["Museum Mulawarman", "Museum Nasional", "Museum Fatahillah", "Museum Sri Baduga"],
+    "correctIndex": 0,
+    "explanation": "Museum Mulawarman menyimpan benda pusaka kerajaan, singgasana emas, payung kebesaran, dan keramik Dinasti Ming."
+  },
+  {
+    "question": "Danau air tawar terluas di pedalaman Kalimantan Barat yang menjadi surga habitat burung air dan ikan arwana adalah?",
+    "options": ["Danau Toba", "Danau Sentarum", "Danau Matano", "Danau Poso"],
+    "correctIndex": 1,
+    "explanation": "Taman Nasional Danau Sentarum merupakan lahan basah unik yang saat musim hujan menjadi danau dan musim kemarau menjadi hutan rawa."
+  },
+  {
+    "question": "Ikan hias air tawar endemik Sungai Kapuas berjuluk 'Naga Air' dengan sisik kemerahan berkilau harga fantastis adalah?",
+    "options": ["Ikan Cupang", "Ikan Arwana Super Red (Scleropages formosus)", "Ikan Louhan", "Ikan Koi"],
+    "correctIndex": 1,
+    "explanation": "Arwana Super Red Kalimantan Barat diyakini membawa keberuntungan, kemakmuran, dan ketenteraman bagi pemeliharanya."
+  },
+  {
+    "question": "Pohon hutan Kalimantan yang menghasilkan kristal getah beraroma harum semerbak untuk dupa dan bahan parfum dunia adalah?",
+    "options": ["Pohon Gaharu", "Pohon Pinus", "Pohon Jati", "Pohon Karet"],
+    "correctIndex": 0,
+    "explanation": "Kayu Gaharu terbentuk dari respon alami pohon Aquilaria terhadap infeksi jamur, menghasilkan resin bernilai sangat tinggi."
+  },
+  {
+    "question": "Pakaian adat wanita suku Dayak Kenyah yang berupa rompi tanpa lengan dan rok kain berhias sulaman manik-manik indah disebut?",
+    "options": ["Baju Bodo", "Baju Ta'a", "Baju Kurung", "Kebaya"],
+    "correctIndex": 1,
+    "explanation": "Baju Ta'a dipadukan dengan ikat kepala manik bermahkota bulu enggang dan gelang gading di kedua lengan."
+  },
+  {
+    "question": "Pakaian adat pria suku Dayak berupa rompi kulit kayu atau kain tenun bermotif ksatria gagah dinamakan?",
+    "options": ["Sapei Sapaq", "Beskap", "Teluk Belanga", "Surjan"],
+    "correctIndex": 0,
+    "explanation": "Sapei Sapaq dikenakan bersama cawat (abett), mandau di pinggang, dan tameng talawang di tangan."
+  },
+  {
+    "question": "Tradisi lisan masyarakat Banjar berupa pantun berbalas jenaka berirama yang diiringi musik terbang dinamakan?",
+    "options": ["Madihin", "Didong", "Macapat", "Sinrilik"],
+    "correctIndex": 0,
+    "explanation": "Madihin dibawakan oleh seorang pemadihin tunggal yang mahir merangkai syair spontan sarat humor dan petuah moral."
+  },
+  {
+    "question": "Pertunjukan teater boneka khas suku Banjar yang mengangkat kisah kepahlawanan rakyat dan kritik sosial jenaka adalah?",
+    "options": ["Wayang Golek", "Wayang Kulit Banjar", "Wayang Potehi", "Lenong"],
+    "correctIndex": 1,
+    "explanation": "Wayang Banjar berkembang dari pengaruh Kesultanan Demak pada abad ke-16 dengan bahasa dan karakter tokoh lokal."
+  },
+  {
+    "question": "Kue tradisional Banjar berbentuk loyang bundar bergerigi menyerupai kelopak bunga mawar mekar dengan rasa manis legit adalah?",
+    "options": ["Kue Lumpur", "Kue Bingka Barandam", "Kue Apam Barabai", "Kue Kararaban"],
+    "correctIndex": 1,
+    "explanation": "Bingka Barandam disajikan bersama siraman kuah air gula beraroma kayu manis dan daun pandan wangi."
+  },
+  {
+    "question": "Cemilan manis khas Barabai Kalimantan Selatan berbahan tape singkong dan tepung beras yang kenyal lezat adalah?",
+    "options": ["Apam Barabai", "Dodol Kandangan", "Bika", "Kue Putu"],
+    "correctIndex": 0,
+    "explanation": "Apam Barabai dikemas dalam bungkus daun pisang dengan varian warna putih gula pasir dan cokelat gula aren."
+  },
+  {
+    "question": "Olahan durian fermentasi khas masyarakat pedalaman Kalimantan dan Sumatera yang dimasak bersama ikan sungai dinamakan?",
+    "options": ["Terasi", "Tempoyak", "Cincalok", "Petis"],
+    "correctIndex": 1,
+    "explanation": "Tempoyak menghasilkan perpaduan rasa asam segar dan aroma durian kuat yang sangat cocok dimasak gulai ikan baung."
+  },
+  {
+    "question": "Pegunungan karst purba di Kalimantan Timur dengan dinding gua kapur berlukisan telapak tangan manusia purba berusia 40.000 tahun adalah?",
+    "options": ["Pegunungan Meratus", "Karst Sangkulirang-Mangkalihat", "Pegunungan Schwaner", "Gunung Palung"],
+    "correctIndex": 1,
+    "explanation": "Gua Sangkulirang menyimpan bukti arkeologi lukisan cadas tertua di dunia yang menggambarkan kehidupan manusia prasejarah."
+  },
+  {
+    "question": "Sungai terpanjang di Indonesia yang mengalir sepanjang 1.143 kilometer di wilayah Kalimantan Barat adalah?",
+    "options": ["Sungai Mahakam", "Sungai Barito", "Sungai Kapuas", "Sungai Kahayan"],
+    "correctIndex": 2,
+    "explanation": "Sungai Kapuas bermula dari Pegunungan Muller dan bermuara ke Selat Karimata, menjadi urat nadi perhubungan utama."
+  },
+  {
+    "question": "Sungai terbesar di Kalimantan Timur yang menjadi jalur transportasi kapal ponton batu bara dan kayu gelondongan adalah?",
+    "options": ["Sungai Kapuas", "Sungai Barito", "Sungai Mahakam", "Sungai Berau"],
+    "correctIndex": 2,
+    "explanation": "Sungai Mahakam memiliki panjang 920 kilometer dan menghidupi ribuan desa di tepian perairannya."
+  },
+  {
+    "question": "Upacara adat suku Dayak Tunjung dan Benuaq di Kutai Barat untuk menyembuhkan orang sakit melalui tarian pemanggilan roh leluhur adalah?",
+    "options": ["Belian", "Ngaben", "Tiwah", "Erau"],
+    "correctIndex": 0,
+    "explanation": "Ritual Belian dipimpin oleh seorang dukun adat (Pawang Belian) diiringi alunan ritmis gelang genta kuningan."
+  },
+  {
+    "question": "Pusat penambangan intan tradisional terbesar di Kalimantan Selatan yang terkenal menghasilkan intan 'Trisakti' seberat 166 karat adalah?",
+    "options": ["Pendulangan Intan Cempaka (Banjarbaru)", "Martapura", "Pelaihari", "Kandangan"],
+    "correctIndex": 0,
+    "explanation": "Pendulang intan menggunakan mangkuk kayu linggangan untuk memisahkan butiran kerikil intan di dasar lumpur sungai."
+  },
+  {
+    "question": "Tarian penyambutan tamu terhormat khas suku Banjar yang ditarikan oleh penari putri berbusana kuning memegang mangkuk beras kuning adalah?",
+    "options": ["Tari Radap Rahayu", "Tari Baksa Kembang", "Tari Kuda Gepang", "Tari Japin"],
+    "correctIndex": 1,
+    "explanation": "Tari Baksa Kembang ditarikan di lingkungan keraton Banjar sebagai bentuk doa keselamatan dan kebahagiaan bagi tamu."
+  },
+  {
+    "question": "Tari ritual tolak bala khas suku Banjar yang dibawakan saat terjadi wabah penyakit atau musibah perahu karam di sungai adalah?",
+    "options": ["Tari Radap Rahayu", "Tari Baksa Dadap", "Tari Tirik", "Tari Japin Sigam"],
+    "correctIndex": 0,
+    "explanation": "Radap Rahayu melambangkan turunnya bidadari khayangan membawa ketenteraman dan kesembuhan ke bumi."
+  },
+  {
+    "question": "Kota di Kalimantan Timur yang kini berkembang menjadi kawasan penyangga Ibu Kota Nusantara (IKN) dengan pelabuhan laut modern adalah?",
+    "options": ["Banjarmasin", "Balikpapan", "Samarinda", "Tarakan"],
+    "correctIndex": 1,
+    "explanation": "Balikpapan dijuluki 'Kota Minyak' dan menjadi pintu gerbang logistik dan maritim utama Kalimantan Timur."
+  },
+  {
+    "question": "Pulau di Kepulauan Derawan Kalimantan Timur yang terkenal di dunia karena memiliki danau air asin berisi ubur-ubur tanpa sengat adalah?",
+    "options": ["Pulau Maratua", "Pulau Kakaban", "Pulau Sangalaki", "Pulau Derawan"],
+    "correctIndex": 1,
+    "explanation": "Ubur-ubur di Danau Kakaban berevolusi ribuan tahun tanpa pemangsa alami sehingga kehilangan kemampuan menyengat."
+  },
+  {
+    "question": "Kearifan lokal suku Dayak dalam menjaga hutan larangan agar tidak ditebang demi menjaga sumber mata air dan habitat satwa disebut?",
+    "options": ["Hutan Lindung", "Tana Ulen", "Hutan Adat", "Cagar Alam"],
+    "correctIndex": 1,
+    "explanation": "Tana Ulen dikelola ketat oleh hukum adat Dayak; pelanggar yang menebang pohon dikenai denda adat berat berupa guci keramik kuno."
+  }
+]

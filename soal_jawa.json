@@ -1,0 +1,302 @@
+[
+  {
+    "question": "Candi Buddha terbesar di dunia yang dibangun abad ke-8 oleh Wangsa Syailendra di Magelang, Jawa Tengah adalah?",
+    "options": ["Candi Prambanan", "Candi Borobudur", "Candi Mendut", "Candi Penataran"],
+    "correctIndex": 1,
+    "explanation": "Candi Borobudur memiliki 72 stupa terawang dan relief luhur perjalanan kehidupan manusia warisan UNESCO."
+  },
+  {
+    "question": "Kompleks candi Hindu terindah di Indonesia yang menceritakan kisah epik Ramayana di perbatasan Yogyakarta dan Klaten adalah?",
+    "options": ["Candi Prambanan", "Candi Gedong Songo", "Candi Dieng", "Candi Sukuh"],
+    "correctIndex": 0,
+    "explanation": "Candi Prambanan didedikasikan untuk Trimurti (Brahma, Wisnu, Siwa) dengan relief Ramayana yang mempesona."
+  },
+  {
+    "question": "Rumah adat khas Jawa dengan atap menjulang tinggi berbentuk piramida (Tajug) dan pilar penyangga Saka Guru adalah?",
+    "options": ["Rumah Gadang", "Rumah Joglo", "Rumah Tongkonan", "Rumah Limas"],
+    "correctIndex": 1,
+    "explanation": "Rumah Joglo mencerminkan status sosial dan keharmonisan hidup dengan alam melalui 4 tiang utama (Saka Guru)."
+  },
+  {
+    "question": "Kerajaan maritim dan agraris terbesar di Jawa Timur yang dipimpin oleh Raja Hayam Wuruk dan Mahapatih Gajah Mada adalah?",
+    "options": ["Kerajaan Tarumanegara", "Kerajaan Majapahit", "Kerajaan Pajajaran", "Kerajaan Mataram Kuno"],
+    "correctIndex": 1,
+    "explanation": "Majapahit berhasil menyatukan wilayah Nusantara dengan semboyan legendaris 'Bhinneka Tunggal Ika'."
+  },
+  {
+    "question": "Istana tempat tinggal raja di Yogyakarta yang menjadi pusat pelestarian kebudayaan Jawa adiluhung adalah?",
+    "options": ["Pura Mangkunegaran", "Kraton Ngayogyakarta Hadiningrat", "Istana Bogor", "Kraton Kasepuhan"],
+    "correctIndex": 1,
+    "explanation": "Kraton Yogyakarta didirikan oleh Sri Sultan Hamengkubuwono I pada tahun 1755 sebagai pusat kebudayaan Jawa."
+  },
+  {
+    "question": "Candi bercorak Hindu di lereng Gunung Lawu yang memiliki arsitektur unik mirip piramida suku Maya di Meksiko adalah?",
+    "options": ["Candi Sukuh", "Candi Plaosan", "Candi Sambisari", "Candi Kalasan"],
+    "correctIndex": 0,
+    "explanation": "Candi Sukuh di Karanganyar memiliki struktur punden berundak unik yang berbeda dari candi Hindu pada umumnya."
+  },
+  {
+    "question": "Pintu gerbang terbelah dua tanpa atap pada arsitektur kuno Jawa dan Bali sering disebut dengan nama?",
+    "options": ["Paduraksa", "Candi Bentar", "Gapura Bajang Ratu", "Kori Agung"],
+    "correctIndex": 1,
+    "explanation": "Candi Bentar melambangkan terbelahnya gunung suci Meru menjadi dua bagian yang seimbang."
+  },
+  {
+    "question": "Sumpah terkenal yang diucapkan oleh Mahapatih Gajah Mada untuk menyatukan Nusantara di hadapan Ratu Tribhuwana Tunggadewi adalah?",
+    "options": ["Sumpah Palapa", "Sumpah Pemuda", "Prasasti Ciaruteun", "Piagam Jakarta"],
+    "correctIndex": 0,
+    "explanation": "Sumpah Palapa diucapkan Gajah Mada berjanji tidak akan menikmati kesenangan duniawi sebelum Nusantara bersatu."
+  },
+  {
+    "question": "Kompleks pemakaman raja-raja Mataram Islam yang terletak di atas bukit di daerah Bantul, Yogyakarta adalah?",
+    "options": ["Makam Giri", "Makam Imogiri", "Makam Trowulan", "Makam Sunan Kalijaga"],
+    "correctIndex": 1,
+    "explanation": "Imogiri dibangun oleh Sultan Agung Hanyokrokusumo pada tahun 1632 sebagai makam peristirahatan raja-raja Jawa."
+  },
+  {
+    "question": "Situs bekas ibu kota Kerajaan Majapahit dengan ribuan peninggalan batu bata merah kuno terletak di daerah?",
+    "options": ["Trowulan, Mojokerto", "Kotagede, Yogyakarta", "Tuban", "Singosari, Malang"],
+    "correctIndex": 0,
+    "explanation": "Trowulan diyakini kuat sebagai pusat kota metropolitan Kerajaan Majapahit abad ke-13 hingga 15 Masehi."
+  },
+  {
+    "question": "Motif batik legendaris Yogyakarta yang bermotif lidah ombak miring dan hanya boleh dikenakan oleh raja serta bangsawan kraton adalah?",
+    "options": ["Batik Kawung", "Batik Parang Rusak", "Batik Truntum", "Batik Sekar Jagad"],
+    "correctIndex": 1,
+    "explanation": "Batik Parang Rusak diciptakan oleh Sultan Agung, melambangkan ombak samudera yang tak pernah padam dan semangat pantang menyerah."
+  },
+  {
+    "question": "Motif batik khas pesisir Cirebon yang menampilkan gradasi awan melayang nan teduh dan dipengaruhi budaya Tionghoa adalah?",
+    "options": ["Batik Sidomukti", "Batik Mega Mendung", "Batik Lasem", "Batik Madura"],
+    "correctIndex": 1,
+    "explanation": "Mega Mendung melambangkan dunia atas yang membawa hujan pembawa berkah serta kesabaran dalam menahan amarah."
+  },
+  {
+    "question": "Motif batik tertua berupa empat bulatan lonjong menyerupai irisan buah kolang-kaling yang melambangkan kemurnian hati adalah?",
+    "options": ["Batik Kawung", "Batik Tambal", "Batik Nitik", "Batik Cuwiri"],
+    "correctIndex": 0,
+    "explanation": "Batik Kawung bermakna empat arah mata angin yang bersumber pada satu titik pusat kebijaksanaan hati."
+  },
+  {
+    "question": "Motif batik bertabur bintang-bintang kecil di malam hari yang diciptakan Kanjeng Ratu Kencana sebagai simbol cinta yang tulus bersemi kembali adalah?",
+    "options": ["Batik Parang", "Batik Truntum", "Batik Sogan", "Batik Pekalongan"],
+    "correctIndex": 1,
+    "explanation": "Truntum berasal dari kata 'taruntum' (tumbuh kembali), melambangkan cinta kasih orang tua yang menuntun mempelai."
+  },
+  {
+    "question": "Warna khas batik klasik pedalaman Solo dan Yogyakarta yang berwarna cokelat kemerahan alami dari kulit pohon soga dinamakan?",
+    "options": ["Batik Pesisiran", "Batik Sogan", "Batik Kelengan", "Batik Tiga Negeri"],
+    "correctIndex": 1,
+    "explanation": "Batik Sogan bernuansa cokelat hangat melambangkan kerendahan hati manusia yang berasal dari tanah."
+  },
+  {
+    "question": "Alat tradisional berbentuk corong tembaga kecil bertangkai bambu yang digunakan untuk melukiskan lilin malam pada kain batik adalah?",
+    "options": ["Cap", "Canting", "Wajan", "Gawangan"],
+    "correctIndex": 1,
+    "explanation": "Canting digunakan pembatik tulis untuk menorehkan cairan malam panas dengan presisi tinggi."
+  },
+  {
+    "question": "Kota di pesisir utara Jawa Tengah yang terkenal dengan julukan 'Kota Batik' berkat ragam motif flora fauna berwarna-warni cerah adalah?",
+    "options": ["Semarang", "Pekalongan", "Kudus", "Tegal"],
+    "correctIndex": 1,
+    "explanation": "Pekalongan diakui oleh UNESCO sebagai bagian dari Jaringan Kota Kreatif Dunia kategori Kriya dan Seni Rakyat."
+  },
+  {
+    "question": "Batik pesisir Lasem di Rembang sangat terkenal dengan perpaduan motif Jawa dan Tionghoa dengan warna merah menyala yang disebut?",
+    "options": ["Merah Mengkudu", "Merah Getih Pitik (Darah Ayam)", "Merah Saga", "Merah Kesumba"],
+    "correctIndex": 1,
+    "explanation": "Batik Lasem melambangkan akulturasi damai masyarakat Jawa dan Tionghoa sejak berabad-abad silam."
+  },
+  {
+    "question": "Batik khas Madura terkenal dengan karakteristik visual yang sangat unik yaitu?",
+    "options": ["Warna lembut pastel", "Warna menyala berani (merah, kuning, biru) dengan serat tegas", "Selalu berwarna hitam putih", "Hanya bermotif geometris"],
+    "correctIndex": 1,
+    "explanation": "Batik Madura mencerminkan karakter masyarakat pesisir yang tegas, dinamis, berani, dan hangat."
+  },
+  {
+    "question": "Proses merontokkan lilin malam dari kain batik setelah dicelup pewarna dengan cara direbus dalam air mendidih dinamakan?",
+    "options": ["Nyanting", "Nglorod", "Medel", "Nembok"],
+    "correctIndex": 1,
+    "explanation": "Nglorod adalah tahap akhir pembuatan batik di mana lilin malam luruh sehingga motif asli terlihat jelas."
+  },
+  {
+    "question": "Kesenian teater rakyat legendaris Jawa Timur yang menampilkan penari berkepala Singa Barong bermahkota bulu merak seberat 50 kg adalah?",
+    "options": ["Kuda Lumping", "Reog Ponorogo", "Ketoprak", "Tari Gambyong"],
+    "correctIndex": 1,
+    "explanation": "Reog Ponorogo menceritakan kisah Prabu Klono Sewandono dan Singo Barong yang perkasa."
+  },
+  {
+    "question": "Alat musik bambu bernada pentatonik dan diatonik asal Jawa Barat yang dimainkan dengan cara digoyangkan adalah?",
+    "options": ["Calung", "Angklung", "Suling Sunda", "Kacapi"],
+    "correctIndex": 1,
+    "explanation": "Angklung ditetapkan UNESCO sebagai Karya Agung Warisan Budaya Lisan dan Nonbendawi Manusia pada tahun 2010."
+  },
+  {
+    "question": "Ansambel musik tradisional Jawa yang terdiri dari bonang, saron, kendang, gong, dan kenong dinamakan?",
+    "options": ["Gamelan", "Tanjidor", "Kolintang", "Talempong"],
+    "correctIndex": 0,
+    "explanation": "Gamelan Jawa memiliki laras slendro dan pelog yang menghasilkan harmoni nada damai dan menenangkan jiwa."
+  },
+  {
+    "question": "Kesenian wayang yang menggunakan boneka kulit kerbau bertangkai tanduk dengan dalang sebagai narator di balik kelir kain putih adalah?",
+    "options": ["Wayang Golek", "Wayang Kulit Purwa", "Wayang Orang", "Wayang Beber"],
+    "correctIndex": 1,
+    "explanation": "Wayang Kulit diakui UNESCO sebagai warisan budaya adiluhung yang sarat petuah moral dan filosofi hidup."
+  },
+  {
+    "question": "Kesenian wayang boneka kayu khas Sunda Jawa Barat yang kerap membawakan tokoh jenaka Si Cepot dan Dawala adalah?",
+    "options": ["Wayang Kulit", "Wayang Golek", "Wayang Klitik", "Wayang Potehi"],
+    "correctIndex": 1,
+    "explanation": "Wayang Golek menonjolkan gerak boneka kayu yang ekspresif dipandu kelincahan dalang dan kendang Sunda."
+  },
+  {
+    "question": "Tarian klasik keraton Surakarta yang ditarikan oleh sembilan gadis anggun dalam suasana hening dan sakral adalah?",
+    "options": ["Tari Gambyong", "Tari Bedhaya Ketawang", "Tari Jaipong", "Tari Serimpi"],
+    "correctIndex": 1,
+    "explanation": "Bedhaya Ketawang adalah tarian sakral penobatan raja yang sarat simbol perjumpaan kosmis manusia dengan pencipta."
+  },
+  {
+    "question": "Tarian kreasi modern asal Jawa Barat karya Gugum Gumbira yang menggabungkan unsur pencak silat, ketuk tilu, dan gerak lincah adalah?",
+    "options": ["Tari Topeng", "Tari Jaipongan", "Tari Merak", "Tari Ronggeng"],
+    "correctIndex": 1,
+    "explanation": "Tari Jaipongan terkenal dengan ritme kendang energik dan gerakan tubuh yang ceria dan penuh semangat."
+  },
+  {
+    "question": "Tari selamat datang di Jawa Tengah yang ditarikan untuk menyambut tamu agung dengan gerakan luwes dan anggun adalah?",
+    "options": ["Tari Gandrung", "Tari Gambyong", "Tari Piring", "Tari Pendet"],
+    "correctIndex": 1,
+    "explanation": "Tari Gambyong berakar dari tarian rakyat penolak bala dan ungkapan syukur atas panen raya padi yang melimpah."
+  },
+  {
+    "question": "Lagu daerah Jawa Tengah yang sangat populer diciptakan oleh Sunan Kalijaga untuk mengajak anak-anak bersyukur dan menjaga alam adalah?",
+    "options": ["Cublak-Cublak Suweng", "Gundhul-Gundhul Pacul", "Lir-Ilir", "Padhang Wulan"],
+    "correctIndex": 2,
+    "explanation": "Lir-Ilir berpesan agar manusia bangkit membenahi diri selagi masih ada kesempatan sebelum usia berakhir."
+  },
+  {
+    "question": "Tari tradisional khas Banyuwangi yang menjadi lambang pesona ujung timur Pulau Jawa adalah?",
+    "options": ["Tari Gandrung Banyuwangi", "Tari Remo", "Tari Jaran Kepang", "Tari Kethek Ogleng"],
+    "correctIndex": 0,
+    "explanation": "Tari Gandrung merupakan bentuk penghormatan kepada Dewi Sri sebagai dewi kemakmuran dan kesuburan."
+  },
+  {
+    "question": "Senjata pusaka berbilah tajam berkelok (luk) dengan pamor meteorit yang diakui UNESCO sebagai warisan budaya takbenda dunia adalah?",
+    "options": ["Kujang", "Keris Jawa", "Badik", "Mandau"],
+    "correctIndex": 1,
+    "explanation": "Keris bukan sekadar senjata, melainkan karya seni spiritual perlambang jati diri, doa, dan status ksatria Jawa."
+  },
+  {
+    "question": "Senjata tradisional khas masyarakat Sunda Jawa Barat yang memiliki bentuk lengkung unik menyerupai pulau Jawa adalah?",
+    "options": ["Golok Ciomas", "Kujang", "Pedang Jenawi", "Keris"],
+    "correctIndex": 1,
+    "explanation": "Kujang adalah simbol keberanian, kedaulatan, dan spiritualitas masyarakat Tatar Pasundan peninggalan Prabu Siliwangi."
+  },
+  {
+    "question": "Filosofi hidup masyarakat Jawa 'Memayu Hayuning Bawana' memiliki arti luhur yaitu?",
+    "options": ["Mencari kekayaan sebanyak-banyaknya", "Memperindah dan menjaga keselamatan alam semesta", "Menaklukkan suku lain", "Hidup bersenang-senang"],
+    "correctIndex": 1,
+    "explanation": "Memayu Hayuning Bawana mengajarkan kewajiban manusia menjaga keharmonisan bumi, sesama, dan sang Pencipta."
+  },
+  {
+    "question": "Ungkapan bahasa Jawa 'Aja Dumeh' mengandung nasihat moral agar manusia tidak bersikap?",
+    "options": ["Rendah hati", "Sombong atau merasa paling berkuasa", "Hemat", "Rajin bekerja"],
+    "correctIndex": 1,
+    "explanation": "Aja Dumeh mengingatkan bahwa kekuasaan, kepandaian, dan kekayaan hanyalah titipan sementara."
+  },
+  {
+    "question": "Tutup kepala tradisional pria Jawa yang terbuat dari lipatan kain batik dengan bulatan mondolan di bagian belakang disebut?",
+    "options": ["Udeng", "Blangkon", "Tanjak", "Kupiah"],
+    "correctIndex": 1,
+    "explanation": "Mondolan pada blangkon bermakna menjaga rahasia orang lain dan menahan hawa nafsu pribadi."
+  },
+  {
+    "question": "Pakaian adat resmi pria Jawa berupa jas tutup berkerah tegak tanpa kancing terbuka yang dipadukan kain jarik dinamakan?",
+    "options": ["Baju Surjan", "Beskap", "Teluk Belanga", "Baju Bodo"],
+    "correctIndex": 1,
+    "explanation": "Beskap dikenakan pada upacara pernikahan dan adat resmi keraton sebagai simbol wibawa dan kesopanan."
+  },
+  {
+    "question": "Baju tradisional pria khas Jawa dengan motif lurik garis-garis sederhana yang diciptakan oleh Sunan Kalijaga adalah?",
+    "options": ["Baju Kurung", "Baju Surjan Lurik", "Baju Safari", "Baju Kampret"],
+    "correctIndex": 1,
+    "explanation": "Surjan berasal dari kata 'siro janan' (jadilah pelita), mengajarkan kesederhanaan dan ketakwaan."
+  },
+  {
+    "question": "Senjata tajam khas Madura yang memiliki bilah melengkung menyerupai bulan sabit dan melambangkan harga diri adalah?",
+    "options": ["Celurit (Arit)", "Keris", "Belati", "Pisau Raut"],
+    "correctIndex": 0,
+    "explanation": "Celurit merupakan senjata legendaris Madura yang berakar dari alat pertanian dan simbol pembela kehormatan."
+  },
+  {
+    "question": "Upacara adat Jawa untuk merayakan dan mendoakan bayi yang pertama kali menginjakkan kaki ke tanah pada usia 7 bulan dinamakan?",
+    "options": ["Mitoni", "Tedak Siten", "Brokohan", "Ruwatan"],
+    "correctIndex": 1,
+    "explanation": "Tedak Siten melambangkan bimbingan orang tua agar sang anak menapaki kehidupan dengan mandiri dan berbudi pekerti."
+  },
+  {
+    "question": "Tradisi upacara selamatan pada usia kehamilan tujuh bulan di masyarakat Jawa untuk memohon keselamatan bayi disebut?",
+    "options": ["Tingkeban (Mitoni)", "Sekaten", "Grebeg Maulud", "Sedekah Laut"],
+    "correctIndex": 0,
+    "explanation": "Tingkeban diisi dengan siraman tujuh mata air kembang setaman dan pemotongan tumpeng berkah."
+  },
+  {
+    "question": "Makanan khas Yogyakarta berbahan nangka muda yang dimasak berjam-jam dengan santan dan gula aren hingga kecokelatan adalah?",
+    "options": ["Rawon", "Gudeg", "Tongseng", "Brongkos"],
+    "correctIndex": 1,
+    "explanation": "Gudeg disajikan bersama areh santan kental, krecek pedas, telur bacem, dan ayam kampung gurih."
+  },
+  {
+    "question": "Sup daging sapi khas Jawa Timur yang memiliki kuah hitam pekat alami dari buah kluwek adalah?",
+    "options": ["Soto Kudus", "Rawon", "Gulai Daging", "Empal Gentong"],
+    "correctIndex": 1,
+    "explanation": "Rawon dinobatkan sebagai salah satu sup terenak di dunia oleh TasteAtlas berkat kelezatan bumbu kluweknya."
+  },
+  {
+    "question": "Satwa langka bercula satu yang dilindungi dan hanya tersisa di Taman Nasional Ujung Kulon, Banten adalah?",
+    "options": ["Gajah Sumatera", "Badak Jawa (Rhinoceros sondaicus)", "Banteng Jawa", "Macan Tutul"],
+    "correctIndex": 1,
+    "explanation": "Badak Jawa adalah mamalia terlangka di dunia yang dilindungi secara ketat di habitat aslinya di Ujung Kulon."
+  },
+  {
+    "question": "Burung elang endemik Pulau Jawa yang memiliki jambul khas dan menjadi inspirasi lambang negara Garuda Pancasila adalah?",
+    "options": ["Elang Bondol", "Elang Jawa (Nisaetus bartelsi)", "Burung Maleo", "Burung Jalak Bali"],
+    "correctIndex": 1,
+    "explanation": "Elang Jawa memiliki mahkota jambul runcing dan bulu dada keemasan mirip gambaran Garuda."
+  },
+  {
+    "question": "Kue tradisional khas Betawi berbahan tepung ketan, gula merah, dan santan yang diaduk tanpa henti di wajan besar adalah?",
+    "options": ["Bika Ambon", "Dodol Betawi", "Kue Cucur", "Kerak Telor"],
+    "correctIndex": 1,
+    "explanation": "Pembuatan Dodol Betawi membutuhkan gotong royong dan kesabaran tinggi hingga matang sempurna."
+  },
+  {
+    "question": "Kuliner khas Cirebon berupa olahan daging sapi gurih yang dimasak dalam periuk tanah liat dengan kuah santan bumbu rempah adalah?",
+    "options": ["Empal Gentong", "Tahu Gejrot", "Nasi Lengko", "Nasi Jamblang"],
+    "correctIndex": 0,
+    "explanation": "Empal Gentong dimasak menggunakan kayu bakar pohon mangga yang memberi aroma khas menggugah selera."
+  },
+  {
+    "question": "Minuman jamu tradisional khas Jawa berbahan kunyit dan asam jawa yang bermanfaat menyegarkan tubuh adalah?",
+    "options": ["Beras Kencur", "Kunyit Asam", "Wedang Jahe", "Bajigur"],
+    "correctIndex": 1,
+    "explanation": "Kunyit Asam kaya antioksidan dan menjadi ramuan jamu warisan nenek moyang sejak zaman Majapahit."
+  },
+  {
+    "question": "Perayaan tahunan Pasar Malam Sekaten di Yogyakarta dan Solo diadakan untuk memperingati hari kelahiran Nabi Muhammad SAW dengan membunyikan?",
+    "options": ["Angklung", "Gamelan Sekati (Kanjeng Kyai Gunturmadu)", "Bedug Raksasa", "Gong Perdamaian"],
+    "correctIndex": 1,
+    "explanation": "Sekaten berasal dari kata 'Syahadatain', sarana penyebaran Islam oleh para Wali Songo melalui alunan gamelan."
+  },
+  {
+    "question": "Bunga endemik langka yang tumbuh di Kebun Raya Purwodadi dan Gunung Slamet Jawa Tengah dengan aroma khas malam hari adalah?",
+    "options": ["Melati Putih", "Bunga Wijayakusuma", "Kantong Semar", "Bunga Rafflesia"],
+    "correctIndex": 1,
+    "explanation": "Wijayakusuma dianggap bunga mistis lambang kejayaan raja-raja keraton Jawa yang mekar hanya di tengah malam."
+  },
+  {
+    "question": "Tradisi arak-arakan tumpeng hasil bumi raksasa yang dibagikan dan diperebutkan masyarakat saat upacara Grebeg Kraton disebut?",
+    "options": ["Gunungan Hasil Bumi", "Sesaji Laut", "Kenduri", "Labuhan"],
+    "correctIndex": 0,
+    "explanation": "Gunungan Grebeg melambangkan sedekah raja kepada rakyatnya dan doa keselamatan bagi seluruh negeri."
+  }
+]

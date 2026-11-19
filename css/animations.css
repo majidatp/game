@@ -1,0 +1,64 @@
+/* animations.css - Animasi Interaktif Game Nusantara */
+
+@keyframes pulse-pin {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(250, 204, 21, 0.7);
+  }
+  70% {
+    transform: scale(1.12);
+    box-shadow: 0 0 0 12px rgba(250, 204, 21, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(250, 204, 21, 0);
+  }
+}
+
+@keyframes char-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.char-bounce-anim {
+  animation: char-bounce 2.2s infinite ease-in-out;
+}
+
+.char-bounce-anim:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.char-bounce-anim:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+@keyframes glow-pulse {
+  0%, 100% {
+    filter: drop-shadow(0 0 6px #facc15);
+  }
+  50% {
+    filter: drop-shadow(0 0 18px #f59e0b);
+  }
+}
+
+.glow-anim {
+  animation: glow-pulse 1.8s infinite ease-in-out;
+}
+
+@keyframes shake-anim {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-8px); }
+  40%, 80% { transform: translateX(8px); }
+}
+
+.shake-error {
+  animation: shake-anim 0.4s ease-in-out;
+}
+
+.pulse-anim {
+  animation: pulse-pin 2s infinite ease-in-out;
+}

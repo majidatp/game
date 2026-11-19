@@ -1,0 +1,302 @@
+[
+  {
+    "question": "Rumah adat khas Minangkabau dengan atap melengkung runcing menyerupai tanduk kerbau (Gonjong) adalah?",
+    "options": ["Rumah Bolon", "Rumah Gadang", "Rumah Limas", "Rumah Panggung"],
+    "correctIndex": 1,
+    "explanation": "Rumah Gadang melambangkan kemenangan adu kerbau leluhur Minang dan keharmonisan hidup bersaudara."
+  },
+  {
+    "question": "Kain tenunan mewah khas Palembang dan Minangkabau yang ditenun dengan benang emas berkilau dijuluki sebagai?",
+    "options": ["Ratu Kain Tenun (Songket)", "Kain Ulos", "Kain Sasirangan", "Kain Tapis"],
+    "correctIndex": 0,
+    "explanation": "Kain Songket ditenun dengan teknik rumit menggunakan benang emas murni peninggalan Kerajaan Sriwijaya."
+  },
+  {
+    "question": "Senjata pusaka berbilah tajam khas Serambi Mekkah Aceh dengan bentuk pangkal melengkung menyerupai huruf arab Ba/Bismillah adalah?",
+    "options": ["Keris", "Rencong", "Badik", "Kujang"],
+    "correctIndex": 1,
+    "explanation": "Rencong adalah lambang keberanian, kehormatan, dan keteguhan jihad masyarakat Aceh."
+  },
+  {
+    "question": "Kain tenun tradisional masyarakat Batak yang menjadi simbol berkah, kehangatan, dan restu kehidupan dinamakan?",
+    "options": ["Kain Ulos", "Kain Endek", "Kain Poleng", "Kain Gringsing"],
+    "correctIndex": 0,
+    "explanation": "Ulos diberikan dalam upacara adat 'Mangulosi' sebagai wujud doa restu, cinta kasih, dan kehangatan."
+  },
+  {
+    "question": "Menara jam raksasa peninggalan sejarah Belanda yang menjadi ikon utama kota Bukittinggi, Sumatera Barat adalah?",
+    "options": ["Monas", "Jam Gadang", "Tugu Khatulistiwa", "Tugu Monpera"],
+    "correctIndex": 1,
+    "explanation": "Jam Gadang memiliki mesin mekanik langka yang hanya ada dua di dunia (satu lagi di Big Ben London)."
+  },
+  {
+    "question": "Tarian seribu tangan asal Gayo Aceh yang menuntut kekompakan tepukan dada dan tangan dalam kecepatan tinggi adalah?",
+    "options": ["Tari Piring", "Tari Saman", "Tari Tor-tor", "Tari Seudati"],
+    "correctIndex": 1,
+    "explanation": "Tari Saman diakui UNESCO sebagai Warisan Budaya Takbenda Dunia berkat keharmonisan gerak dan pesan dakwahnya."
+  },
+  {
+    "question": "Tarian tradisional Minangkabau di mana penari mengayunkan piring porselen di kedua telapak tangan lalu menginjak pecahan kaca adalah?",
+    "options": ["Tari Payung", "Tari Piring", "Tari Pasambahan", "Tari Lilin"],
+    "correctIndex": 1,
+    "explanation": "Tari Piring melambangkan rasa syukur para petani atas panen melimpah dan kekebalan hati dari godaan."
+  },
+  {
+    "question": "Tarian persembahan masyarakat Batak yang diiringi tabuhan ansambel Gondang Sabangunan dengan gerak tangan menyembah adalah?",
+    "options": ["Tari Tor-tor", "Tari Sigale-gale", "Tari Balumpa", "Tari Serampang Dua Belas"],
+    "correctIndex": 0,
+    "explanation": "Tari Tor-tor ditarikan dengan penuh hormat untuk menyapa roh leluhur dan menghormati para tetua adat."
+  },
+  {
+    "question": "Tradisi adu ketangkasan fisik pemuda Nias melompati tumpukan batu setinggi lebih dari 2 meter disebut?",
+    "options": ["Pacu Jawi", "Hombo Batu (Lompat Batu)", "Tabuik", "Karapan Sapi"],
+    "correctIndex": 1,
+    "explanation": "Hombo Batu melambangkan kedewasaan, ketangkasan ksatria, dan keberanian membela kampung halaman."
+  },
+  {
+    "question": "Tradisi balapan sepasang sapi di sawah berlumpur basah yang diadakan masyarakat Tanah Datar, Sumatera Barat adalah?",
+    "options": ["Pacu Jawi", "Pacu Jalur", "Karapan Sapi", "Makepung"],
+    "correctIndex": 0,
+    "explanation": "Pacu Jawi digelar setelah panen padi untuk menjalin silaturahmi dan menilai ketangkasan sapi ternak."
+  },
+  {
+    "question": "Perlombaan dayung perahu kayu panjang berhias kepala naga yang menampung hingga 60 pendayung di Sungai Kuantan Riau adalah?",
+    "options": ["Pacu Jawi", "Pacu Jalur", "Perahu Bidar", "Lomba Pinisi"],
+    "correctIndex": 1,
+    "explanation": "Pacu Jalur adalah pesta rakyat akbar di Teluk Kuantan yang merayakan kekompakan dan semangat bahari."
+  },
+  {
+    "question": "Kerajaan maritim Buddha terbesar di Nusantara abad ke-7 hingga ke-11 yang berpusat di Palembang dan Jambi adalah?",
+    "options": ["Kerajaan Sriwijaya", "Kerajaan Majapahit", "Kerajaan Samudera Pasai", "Kerajaan Melayu"],
+    "correctIndex": 0,
+    "explanation": "Sriwijaya menguasai jalur perdagangan Selat Malaka dan menjadi pusat studi agama Buddha internasional."
+  },
+  {
+    "question": "Kerajaan Islam pertama di Indonesia yang terletak di Lhokseumawe, Aceh pada abad ke-13 adalah?",
+    "options": ["Kesultanan Malaka", "Kesultanan Samudera Pasai", "Kesultanan Aceh Darussalam", "Kesultanan Deli"],
+    "correctIndex": 1,
+    "explanation": "Samudera Pasai didirikan oleh Marah Silu (Sultan Malik As-Saleh) dan menerbitkan mata uang emas Deureuham."
+  },
+  {
+    "question": "Kompleks percandian bata merah peninggalan Kerajaan Sriwijaya dan Melayu Kuno terluas di Asia Tenggara terletak di?",
+    "options": ["Candi Borobudur", "Candi Muaro Jambi", "Candi Bahal", "Candi Muara Takus"],
+    "correctIndex": 1,
+    "explanation": "Kawasan Percandian Muaro Jambi membentang sepanjang 12 kilometer di tepian Sungai Batanghari."
+  },
+  {
+    "question": "Istana megah berwarna kuning cerah di Kota Medan perpaduan arsitektur Melayu, Islam, Spanyol, dan Italia adalah?",
+    "options": ["Istana Siak", "Istana Maimun", "Istana Pagaruyung", "Istana Asahan"],
+    "correctIndex": 1,
+    "explanation": "Istana Maimun dibangun oleh Sultan Ma'mun Al Rasyid Perkasa Alamsyah pada tahun 1888."
+  },
+  {
+    "question": "Danau vulkanik terbesar di dunia yang terbentuk akibat letusan supervolcano 74.000 tahun lalu di Sumatera Utara adalah?",
+    "options": ["Danau Maninjau", "Danau Toba", "Danau Singkarak", "Danau Ranau"],
+    "correctIndex": 1,
+    "explanation": "Danau Toba memiliki Pulau Samosir di tengahnya dan ditetapkan sebagai UNESCO Global Geopark."
+  },
+  {
+    "question": "Masjid megah berkubah hitam di Banda Aceh yang tetap kokoh berdiri saat diterjang tsunami dahsyat tahun 2004 adalah?",
+    "options": ["Masjid Raya Medan", "Masjid Raya Baiturrahman", "Masjid Agung Palembang", "Masjid Tuo Kayu Jao"],
+    "correctIndex": 1,
+    "explanation": "Masjid Baiturrahman dibangun sejak era Sultan Iskandar Muda dan menjadi simbol keteguhan iman rakyat Aceh."
+  },
+  {
+    "question": "Olahan daging sapi khas Minangkabau yang dimasak perlahan dengan santan dan aneka rempah hingga kering kehitaman adalah?",
+    "options": ["Gulai Tunjang", "Rendang (Randang)", "Dendeng Balado", "Soto Padang"],
+    "correctIndex": 1,
+    "explanation": "Rendang dinobatkan sebagai salah satu hidangan terlezat di dunia berkat ketahanan awet dan cita rasa rempahnya."
+  },
+  {
+    "question": "Makanan khas Palembang berbahan olahan daging ikan tenggiri dan sagu yang disajikan bersama kuah cuko pedas asam manis adalah?",
+    "options": ["Tekwan", "Pempek", "Model", "Laksan"],
+    "correctIndex": 1,
+    "explanation": "Pempek memiliki berbagai varian seperti Kapal Selam (berisi telur utuh), Lenjer, Kulit, dan Keriting."
+  },
+  {
+    "question": "Tumbuhan parasit langka dengan bunga raksasa berdiameter mencapai 1 meter yang ditemukan di hutan Bengkulu adalah?",
+    "options": ["Bunga Bangkai (Amorphophallus)", "Rafflesia arnoldii", "Kantong Semar", "Anggrek Hitam"],
+    "correctIndex": 1,
+    "explanation": "Rafflesia arnoldii adalah bunga terbesar di dunia yang ditemukan oleh Thomas Stamford Raffles dan Dr. Joseph Arnold."
+  },
+  {
+    "question": "Subspesies harimau terakhir di Indonesia yang dilindungi ketat di hutan pegunungan Bukit Barisan adalah?",
+    "options": ["Harimau Jawa", "Harimau Sumatera (Panthera tigris sumatrae)", "Harimau Bali", "Macan Dahan"],
+    "correctIndex": 1,
+    "explanation": "Harimau Sumatera memiliki bulu loreng lebih gelap dan rapat untuk kamuflase di lebatnya hutan hujan tropis."
+  },
+  {
+    "question": "Pusat konservasi dan sekolah pelatihan gajah jinak terbesar di Indonesia terletak di Taman Nasional?",
+    "options": ["Kerinci Seblat", "Way Kambas (Lampung)", "Gunung Leuser", "Bukit Tigapuluh"],
+    "correctIndex": 1,
+    "explanation": "Taman Nasional Way Kambas menjadi suaka perlindungan gajah Sumatera dan badak Sumatera."
+  },
+  {
+    "question": "Buku sastra epik terpanjang di dunia melebihi Mahabharata asal suku Bugis dan Melayu yang menceritakan asal-usul manusia adalah?",
+    "options": ["Negarakertagama", "I La Galigo", "Hikayat Hang Tuah", "Gurindam Dua Belas"],
+    "correctIndex": 1,
+    "explanation": "I La Galigo diakui UNESCO Memory of the World sebagai mahakarya sastra lisan warisan Nusantara."
+  },
+  {
+    "question": "Karya sastra puisi Melayu berisi nasihat agama dan budi pekerti karya Raja Ali Haji dari Pulau Penyengat Kepulauan Riau adalah?",
+    "options": ["Syair Perahu", "Gurindam Dua Belas", "Babad Tanah Jawi", "Serat Centhini"],
+    "correctIndex": 1,
+    "explanation": "Gurindam Dua Belas memuat petuah bijak tentang tata cara pergaulan, pemerintahan, dan ketakwaan."
+  },
+  {
+    "question": "Senjata genggam tradisional Minangkabau berbentuk melengkung kecil mirip cakar harimau yang mematikan dalam pencak silat adalah?",
+    "options": ["Keris", "Kurambiak (Karambit)", "Rencong", "Badik"],
+    "correctIndex": 1,
+    "explanation": "Karambit dirancang terinspirasi dari cakar harimau Sumatera dan kini dipelajari militer di berbagai belahan dunia."
+  },
+  {
+    "question": "Upacara peringatan Asyura di Pariaman Sumatera Barat yang ditandai dengan melarung menara peti berornamen indah ke laut adalah?",
+    "options": ["Sedekah Laut", "Upacara Tabuik", "Pacu Jawi", "Grebeg Maulud"],
+    "correctIndex": 1,
+    "explanation": "Tabuik menampilkan patung Burak berkepala manusia bersayap yang diarak menuju Pantai Gandoriah."
+  },
+  {
+    "question": "Sistem kekerabatan masyarakat Minangkabau yang menarik garis keturunan dari pihak ibu disebut?",
+    "options": ["Patrilineal", "Matrilineal", "Bilateral", "Parental"],
+    "correctIndex": 1,
+    "explanation": "Minangkabau merupakan masyarakat penganut sistem kekerabatan matrilineal terbesar di dunia."
+  },
+  {
+    "question": "Gelar kehormatan adat yang diberikan kepada perempuan tertua penjaga harta pusaka dalam kaum Minangkabau adalah?",
+    "options": ["Datuk", "Bundo Kanduang", "Penghulu", "Mamak"],
+    "correctIndex": 1,
+    "explanation": "Bundo Kanduang adalah perlambang kehormatan, kebijaksanaan, dan pemegang kunci lumbung pangan keluarga."
+  },
+  {
+    "question": "Alat musik tiup tradisional Minangkabau berbahan bambu talang tipis dengan 4 lubang nada yang ditiup miring adalah?",
+    "options": ["Seruling", "Saluang", "Talempong", "Pupuik"],
+    "correctIndex": 1,
+    "explanation": "Peniup Saluang mahir memainkan teknik pernapasan memutar (circular breathing) tanpa henti."
+  },
+  {
+    "question": "Alat musik perkusi kuningan atau perunggu khas Minangkabau berbentuk gong kecil berpencon di tengah adalah?",
+    "options": ["Bonang", "Talempong", "Kolintang", "Kenong"],
+    "correctIndex": 1,
+    "explanation": "Talempong dimainkan berpacu ritmis dalam upacara perkawinan dan penyambutan tamu agung."
+  },
+  {
+    "question": "Tutup kepala adat wanita Minangkabau berbentuk runcing menyerupai tanduk kerbau pada busana Baju Kurung Basiba disebut?",
+    "options": ["Suntiang", "Tikuluak Tanduak", "Tanjak", "Mahkota"],
+    "correctIndex": 1,
+    "explanation": "Tikuluak melambangkan kepemimpinan kaum ibu yang melindungi anak kemenakan dari mara bahaya."
+  },
+  {
+    "question": "Hiasan mahkota emas bertingkat mewah yang dikenakan pengantin wanita Minangkabau dengan juntaian keemasan dinamakan?",
+    "options": ["Suntiang", "Tikuluak", "Blangkon", "Tajuk"],
+    "correctIndex": 0,
+    "explanation": "Suntiang pengantin Minang memiliki 7 hingga 11 tingkat yang melambangkan beratnya tanggung jawab berumah tangga."
+  },
+  {
+    "question": "Kue bika berserat kenyal kuning berongga harum pandan dan serai yang menjadi oleh-oleh khas Kota Medan adalah?",
+    "options": ["Bika Padang", "Bika Ambon", "Kue lapis", "Bolu Gulung"],
+    "correctIndex": 1,
+    "explanation": "Dinamakan Bika Ambon karena pertama kali diproduksi dan populer di Jalan Ambon, Sei Kera, Medan."
+  },
+  {
+    "question": "Kopi dataran tinggi di Aceh yang sangat terkenal di pasar internasional dengan aroma rempah earthy yang kaya adalah?",
+    "options": ["Kopi Toraja", "Kopi Gayo", "Kopi Kintamani", "Kopi Bajawa"],
+    "correctIndex": 1,
+    "explanation": "Kopi Arabika Gayo ditanam di atas ketinggian 1.200 meter di sekitar Danau Laut Tawar Aceh Tengah."
+  },
+  {
+    "question": "Seni bela diri asli Indonesia yang berkembang pesat di Minangkabau dengan berbagai aliran seperti Silek Harimau dan Silek Tuo adalah?",
+    "options": ["Karate", "Pencak Silat (Silek)", "Taekwondo", "Judo"],
+    "correctIndex": 1,
+    "explanation": "Silek Minang mengajarkan 'Lahir mencari kawan, batin mencari Tuhan' sebagai pedoman ksatria."
+  },
+  {
+    "question": "Tradisi merantau bagi pemuda Minangkabau untuk menuntut ilmu, berdagang, dan mencari pengalaman hidup disebut?",
+    "options": ["Marharoan Bolon", "Merantau", "Mangokal Holi", "Upacara Tiwah"],
+    "correctIndex": 1,
+    "explanation": "Merantau membentuk karakter mandiri, tangguh, dan kepedulian membangun kampung halaman saat kembali."
+  },
+  {
+    "question": "Boneka kayu raksasa suku Batak yang dapat menari sendiri dalam upacara kematian mengiringi kesedihan keluarga adalah?",
+    "options": ["Si Gale-gale", "Si Cepot", "Ondel-ondel", "Tau-tau"],
+    "correctIndex": 0,
+    "explanation": "Patung Si Gale-gale digerakkan menggunakan sistem tali tersembunyi dengan ritme tabuhan Gondang."
+  },
+  {
+    "question": "Pahlawan wanita pemberani asal Aceh yang memimpin perlawanan gerilya melawan penjajah Belanda di pedalaman Meulaboh adalah?",
+    "options": ["R.A. Kartini", "Cut Nyak Dien", "Dewi Sartika", "Martha Christina Tiahahu"],
+    "correctIndex": 1,
+    "explanation": "Cut Nyak Dien terus memimpin pasukan di hutan rimba meski telah lanjut usia dan rabun mata."
+  },
+  {
+    "question": "Pahlawan nasional pemimpin Perang Padri (1821-1837) di Sumatera Barat yang wajahnya tertera di uang kertas Rp5.000 adalah?",
+    "options": ["Pangeran Diponegoro", "Tuanku Imam Bonjol", "Teuku Umar", "Sultan Hasanuddin"],
+    "correctIndex": 1,
+    "explanation": "Tuanku Imam Bonjol memperjuangkan persatuan kaum adat dan kaum ulama Minang melawan penjajah."
+  },
+  {
+    "question": "Raja dan pahlawan ksatria dari Tanah Batak yang berjuang hingga titik darah penghabisan mempertahankan Danau Toba adalah?",
+    "options": ["Sultan Iskandar Muda", "Sisingamangaraja XII", "Sultan Mahmud Badaruddin II", "Raja Ali Haji"],
+    "correctIndex": 1,
+    "explanation": "Sisingamangaraja XII gugur pada tahun 1907 sebagai simbol perlawanan rakyat Batak tanpa pernah menyerah."
+  },
+  {
+    "question": "Kue tradisional khas Palembang yang berwarna hijau daun suji berlapis-lapis lembut dengan rasa gurih manis adalah?",
+    "options": ["Kue Maksuba", "Kue Delapan Jam", "Kue Srikaya", "Kue Lapis Kojo"],
+    "correctIndex": 3,
+    "explanation": "Kojo berarti kemboja karena bentuk cetakan loyang tradisionalnya menyerupai bunga kamboja."
+  },
+  {
+    "question": "Mie kuah atau goreng kaya bumbu kari rempah pekat yang disajikan dengan irisan daging sapi atau kepiting khas Aceh adalah?",
+    "options": ["Mie Celor", "Mie Aceh", "Mie Gomak", "Mie Kocok"],
+    "correctIndex": 1,
+    "explanation": "Mie Aceh disajikan hangat bersama emping renyah, irisan bawang merah segar, dan acar mentimun."
+  },
+  {
+    "question": "Olahan mie kenyal khas Batak Toba yang sering dijuluki 'Spaghetti Batak' dengan kuah santan bumbu andaliman adalah?",
+    "options": ["Mie Gomak", "Mie Aceh", "Mie Celor", "Bihun Bebek"],
+    "correctIndex": 0,
+    "explanation": "Dinamakan Mie Gomak karena pada zaman dahulu cara penyajiannya digenggam langsung dengan tangan (gomak)."
+  },
+  {
+    "question": "Bumbu rempah khas Sumatera Utara yang memberikan sensasi getir bergetar di lidah dan aroma sitrus menyegarkan adalah?",
+    "options": ["Kluwek", "Andaliman (Merica Batak)", "Asam Gelugur", "Bunga Lawang"],
+    "correctIndex": 1,
+    "explanation": "Andaliman adalah rempah liar pegunungan Danau Toba yang menjadi bumbu utama hidangan arsik ikan mas."
+  },
+  {
+    "question": "Benteng pertahanan peninggalan bangsa Inggris abad ke-18 yang terletak di tepi pantai Kota Bengkulu adalah?",
+    "options": ["Fort de Kock", "Fort Marlborough", "Fort Rotterdam", "Fort Belgica"],
+    "correctIndex": 1,
+    "explanation": "Fort Marlborough adalah benteng Inggris terkuat kedua di Asia Timur setelah Fort St. George di India."
+  },
+  {
+    "question": "Batu cadas granit raksasa di tepi pantai berpasir putih jernih yang menjadi daya tarik pariwisata Pulau Belitung adalah?",
+    "options": ["Pantai Tanjung Tinggi", "Pantai Parangtritis", "Pantai Kuta", "Pantai Losari"],
+    "correctIndex": 0,
+    "explanation": "Pantai Tanjung Tinggi terkenal sebagai lokasi syuting film legendaris Laskar Pelangi."
+  },
+  {
+    "question": "Tari kreasi berpasangan asal Melayu Riau dan Sumatera Barat dengan tempo cepat irama gembira adalah?",
+    "options": ["Tari Zapin", "Tari Serampang Dua Belas", "Tari Balumpa", "Tari Sekapur Sirih"],
+    "correctIndex": 1,
+    "explanation": "Tari Serampang Dua Belas menggambarkan tahapan perkenalan muda-mudi hingga menuju pelaminan pernikahan."
+  },
+  {
+    "question": "Tarian selamat datang asal Jambi di mana penari menyuguhkan daun sirih dan pinang dalam wadah cerana kuningan adalah?",
+    "options": ["Tari Piring", "Tari Sekapur Sirih", "Tari Tanggai", "Tari Tor-tor"],
+    "correctIndex": 1,
+    "explanation": "Menyuguhkan sirih melambangkan ketulusan hati masyarakat Melayu menyambut sahabat dan tamu agung."
+  },
+  {
+    "question": "Tutup kepala adat kain songket pria Melayu Riau dan Sumatera yang dilipat anggun berujung runcing disebut?",
+    "options": ["Blangkon", "Tanjak (Tengkolok)", "Udeng", "Passapu"],
+    "correctIndex": 1,
+    "explanation": "Tanjak melambangkan kehormatan, wibawa, dan ketajaman akal budi ksatria Melayu."
+  },
+  {
+    "question": "Jembatan megah yang membentang di atas Sungai Musi menghubungkan seberang Ulu dan Ilir di Kota Palembang adalah?",
+    "options": ["Jembatan Suramadu", "Jembatan Ampera", "Jembatan Barelang", "Jembatan Barito"],
+    "correctIndex": 1,
+    "explanation": "Jembatan Ampera (Amanat Penderitaan Rakyat) dibangun tahun 1962 dan menjadi lambang kejayaan Sumatera Selatan."
+  }
+]
